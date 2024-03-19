@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "femta-control-custom")(type "KiCad")(uri "${KIPRJMOD}/femta-control-custom.kicad_sym")(options "")(descr ""))
+)
