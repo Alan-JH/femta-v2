@@ -388,11 +388,75 @@
     ],
     [
       "5dd6fce8-0699-43c5-9ecf-bfa8fbf17548",
-      "Thermal Circuit 1"
+      "FEMTA Thermal Circuit 1"
     ],
     [
-      "aaea1710-efeb-46c9-b45d-10cd821d6114",
+      "6eb9cfee-ec63-4d91-8cf2-60c979951fc5",
+      "FEMTA Thermal Circuit 2"
+    ],
+    [
+      "827c1b3c-acab-4975-826a-b2bf20c856f1",
+      "FEMTA Thermal Circuit 3"
+    ],
+    [
+      "e957c142-48f9-4497-bd07-6c27722dc29c",
+      "FEMTA Thermal Circuit 4"
+    ],
+    [
+      "8ca9bf82-43a9-489e-9278-1e7b3ded8c88",
+      "FEMTA Thermal Circuit 5"
+    ],
+    [
+      "5c5d7119-53b5-4552-b642-502698199af7",
+      "FEMTA Thermal Circuit 6"
+    ],
+    [
+      "20ece662-4604-404c-81eb-016aa9e98a07",
+      "FEMTA Thermal Circuit 7"
+    ],
+    [
+      "f199a1bc-3963-4b08-ac6c-180f3bfc6edf",
+      "FEMTA Thermal Circuit 8"
+    ],
+    [
+      "be9f3b50-60a6-4ef9-a16a-565af92795be",
+      "FEMTA Thermal Circuit 9"
+    ],
+    [
+      "4967f47f-257c-4ee5-9bd9-8db462a30f7e",
+      "FEMTA Thermal Circuit 10"
+    ],
+    [
+      "758d6c27-6e02-4ebe-8aeb-b9839a7a75d4",
+      "FEMTA Thermal Circuit 11"
+    ],
+    [
+      "12ef13cf-60a7-42de-be6d-cfe359bcc88c",
+      "FEMTA Thermal Circuit 12"
+    ],
+    [
+      "c256948a-f0e3-4e41-9bd0-6d788309a88b",
+      "Tank Thermal Circuit 1"
+    ],
+    [
+      "f06d9bb8-7bcd-40c6-b05c-e3a8442c7e04",
+      "Tank Thermal Circuit 2"
+    ],
+    [
+      "857e117c-eb89-408b-a122-7cfbe40f822a",
+      "Tank Thermal Circuit 3"
+    ],
+    [
+      "3b94d4d2-8d45-4745-a703-2197420eb838",
+      "Tank Thermal Circuit 4"
+    ],
+    [
+      "19a6893b-6e4a-4325-88c3-1ed1bee3cf29",
       "Microcontroller"
+    ],
+    [
+      "a5d62437-b064-4cbf-9208-8a111d35c84a",
+      "5V Protection"
     ]
   ],
   "text_variables": {}

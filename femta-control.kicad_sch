@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "838bf11c-36b7-41d7-9462-fe98a188d617")
-	(paper "A4")
+	(paper "USLedger")
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM358"
 			(pin_names
@@ -249,6 +249,377 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x05_Odd_Even"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x05_Odd_Even_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -4.953)
+					(end 2.54 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 5.207)
+					(end 2.54 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1423,7 +1794,7 @@
 		)
 	)
 	(junction
-		(at 260.35 113.03)
+		(at 256.54 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c3e4400-4678-418b-8ca8-8d09faced447")
@@ -1441,22 +1812,34 @@
 		(uuid "41c54756-08db-460e-826d-ffc3b99b5d8b")
 	)
 	(junction
-		(at 231.14 120.65)
+		(at 227.33 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "574c74b1-700b-46e3-ada2-a056beaca273")
 	)
 	(junction
-		(at 260.35 97.79)
+		(at 256.54 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ca9cd05-0ca8-45c2-942a-f1568f47316d")
 	)
 	(junction
-		(at 231.14 97.79)
+		(at 44.45 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98ac1c81-eafb-41c6-9b66-1dc54d566892")
+	)
+	(junction
+		(at 227.33 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac8d9f25-2f46-4153-97bf-a448c6656291")
+	)
+	(junction
+		(at 44.45 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8c0dc79-19d3-48fb-888e-0015957159d4")
 	)
 	(junction
 		(at 118.11 73.66)
@@ -1466,7 +1849,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 123.19) (xy 215.9 128.27)
+			(xy 44.45 114.3) (xy 48.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010adf68-9f00-472b-87e2-048b0efb97ba")
+	)
+	(wire
+		(pts
+			(xy 212.09 66.04) (xy 212.09 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1869,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 109.22) (xy 248.92 113.03)
+			(xy 245.11 52.07) (xy 245.11 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 118.11) (xy 210.82 118.11)
+			(xy 212.09 60.96) (xy 207.01 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1496,7 +1889,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 97.79) (xy 245.11 97.79)
+			(xy 34.29 109.22) (xy 48.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218baa87-36a5-471b-94e6-6c62f128847e")
+	)
+	(wire
+		(pts
+			(xy 227.33 40.64) (xy 241.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +1909,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 97.79) (xy 231.14 105.41)
+			(xy 227.33 40.64) (xy 227.33 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1516,13 +1919,23 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 128.27) (xy 231.14 128.27)
+			(xy 212.09 71.12) (xy 227.33 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "47c3813c-3e18-484e-8810-e3596a187329")
+	)
+	(wire
+		(pts
+			(xy 60.96 116.84) (xy 69.85 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d02b325-2575-4814-8d35-f23e25b272a7")
 	)
 	(wire
 		(pts
@@ -1536,13 +1949,33 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 113.03) (xy 260.35 113.03)
+			(xy 245.11 55.88) (xy 256.54 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "567135f1-9cc1-470b-acee-601ae9edda8d")
+	)
+	(wire
+		(pts
+			(xy 60.96 111.76) (xy 69.85 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d67186f-7d7a-4ff7-87e5-4a74bf74db49")
+	)
+	(wire
+		(pts
+			(xy 60.96 109.22) (xy 74.93 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf76e16-d917-41ce-a140-ed1da28dea17")
 	)
 	(wire
 		(pts
@@ -1553,6 +1986,16 @@
 			(type default)
 		)
 		(uuid "6eb75d7e-32ae-4f64-8d90-997687441e8a")
+	)
+	(wire
+		(pts
+			(xy 48.26 111.76) (xy 44.45 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729c3045-1ae0-4677-8688-19596a0da95d")
 	)
 	(wire
 		(pts
@@ -1576,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 120.65) (xy 245.11 120.65)
+			(xy 227.33 63.5) (xy 241.3 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1586,7 +2029,17 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 95.25) (xy 210.82 95.25)
+			(xy 44.45 111.76) (xy 44.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbb62ee-b7cd-4169-b36a-79dec348a284")
+	)
+	(wire
+		(pts
+			(xy 212.09 38.1) (xy 207.01 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1606,7 +2059,37 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 101.6) (xy 248.92 97.79)
+			(xy 40.64 106.68) (xy 48.26 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2a40e1-89a9-4575-959b-c46b0c19babd")
+	)
+	(wire
+		(pts
+			(xy 44.45 114.3) (xy 44.45 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b57237f2-2c41-48c5-bbfb-f6114a8b19bb")
+	)
+	(wire
+		(pts
+			(xy 60.96 106.68) (xy 69.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8660a87-542a-475c-9597-24eaba86ba85")
+	)
+	(wire
+		(pts
+			(xy 245.11 44.45) (xy 245.11 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1616,7 +2099,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 128.27) (xy 231.14 120.65)
+			(xy 227.33 71.12) (xy 227.33 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1636,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 105.41) (xy 215.9 100.33)
+			(xy 212.09 48.26) (xy 212.09 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1646,7 +2129,17 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 97.79) (xy 260.35 97.79)
+			(xy 44.45 116.84) (xy 48.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9be3488-cbf4-4365-82ed-a46b34f08102")
+	)
+	(wire
+		(pts
+			(xy 245.11 40.64) (xy 256.54 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1656,13 +2149,23 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 105.41) (xy 215.9 105.41)
+			(xy 227.33 48.26) (xy 212.09 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ee73acdf-7db4-4f63-9ad9-2fcf2bfdc4ab")
+	)
+	(wire
+		(pts
+			(xy 60.96 114.3) (xy 69.85 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f890d38d-19de-4afe-9fa1-15db7c868400")
 	)
 	(wire
 		(pts
@@ -1694,8 +2197,19 @@
 		)
 		(uuid "35b52921-03a4-425d-bc0a-45d53c273ce0")
 	)
+	(label "I2C_SCL"
+		(at 69.85 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "07281950-9934-4e6a-9e0a-4ca7ffecfa89")
+	)
 	(label "TANK_TSET"
-		(at 245.11 120.65 180)
+		(at 241.3 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1705,8 +2219,30 @@
 		)
 		(uuid "10d940eb-0327-4732-a3db-ae5e97583b0b")
 	)
+	(label "I2C_SDA"
+		(at 69.85 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56f4c74f-2665-4574-9957-c7398f6a3206")
+	)
+	(label "OCP_RST"
+		(at 69.85 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65a1e23e-b9ac-49bd-a8f6-7cb7c067e5ca")
+	)
 	(label "FEMTA_TSET"
-		(at 245.11 97.79 180)
+		(at 241.3 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1717,8 +2253,140 @@
 		(uuid "a541fedb-2da3-4409-822c-6b5dcaf3ea41")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 44.45 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cbc44ba-dc94-4129-accb-f6b1d5a8d6fb")
+		(property "Reference" "#PWR0191"
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3df44551-33cc-4bd7-a9dd-e59caf9b7f9c")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 69.85 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f5d314d-4e85-49a1-be93-6c7ccf9d557c")
+		(property "Reference" "#PWR0186"
+			(at 69.85 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 69.85 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4c174b1-d54f-4143-a263-d06ce4ebc053")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 207.01 95.25 0)
+		(at 203.2 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1726,7 +2394,7 @@
 		(dnp no)
 		(uuid "13d31b2b-3732-43b7-8c25-91cd541f5fe0")
 		(property "Reference" "RV1"
-			(at 205.486 95.25 0)
+			(at 201.676 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +2403,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 207.01 95.25 90)
+			(at 203.2 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +2411,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 95.25 0)
+			(at 203.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +2420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 95.25 0)
+			(at 203.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +2429,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 207.01 95.25 0)
+			(at 203.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1789,7 +2457,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 248.92 105.41 0)
+		(at 245.11 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1797,7 +2465,7 @@
 		(dnp no)
 		(uuid "19c890c9-4e8d-4153-8eef-f1060a21236e")
 		(property "Reference" "C6"
-			(at 251.714 104.14 0)
+			(at 247.904 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +2474,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 251.714 106.68 0)
+			(at 247.904 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,7 +2483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 249.8852 109.22 0)
+			(at 246.0752 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +2492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 105.41 0)
+			(at 245.11 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +2501,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 248.92 105.41 0)
+			(at 245.11 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +2526,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 223.52 120.65 0)
+		(at 219.71 63.5 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1867,7 +2535,7 @@
 		(fields_autoplaced yes)
 		(uuid "24ba91c2-d3c8-4873-9c25-808f32d6fc33")
 		(property "Reference" "U4"
-			(at 223.52 110.49 0)
+			(at 219.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +2543,7 @@
 			)
 		)
 		(property "Value" "LM358-N-Q1"
-			(at 223.52 113.03 0)
+			(at 219.71 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +2551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 120.65 0)
+			(at 219.71 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +2560,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 223.52 120.65 0)
+			(at 219.71 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +2569,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 223.52 120.65 0)
+			(at 219.71 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2810,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 113.03 0)
+		(at 256.54 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2151,7 +2819,7 @@
 		(fields_autoplaced yes)
 		(uuid "413eb17e-01e8-42ae-ad84-51d6fec5241e")
 		(property "Reference" "#PWR016"
-			(at 260.35 119.38 0)
+			(at 256.54 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +2828,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 118.11 0)
+			(at 256.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +2836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 113.03 0)
+			(at 256.54 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 113.03 0)
+			(at 256.54 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2854,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 113.03 0)
+			(at 256.54 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,6 +2869,98 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
+		(at 53.34 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4161c5e9-a57a-442e-a86b-1505141c48fa")
+		(property "Reference" "J2"
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CUBESAT INTERFACE"
+			(at 54.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "62ae16b7-2876-4b44-9dd0-c7583fdd900c")
+		)
+		(pin "5"
+			(uuid "c0c78ae6-c810-4303-8277-f61232a4f458")
+		)
+		(pin "2"
+			(uuid "793fe4a2-5bac-4d0f-9476-230ea618dc81")
+		)
+		(pin "3"
+			(uuid "942ed059-7b2f-4dae-9820-c6efd75a5615")
+		)
+		(pin "10"
+			(uuid "ec99c5f6-e8e0-4703-beda-7be0c01fc69a")
+		)
+		(pin "8"
+			(uuid "c5faf614-18eb-4c6a-bcff-ff42c076a492")
+		)
+		(pin "4"
+			(uuid "72b816ee-1f97-4bb0-b97c-4fa87900be9b")
+		)
+		(pin "1"
+			(uuid "b11be0ba-c67c-4fe7-9a90-e5c933a44db2")
+		)
+		(pin "7"
+			(uuid "7b9e8184-9797-47a3-af38-06bf3a5a4cc8")
+		)
+		(pin "9"
+			(uuid "c8dc281b-d12d-4e74-9151-7451d6adf15d")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2348,7 +3108,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 114.3 0)
+		(at 203.2 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2356,7 +3116,7 @@
 		(dnp no)
 		(uuid "4c07cbe9-43ed-4fb3-8c13-8e94fe3df42b")
 		(property "Reference" "#PWR06"
-			(at 207.01 118.11 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +3125,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 110.236 0)
+			(at 203.2 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +3133,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 114.3 0)
+			(at 203.2 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +3142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 114.3 0)
+			(at 203.2 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +3151,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 114.3 0)
+			(at 203.2 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,6 +3166,72 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 40.64 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5eb1f102-c671-450a-9371-a88ad3ed1ab8")
+		(property "Reference" "#PWR0185"
+			(at 40.64 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 40.64 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 40.64 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84682e1e-416b-4124-b1cc-bba6b1a51e83")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -2549,7 +3375,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 99.06 0)
+		(at 203.2 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2557,7 +3383,7 @@
 		(dnp no)
 		(uuid "6dbb6c38-5014-41cc-9e8e-2fe0ab3eea9f")
 		(property "Reference" "#PWR04"
-			(at 207.01 105.41 0)
+			(at 203.2 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2566,7 +3392,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 103.378 0)
+			(at 203.2 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,7 +3400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 99.06 0)
+			(at 203.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2583,7 +3409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 99.06 0)
+			(at 203.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2592,7 +3418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 99.06 0)
+			(at 203.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +3716,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 260.35 97.79 0)
+		(at 256.54 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2899,7 +3725,7 @@
 		(fields_autoplaced yes)
 		(uuid "af80bd16-8f2a-4491-90b2-6bc212cfd7b9")
 		(property "Reference" "#PWR015"
-			(at 260.35 101.6 0)
+			(at 256.54 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +3734,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 260.35 92.71 0)
+			(at 256.54 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2916,7 +3742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 97.79 0)
+			(at 256.54 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +3751,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 97.79 0)
+			(at 256.54 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +3760,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 260.35 97.79 0)
+			(at 256.54 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +3848,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 121.92 0)
+		(at 203.2 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3030,7 +3856,7 @@
 		(dnp no)
 		(uuid "dae33c55-d070-4957-86d1-981592bf592a")
 		(property "Reference" "#PWR013"
-			(at 207.01 128.27 0)
+			(at 203.2 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +3865,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 126.238 0)
+			(at 203.2 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,7 +3873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 121.92 0)
+			(at 203.2 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 121.92 0)
+			(at 203.2 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3065,7 +3891,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 121.92 0)
+			(at 203.2 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3087,7 +3913,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 91.44 0)
+		(at 203.2 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3095,7 +3921,7 @@
 		(dnp no)
 		(uuid "e6719ffe-8294-47f8-898e-08e722ffc733")
 		(property "Reference" "#PWR03"
-			(at 207.01 95.25 0)
+			(at 203.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +3930,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 87.376 0)
+			(at 203.2 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +3938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 91.44 0)
+			(at 203.2 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +3947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 91.44 0)
+			(at 203.2 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3956,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 91.44 0)
+			(at 203.2 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +3978,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 223.52 97.79 0)
+		(at 219.71 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3161,7 +3987,7 @@
 		(fields_autoplaced yes)
 		(uuid "edcbe849-9c7c-4ca7-9f82-11ff076ae312")
 		(property "Reference" "U4"
-			(at 223.52 87.63 0)
+			(at 219.71 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +3995,7 @@
 			)
 		)
 		(property "Value" "LM358-N-Q1"
-			(at 223.52 90.17 0)
+			(at 219.71 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +4003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 97.79 0)
+			(at 219.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3186,7 +4012,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 223.52 97.79 0)
+			(at 219.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +4021,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 223.52 97.79 0)
+			(at 219.71 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,8 +4063,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 74.93 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f29f2db6-246c-4af3-bfdc-518c8438100d")
+		(property "Reference" "#PWR0188"
+			(at 74.93 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 74.93 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 74.93 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d422208-87b3-411b-b387-cba89e0eaad7")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 207.01 118.11 0)
+		(at 203.2 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3246,7 +4138,7 @@
 		(dnp no)
 		(uuid "f44280eb-8a90-4396-86cd-b9de66b8668b")
 		(property "Reference" "RV2"
-			(at 205.486 118.11 0)
+			(at 201.676 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3255,7 +4147,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 207.01 118.11 90)
+			(at 203.2 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +4155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 118.11 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +4164,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 118.11 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +4173,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 207.01 118.11 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,6 +4194,72 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
 					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 34.29 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7718538-b13f-4904-968c-27c104607d61")
+		(property "Reference" "#PWR0187"
+			(at 34.29 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 34.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 34.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7805cb45-a425-43d4-bc93-7bf84ec45c8b")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -3375,7 +4333,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 262.89 105.41 0)
+		(at 259.08 48.26 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3384,7 +4342,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff94f9aa-3c52-40e6-b861-350fd1972d89")
 		(property "Reference" "U4"
-			(at 261.62 104.1399 0)
+			(at 257.81 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +4351,7 @@
 			)
 		)
 		(property "Value" "LM358-N-Q1"
-			(at 261.62 106.6799 0)
+			(at 257.81 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +4360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 105.41 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +4369,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 262.89 105.41 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +4378,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 262.89 105.41 0)
+			(at 259.08 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +4420,785 @@
 		)
 	)
 	(sheet
-		(at 226.06 54.61)
+		(at 378.46 114.3)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "12ef13cf-60a7-42de-be6d-cfe359bcc88c")
+		(property "Sheetname" "FEMTA Thermal Circuit 12"
+			(at 378.46 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 378.46 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 411.48 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "437e7f21-0f02-4090-980a-6eb6b9635605")
+		)
+		(pin "THERM+" input
+			(at 378.46 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cce45a33-3910-4f51-89a4-bab9888709e3")
+		)
+		(pin "THERM-" input
+			(at 378.46 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "482aa4ee-d1c9-4bed-8195-7a568caf602b")
+		)
+		(pin "~{ENABLE}" input
+			(at 378.46 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "792f80fb-a156-4ced-847a-92333f8cf98c")
+		)
+		(pin "DAC_SETPT" input
+			(at 378.46 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e32b525-bc4a-4cbb-a67c-70c1686f1a67")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 378.46 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e942f103-42f3-417c-afb8-14854967adbd")
+		)
+		(pin "HEATER-" output
+			(at 411.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f5d9b777-7ae3-45af-a6be-321d75db9596")
+		)
+		(pin "HEATER_ON" output
+			(at 411.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d1096d0a-c78b-48b7-a8f4-a299bf7c7302")
+		)
+		(pin "HEATER+" output
+			(at 411.48 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "35b46307-27bc-43d1-afb6-75c8b4382d50")
+		)
+		(pin "HEATER_VCC" input
+			(at 378.46 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "074232bf-750f-4bed-bef5-100512c427da")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 378.46 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b985ed6-2b37-4b6b-9b60-9cc74cd998f7")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 53.34)
+		(size 35.56 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "19a6893b-6e4a-4325-88c3-1ed1bee3cf29")
+		(property "Sheetname" "Microcontroller"
+			(at 53.34 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 53.34 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 326.39 81.28)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20ece662-4604-404c-81eb-016aa9e98a07")
+		(property "Sheetname" "FEMTA Thermal Circuit 7"
+			(at 326.39 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 326.39 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 359.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b794e534-2a4d-4a0b-9cbd-1970e903e88f")
+		)
+		(pin "THERM+" input
+			(at 326.39 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b5f2545-e0e3-4f6b-ad24-f209f0a8484f")
+		)
+		(pin "THERM-" input
+			(at 326.39 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0de13c03-5fab-43ab-a252-41787ff59727")
+		)
+		(pin "~{ENABLE}" input
+			(at 326.39 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "621299ce-88fb-47d7-bb8d-a53db2102d07")
+		)
+		(pin "DAC_SETPT" input
+			(at 326.39 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "69c7185b-6863-41cb-93e3-b64ab0f13f3f")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 326.39 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "341eddad-e418-4196-a3c3-7a94b99fde63")
+		)
+		(pin "HEATER-" output
+			(at 359.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e992fa9e-b4b5-4847-9b86-63732165f0dd")
+		)
+		(pin "HEATER_ON" output
+			(at 359.41 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eff05b6b-d449-4556-bba1-857f10f1ddf6")
+		)
+		(pin "HEATER+" output
+			(at 359.41 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff17eb9d-fc1a-4d3f-9915-e0fe2b55b96c")
+		)
+		(pin "HEATER_VCC" input
+			(at 326.39 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6d35ffdd-4cfb-4c46-8328-83e62deee380")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 326.39 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d8aa28dc-23b0-4627-ab92-2f15a84f4642")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 360.68 148.59)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3b94d4d2-8d45-4745-a703-2197420eb838")
+		(property "Sheetname" "Tank Thermal Circuit 4"
+			(at 360.68 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 360.68 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 393.7 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6107b4f-0999-425f-bbad-ef0eecd4fbcd")
+		)
+		(pin "THERM+" input
+			(at 360.68 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a02c2264-b85d-4738-9180-351fc616988a")
+		)
+		(pin "THERM-" input
+			(at 360.68 153.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "010cf72e-5819-4d74-a2de-1da14082de4c")
+		)
+		(pin "~{ENABLE}" input
+			(at 360.68 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9f936d78-748d-4b16-b966-b259716e7fae")
+		)
+		(pin "DAC_SETPT" input
+			(at 360.68 163.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc516258-8908-41e0-a598-08acf2c237f5")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 360.68 166.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5cc23706-eeec-4418-92fd-92118b789936")
+		)
+		(pin "HEATER-" output
+			(at 393.7 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9be1dfc4-6da4-49aa-8612-5522026fa679")
+		)
+		(pin "HEATER_ON" output
+			(at 393.7 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dce75a1f-4d1e-4fc1-854b-4a7151a3126f")
+		)
+		(pin "HEATER+" output
+			(at 393.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "522f2666-dc9c-4ca4-81e4-388a1d2efce0")
+		)
+		(pin "HEATER_VCC" input
+			(at 360.68 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0979c21-c802-4cba-9122-9b41c059a4ba")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 360.68 161.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc4697e6-7a62-4fc2-bd7a-badb0c0b5f9c")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 378.46 49.53)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4967f47f-257c-4ee5-9bd9-8db462a30f7e")
+		(property "Sheetname" "FEMTA Thermal Circuit 10"
+			(at 378.46 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 378.46 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 411.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cbe1c951-c0c1-4f9d-aa1b-3823884e1022")
+		)
+		(pin "THERM+" input
+			(at 378.46 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a80beb09-b2b9-454e-bf43-0baa3d17d02a")
+		)
+		(pin "THERM-" input
+			(at 378.46 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba83c040-9ed0-4236-8842-94443a2bca92")
+		)
+		(pin "~{ENABLE}" input
+			(at 378.46 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60e779ff-9a0b-4404-9abe-ba340f20d7e0")
+		)
+		(pin "DAC_SETPT" input
+			(at 378.46 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a5717e0c-656e-49d0-9cf7-599222415cc1")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 378.46 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe26b6e7-68fa-433d-86c1-70e547af0a67")
+		)
+		(pin "HEATER-" output
+			(at 411.48 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "254da0da-9609-4fb0-b045-7e056c0a8732")
+		)
+		(pin "HEATER_ON" output
+			(at 411.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7519c20f-06aa-4e61-9012-e26c258d43e8")
+		)
+		(pin "HEATER+" output
+			(at 411.48 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a86ab93d-aaf4-4f9e-824c-c311cf13613e")
+		)
+		(pin "HEATER_VCC" input
+			(at 378.46 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e199f75f-05b7-4d63-bcde-c2b5e13d63ee")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 378.46 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4ea385a4-cb16-4356-9527-a5248235d8c6")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 326.39 49.53)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5c5d7119-53b5-4552-b642-502698199af7")
+		(property "Sheetname" "FEMTA Thermal Circuit 6"
+			(at 326.39 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 326.39 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 359.41 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29ea7404-ff98-4061-8882-a24540ca82cc")
+		)
+		(pin "THERM+" input
+			(at 326.39 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "35a52e8f-9c7b-470e-87dc-2a30a81dd6fa")
+		)
+		(pin "THERM-" input
+			(at 326.39 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7f1562d7-668d-45ac-8d65-3be78d82aac3")
+		)
+		(pin "~{ENABLE}" input
+			(at 326.39 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac1a907b-fe34-4765-bca8-ac3743fd2482")
+		)
+		(pin "DAC_SETPT" input
+			(at 326.39 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0ae42a6d-9994-4936-abf7-14e310fd03ce")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 326.39 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98a9740d-8884-42a9-a0ba-9cc59ac0d0cd")
+		)
+		(pin "HEATER-" output
+			(at 359.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9733f032-7535-48d9-a45e-47c81bcce4ee")
+		)
+		(pin "HEATER_ON" output
+			(at 359.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cc1d62a4-842e-4876-b67f-9fa9ee9ab9ad")
+		)
+		(pin "HEATER+" output
+			(at 359.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "15885d5d-d43a-4931-9692-459cb89b2703")
+		)
+		(pin "HEATER_VCC" input
+			(at 326.39 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "67684f54-c872-49ce-a854-b4234655659f")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 326.39 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ad87a701-4988-401f-be75-df4783d2b0f4")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 271.78 17.78)
 		(size 33.02 24.13)
 		(fields_autoplaced yes)
 		(stroke
@@ -3473,8 +5209,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5dd6fce8-0699-43c5-9ecf-bfa8fbf17548")
-		(property "Sheetname" "Thermal Circuit 1"
-			(at 226.06 53.8984 0)
+		(property "Sheetname" "FEMTA Thermal Circuit 1"
+			(at 271.78 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,7 +5219,7 @@
 			)
 		)
 		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
-			(at 226.06 79.3246 0)
+			(at 271.78 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +5228,7 @@
 			)
 		)
 		(pin "ADC_IN" output
-			(at 259.08 57.15 0)
+			(at 304.8 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +5238,7 @@
 			(uuid "e51acbcb-cf24-4f97-9dc2-5dbbc8e56a37")
 		)
 		(pin "THERM+" input
-			(at 226.06 57.15 180)
+			(at 271.78 20.32 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +5248,7 @@
 			(uuid "5acd6f2e-9730-46f3-9033-744700ed3c2b")
 		)
 		(pin "THERM-" input
-			(at 226.06 59.69 180)
+			(at 271.78 22.86 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +5258,7 @@
 			(uuid "f052bdeb-6492-43cb-8d1c-04b6ffc2c3eb")
 		)
 		(pin "~{ENABLE}" input
-			(at 226.06 63.5 180)
+			(at 271.78 26.67 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +5268,7 @@
 			(uuid "3c1c6f09-3eb2-4543-b135-100be681c8a9")
 		)
 		(pin "DAC_SETPT" input
-			(at 226.06 69.85 180)
+			(at 271.78 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +5278,7 @@
 			(uuid "416f4424-e9fe-474d-8c36-7392b013b6b7")
 		)
 		(pin "DAC_SETPT_EN" input
-			(at 226.06 72.39 180)
+			(at 271.78 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +5288,7 @@
 			(uuid "36627962-493f-43b2-8f70-f6ed45d0af43")
 		)
 		(pin "HEATER-" output
-			(at 259.08 73.66 0)
+			(at 304.8 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +5298,7 @@
 			(uuid "4d8d849e-f9ec-4f10-a757-892e76b11c10")
 		)
 		(pin "HEATER_ON" output
-			(at 259.08 59.69 0)
+			(at 304.8 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3572,7 +5308,7 @@
 			(uuid "15354814-2a87-4155-98ec-440fa043f43d")
 		)
 		(pin "HEATER+" output
-			(at 259.08 71.12 0)
+			(at 304.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +5318,7 @@
 			(uuid "fc88a5b0-686e-4094-8e6e-d5dda83ecb52")
 		)
 		(pin "HEATER_VCC" input
-			(at 226.06 76.2 180)
+			(at 271.78 39.37 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3592,7 +5328,7 @@
 			(uuid "4752d0eb-cd7f-41d2-b5c9-6855059244df")
 		)
 		(pin "DEFAULT_SETPT" input
-			(at 226.06 67.31 180)
+			(at 271.78 30.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,8 +5346,8 @@
 		)
 	)
 	(sheet
-		(at 46.99 66.04)
-		(size 35.56 26.67)
+		(at 271.78 49.53)
+		(size 33.02 24.13)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3620,9 +5356,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "aaea1710-efeb-46c9-b45d-10cd821d6114")
-		(property "Sheetname" "Microcontroller"
-			(at 46.99 65.3284 0)
+		(uuid "6eb9cfee-ec63-4d91-8cf2-60c979951fc5")
+		(property "Sheetname" "FEMTA Thermal Circuit 2"
+			(at 271.78 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,8 +5366,748 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 46.99 93.2946 0)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 271.78 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 304.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "907019a7-138b-4091-87dd-bff0d2429b9a")
+		)
+		(pin "THERM+" input
+			(at 271.78 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c3aa11a7-8796-4b21-a671-dc49cbac5fce")
+		)
+		(pin "THERM-" input
+			(at 271.78 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d0908638-47e7-485d-baa8-9f4d5a56104d")
+		)
+		(pin "~{ENABLE}" input
+			(at 271.78 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e35e716c-0ca8-4b3d-b08a-8f2861895079")
+		)
+		(pin "DAC_SETPT" input
+			(at 271.78 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e0bcded2-6ae9-4079-a16d-f83729e02b37")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 271.78 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60732d16-ef57-40cb-b915-715c504f4731")
+		)
+		(pin "HEATER-" output
+			(at 304.8 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "017a9f0d-3d4b-47d2-9068-199a7bf02b64")
+		)
+		(pin "HEATER_ON" output
+			(at 304.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f3579b2a-edba-4c48-9c8b-5e086ddf2387")
+		)
+		(pin "HEATER+" output
+			(at 304.8 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a63d9c37-7019-465c-8dd7-f26853552d92")
+		)
+		(pin "HEATER_VCC" input
+			(at 271.78 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "83a5037e-b363-42ab-8750-bd4d1d12d564")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 271.78 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "732cd813-4b68-4df4-a5cd-6e2dabe4cedd")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 378.46 81.28)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "758d6c27-6e02-4ebe-8aeb-b9839a7a75d4")
+		(property "Sheetname" "FEMTA Thermal Circuit 11"
+			(at 378.46 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 378.46 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 411.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "69bb87f1-de83-4d74-b14e-46e4e118c5ed")
+		)
+		(pin "THERM+" input
+			(at 378.46 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b6f6743-9254-484a-82c9-241130f5a479")
+		)
+		(pin "THERM-" input
+			(at 378.46 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "91377e4a-cfbf-4db9-9a20-3d867910db09")
+		)
+		(pin "~{ENABLE}" input
+			(at 378.46 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e508ca7-642b-4ccd-b21b-3235229e9bf2")
+		)
+		(pin "DAC_SETPT" input
+			(at 378.46 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac7c1685-9a00-4824-9e25-63b3eab1ea07")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 378.46 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5ca771c7-d3c8-4d04-8982-7df713a71a7e")
+		)
+		(pin "HEATER-" output
+			(at 411.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4a08b8dc-1899-441d-a055-9e730ed548c9")
+		)
+		(pin "HEATER_ON" output
+			(at 411.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b7c7f3a-fbe2-4903-be5d-e3381bf5e921")
+		)
+		(pin "HEATER+" output
+			(at 411.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dddbc3a7-c0ff-4cee-9ac8-1fcc7b864406")
+		)
+		(pin "HEATER_VCC" input
+			(at 378.46 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a2e965e1-2c2e-4b71-9784-ca47830444e4")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 378.46 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b518a401-6ccb-4ab1-ab86-339cb0992cb9")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 271.78 81.28)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "827c1b3c-acab-4975-826a-b2bf20c856f1")
+		(property "Sheetname" "FEMTA Thermal Circuit 3"
+			(at 271.78 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 271.78 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 304.8 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f3f750a5-0fd8-432f-a3ac-1dc7f39c68e2")
+		)
+		(pin "THERM+" input
+			(at 271.78 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "de164387-00fc-4d58-8ab8-40874d73e1a9")
+		)
+		(pin "THERM-" input
+			(at 271.78 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e2a769e-cb6c-4cc5-82af-e5c15ae31d28")
+		)
+		(pin "~{ENABLE}" input
+			(at 271.78 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e11497c3-19c1-4c43-a8d4-a982b25c188d")
+		)
+		(pin "DAC_SETPT" input
+			(at 271.78 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c4e8224-0064-4e7d-a9e6-958262022fd6")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 271.78 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "786f988b-8f7a-4b1e-a671-efe0b0fd6c15")
+		)
+		(pin "HEATER-" output
+			(at 304.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e1180132-2543-4b2b-9b28-996db15b2f67")
+		)
+		(pin "HEATER_ON" output
+			(at 304.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3755256b-40d7-4397-b09b-d0977c9d6ca3")
+		)
+		(pin "HEATER+" output
+			(at 304.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b8b27995-c2b6-4167-a265-ac8ce613fb4e")
+		)
+		(pin "HEATER_VCC" input
+			(at 271.78 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1ffc9689-d396-4fe0-bb54-69f17b5ef35c")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 271.78 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "03b86131-78b5-442e-b066-09fea93fef66")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 302.26 148.59)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "857e117c-eb89-408b-a122-7cfbe40f822a")
+		(property "Sheetname" "Tank Thermal Circuit 3"
+			(at 302.26 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 302.26 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 335.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b775225a-c1c5-4a5a-8e90-17c0fe069e9c")
+		)
+		(pin "THERM+" input
+			(at 302.26 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "930db1f2-0292-49d0-bc77-17df7c130d52")
+		)
+		(pin "THERM-" input
+			(at 302.26 153.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "18ad04ab-0b9b-43f8-9c7d-5c949ceae394")
+		)
+		(pin "~{ENABLE}" input
+			(at 302.26 157.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0a22daf-169a-4ac8-a518-ebc4a9681352")
+		)
+		(pin "DAC_SETPT" input
+			(at 302.26 163.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "90917bd2-4b2c-487a-a44f-16e0ef0e8f02")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 302.26 166.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "45247e3a-1df7-46c5-9cd3-b5edc977faa4")
+		)
+		(pin "HEATER-" output
+			(at 335.28 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1911593d-da63-4cf7-8a7b-2a3bf7f2d823")
+		)
+		(pin "HEATER_ON" output
+			(at 335.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8443f889-8ae3-40cf-91a9-c3a6d03176fd")
+		)
+		(pin "HEATER+" output
+			(at 335.28 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "782f8aff-a451-4306-8b02-256113353bfb")
+		)
+		(pin "HEATER_VCC" input
+			(at 302.26 170.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "61abf0ec-b7ae-425a-b7fb-7cc0dab8ad1b")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 302.26 161.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a771f863-12a9-40a9-abcb-867ff2d648ad")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 326.39 17.78)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8ca9bf82-43a9-489e-9278-1e7b3ded8c88")
+		(property "Sheetname" "FEMTA Thermal Circuit 5"
+			(at 326.39 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 326.39 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 359.41 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d7595637-ada3-402b-93c5-251cba21a6a3")
+		)
+		(pin "THERM+" input
+			(at 326.39 20.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "007237f1-bb0a-4bd7-912d-78e124f50281")
+		)
+		(pin "THERM-" input
+			(at 326.39 22.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4d46bcba-65bf-46c3-ad0b-311b5e19fd5d")
+		)
+		(pin "~{ENABLE}" input
+			(at 326.39 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4d6962f-826f-435f-a454-6d0c5fad7dbe")
+		)
+		(pin "DAC_SETPT" input
+			(at 326.39 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "829c844c-0442-425a-9389-66b0f58e6476")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 326.39 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aa90afb6-ab9b-4efd-83cd-1cc5ba379759")
+		)
+		(pin "HEATER-" output
+			(at 359.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "565a8325-868a-4c5c-8e47-90a2426f2a6e")
+		)
+		(pin "HEATER_ON" output
+			(at 359.41 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5705e251-f199-4463-838f-b79a4e2d39b7")
+		)
+		(pin "HEATER+" output
+			(at 359.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9144a17b-6b30-4a62-8982-6f233134a67d")
+		)
+		(pin "HEATER_VCC" input
+			(at 326.39 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "df977f73-0bf3-41b3-87c1-c2f70c67e03f")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 326.39 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39011e1e-4c29-4032-bab3-ea212e4b0d32")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 147.32)
+		(size 55.88 34.29)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5d62437-b064-4cbf-9208-8a111d35c84a")
+		(property "Sheetname" "5V Protection"
+			(at 72.39 146.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "OCP.kicad_sch"
+			(at 72.39 182.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +6118,747 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(page "3")
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 378.46 17.78)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "be9f3b50-60a6-4ef9-a16a-565af92795be")
+		(property "Sheetname" "FEMTA Thermal Circuit 9"
+			(at 378.46 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 378.46 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 411.48 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4acc946e-6ab5-4f03-9b66-5dadda3e1153")
+		)
+		(pin "THERM+" input
+			(at 378.46 20.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8973de5-8a72-42a6-9bc8-dde8886fa49b")
+		)
+		(pin "THERM-" input
+			(at 378.46 22.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7cc74e7c-1836-46a6-a4da-c746558541ad")
+		)
+		(pin "~{ENABLE}" input
+			(at 378.46 26.67 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5a914419-5115-4e68-96e5-61cda130d054")
+		)
+		(pin "DAC_SETPT" input
+			(at 378.46 33.02 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "05c7ac71-8001-4210-af17-404ee204187e")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 378.46 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "26121612-f3f3-41db-adb4-3a0be6fb7493")
+		)
+		(pin "HEATER-" output
+			(at 411.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7453738e-b196-42da-83b2-cfa559ec9c06")
+		)
+		(pin "HEATER_ON" output
+			(at 411.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "337f3ecd-6f3f-4fe5-a244-345dea0c593a")
+		)
+		(pin "HEATER+" output
+			(at 411.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b28525e2-5737-4062-864f-6fcd1432e7f2")
+		)
+		(pin "HEATER_VCC" input
+			(at 378.46 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "14e2155e-3ee8-462f-a292-d26024abab12")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 378.46 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c47a7cee-acd0-4b9e-a04a-e998c1861329")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 205.74 146.05)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c256948a-f0e3-4e41-9bd0-6d788309a88b")
+		(property "Sheetname" "Tank Thermal Circuit 1"
+			(at 205.74 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 205.74 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 238.76 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd5642a4-a103-429a-a8f6-2a22270b4ba8")
+		)
+		(pin "THERM+" input
+			(at 205.74 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "58f2d91b-0ac5-45ff-86a6-842a64af0b08")
+		)
+		(pin "THERM-" input
+			(at 205.74 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4fabbc1-beb6-4c2c-bd51-3e116cc36395")
+		)
+		(pin "~{ENABLE}" input
+			(at 205.74 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "06a26ece-8de3-44f6-8d85-e5044fe0b95a")
+		)
+		(pin "DAC_SETPT" input
+			(at 205.74 161.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "69932b24-aca8-430b-ae76-e4c15445d012")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 205.74 163.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f958e50-86e1-4e73-b9ec-bdb3b5009580")
+		)
+		(pin "HEATER-" output
+			(at 238.76 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0e9559e-622e-4028-b16d-24850354dd04")
+		)
+		(pin "HEATER_ON" output
+			(at 238.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dd104efb-f4c5-428d-bcab-78e0b6eb72d9")
+		)
+		(pin "HEATER+" output
+			(at 238.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0cb13605-c4bc-4896-b64f-a00343af588d")
+		)
+		(pin "HEATER_VCC" input
+			(at 205.74 167.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0c9cbe1f-67bd-4dfe-bebf-f3b192668be1")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 205.74 158.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c1ceac10-94aa-4169-8558-aad03441ddd4")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 271.78 113.03)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e957c142-48f9-4497-bd07-6c27722dc29c")
+		(property "Sheetname" "FEMTA Thermal Circuit 4"
+			(at 271.78 112.3184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 271.78 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 304.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b237296-92ed-4957-92f9-9b54bd498741")
+		)
+		(pin "THERM+" input
+			(at 271.78 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4be36fce-6ea1-4d49-b1e8-f76fe5f9c585")
+		)
+		(pin "THERM-" input
+			(at 271.78 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db391318-c1d6-4d1f-bc88-fbfe7b5d4541")
+		)
+		(pin "~{ENABLE}" input
+			(at 271.78 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8cc49191-31fc-4cfc-88ad-a915a993e5db")
+		)
+		(pin "DAC_SETPT" input
+			(at 271.78 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c47365e-1079-4266-853d-047d29f191dd")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 271.78 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "85f88485-db8c-400a-817f-ca16fb260501")
+		)
+		(pin "HEATER-" output
+			(at 304.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ae2b89aa-be46-409c-84b5-9af24091b352")
+		)
+		(pin "HEATER_ON" output
+			(at 304.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9cadccdb-3ec1-4fd3-82ff-f4d85ffb8f1f")
+		)
+		(pin "HEATER+" output
+			(at 304.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "830dfdf9-2088-4221-b46a-e2698ed6c7e0")
+		)
+		(pin "HEATER_VCC" input
+			(at 271.78 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37221ba6-d37d-4360-8f00-929347eae882")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 271.78 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "db890082-8536-47d3-a04b-143c7da2eaae")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 256.54 146.05)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f06d9bb8-7bcd-40c6-b05c-e3a8442c7e04")
+		(property "Sheetname" "Tank Thermal Circuit 2"
+			(at 256.54 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 256.54 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 289.56 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6335d18b-1b74-4fa6-b824-d52925d1e287")
+		)
+		(pin "THERM+" input
+			(at 256.54 148.59 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "882f3f10-9944-4542-ac23-ba430cc916a4")
+		)
+		(pin "THERM-" input
+			(at 256.54 151.13 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af1408e2-5269-4169-bed0-983251d8576b")
+		)
+		(pin "~{ENABLE}" input
+			(at 256.54 154.94 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0bc0c92-dcc7-441c-81cb-b64e3675316c")
+		)
+		(pin "DAC_SETPT" input
+			(at 256.54 161.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b783c9b9-fb0a-4cee-ab75-34b3e380b2ba")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 256.54 163.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "082f9907-1e0b-4cff-8d16-28fada25a983")
+		)
+		(pin "HEATER-" output
+			(at 289.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "690040fc-1e4e-4a67-87bc-7e851a5d4914")
+		)
+		(pin "HEATER_ON" output
+			(at 289.56 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "32f9b9ea-cbb5-4abe-8aae-4754aa180f0c")
+		)
+		(pin "HEATER+" output
+			(at 289.56 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "84bca877-4240-4c58-9f70-01d1529597c3")
+		)
+		(pin "HEATER_VCC" input
+			(at 256.54 167.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "928bf763-2ab3-4120-a23e-0052f5cf8c27")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 256.54 158.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7be6a58c-c0d5-45f1-9e98-83661773492a")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 326.39 114.3)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f199a1bc-3963-4b08-ac6c-180f3bfc6edf")
+		(property "Sheetname" "FEMTA Thermal Circuit 8"
+			(at 326.39 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
+			(at 326.39 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADC_IN" output
+			(at 359.41 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "07d4c464-2f44-497c-b737-ccafcd936371")
+		)
+		(pin "THERM+" input
+			(at 326.39 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ef24dc89-1ae2-46af-9656-8b3decd9105b")
+		)
+		(pin "THERM-" input
+			(at 326.39 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e1e5d52e-a6bb-4d03-90cf-5f29ce83c849")
+		)
+		(pin "~{ENABLE}" input
+			(at 326.39 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "971d0983-3af4-478c-a98a-22349cd6f5cc")
+		)
+		(pin "DAC_SETPT" input
+			(at 326.39 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca8db43f-2299-4708-89ae-cbb89b85a160")
+		)
+		(pin "DAC_SETPT_EN" input
+			(at 326.39 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "565329a9-f6a2-41d2-bf8f-a079714dfb55")
+		)
+		(pin "HEATER-" output
+			(at 359.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6cf69472-b807-4624-a639-ff6e694cc031")
+		)
+		(pin "HEATER_ON" output
+			(at 359.41 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d5ea60b5-562c-488d-8c01-99e65d3ac41e")
+		)
+		(pin "HEATER+" output
+			(at 359.41 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1efeaae8-1f1b-4819-a6af-36d5702ebe82")
+		)
+		(pin "HEATER_VCC" input
+			(at 326.39 135.89 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e80ce470-3dcc-4607-a1bf-e0757adad33b")
+		)
+		(pin "DEFAULT_SETPT" input
+			(at 326.39 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dc9d7210-1a22-4c0c-867f-b742500aa2e4")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "9")
 				)
 			)
 		)

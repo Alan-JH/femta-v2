@@ -3481,14 +3481,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8da585b3-01f7-48bc-a887-f4e5961ddd7b")
+			(uuid "e7410645-5d57-489f-8707-7ad174ebc366")
 		)
 		(pin "2"
-			(uuid "0f58af9a-db26-4fa7-b388-779a728c679a")
+			(uuid "2cc24d64-0600-46c3-b589-1003968fca50")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
 					(reference "FB1")
 					(unit 1)
 				)
@@ -3551,14 +3551,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "8bcad460-aec9-4f78-8b2d-38dd81f341e3")
+			(uuid "17fb376e-5603-4d58-a5d3-b64ff5a3ba01")
 		)
 		(pin "1"
-			(uuid "e68a28e4-c26f-4c90-a1c3-82ceef36652f")
+			(uuid "0101bb61-50b5-4af6-b164-d2e313def7dd")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
 					(reference "C7")
 					(unit 1)
 				)
@@ -3574,7 +3574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b6b6f83-3d65-42fd-8a05-1c6bfee76108")
-		(property "Reference" "C12"
+		(property "Reference" "C14"
 			(at 196.85 46.99 0)
 			(effects
 				(font
@@ -3620,15 +3620,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bba9d41f-1ca0-4c32-bd1c-4562aa31a662")
+			(uuid "e1b0f368-9c85-4f2a-9624-830cd441f939")
 		)
 		(pin "1"
-			(uuid "d2d9b7fc-6691-4121-bc1b-77d0281e166f")
+			(uuid "69f2ba09-d0d9-42f1-ac95-15b4ba7665e0")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "C12")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3643,7 +3643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d1a6b0e-45a3-45e9-9983-218a561bdd69")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 97.79 91.694 90)
 			(effects
 				(font
@@ -3687,15 +3687,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "cc207584-d06d-427d-86ad-f0adaff99dad")
+			(uuid "f4ccd808-dd66-4fff-936d-4f36d21bf098")
 		)
 		(pin "2"
-			(uuid "44b71184-949e-4b5f-845b-0935a7efc1a1")
+			(uuid "f873257a-2892-45c9-93d3-0c186999f5c1")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "R9")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -3711,7 +3711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0df5ad3e-06c3-4abb-a1b1-87e1ddd7ae47")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 80.01 105.41 0)
 			(effects
 				(font
@@ -3756,12 +3756,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "29880fcc-fce7-4af5-bb0b-e025a3c1a0b3")
+			(uuid "bcb7bd97-4247-43df-a76b-83d6b34401cc")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR018")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3776,7 +3776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "154e290d-91bb-4336-98b4-862d83fc8905")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 185.42 46.99 0)
 			(effects
 				(font
@@ -3822,15 +3822,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5e3af656-e671-4ee3-8ed7-22949c956cd5")
+			(uuid "88a7478e-ad5e-4487-b09c-0acb48dcdb4f")
 		)
 		(pin "1"
-			(uuid "735925f8-ab2c-4bd4-a1a9-0a4e7c8acbd3")
+			(uuid "7d620bd8-84cf-49b6-bb75-51ede22689e3")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "C11")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -3846,7 +3846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18546a90-eda7-4578-b665-67c1fc8aae3a")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR018"
 			(at 77.47 78.74 0)
 			(effects
 				(font
@@ -3891,12 +3891,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0f7ac15-681c-46bc-b1c5-aa949996f4a5")
+			(uuid "25c50cba-81c5-4790-9d20-10cc966916c7")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR022")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3911,7 +3911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1969c3b2-02a4-4944-a625-024075866f66")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 158.75 46.99 0)
 			(effects
 				(font
@@ -3957,15 +3957,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "96f87877-11f2-467c-a538-d8aebd3e3f8d")
+			(uuid "8315d610-9df7-4b82-bd98-8716cd08d950")
 		)
 		(pin "1"
-			(uuid "f01f88d5-c0fa-4bbb-a9b3-7131342ccf12")
+			(uuid "eccfb3bd-2533-4e51-abc8-f44195280c2a")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "C9")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3980,7 +3980,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b234c24-925c-491e-904a-fcd6f06e2a1c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 123.19 58.42 0)
 			(effects
 				(font
@@ -4025,12 +4025,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5914ccd0-0141-437a-8d64-cde2704e95ae")
+			(uuid "6d0ddd76-1b40-4dc5-9a74-25afa6d2e92e")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR023")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4093,152 +4093,152 @@
 			)
 		)
 		(pin "43"
-			(uuid "d6f22de2-a0d4-4ac8-a883-01bde4eb5f75")
+			(uuid "7218a8d0-34f4-4f1d-91e2-62f83c0e9973")
 		)
 		(pin "38"
-			(uuid "fb310915-3ced-421c-aab0-bc7e77de9c33")
+			(uuid "0e63cf89-ac91-4121-98c7-f6827012d533")
 		)
 		(pin "20"
-			(uuid "cd15d1c2-188d-4d04-8207-dfa488bc6f6f")
+			(uuid "f971b2d2-a5a9-4b49-b84b-d75269cf26f4")
 		)
 		(pin "22"
-			(uuid "e5076ec9-fe1b-4e28-8579-2bf62db8634d")
+			(uuid "10337c4f-63a2-4bd6-8c09-b604a25ef380")
 		)
 		(pin "6"
-			(uuid "4f24f87c-4370-4870-8a10-c86a414b9d0e")
+			(uuid "99c812c6-d30b-462a-864e-9d8924b02978")
 		)
 		(pin "16"
-			(uuid "7de60e8e-ed3d-4ea1-8240-896e4df90025")
+			(uuid "220fb6ab-6a7d-4e6b-98ff-0c396bf6ae42")
 		)
 		(pin "5"
-			(uuid "833493ba-5d85-462e-bb71-6650cd2886c5")
+			(uuid "c7c7c62c-6f4e-42c9-b7b1-ce1d25b89461")
 		)
 		(pin "7"
-			(uuid "73d0ce4f-af20-4fcc-b9dc-a95e8602ca31")
+			(uuid "7aed3379-3974-4fc2-99a0-75b83e4ca1e9")
 		)
 		(pin "21"
-			(uuid "f5d1088f-9c4a-4dd3-8e9f-cd4c5f2c6cf7")
+			(uuid "c9761ce2-e63f-4f32-8519-fdf5536c3bf0")
 		)
 		(pin "48"
-			(uuid "5c14d9a9-f45d-44bb-9050-232643d4cb45")
+			(uuid "0b540358-e331-428f-bb84-d02e78376d60")
 		)
 		(pin "47"
-			(uuid "1ac24d7f-6502-4da4-bc7d-47d573349dac")
+			(uuid "8d2e8063-0c5a-45b0-bfe8-0eb044beeb14")
 		)
 		(pin "46"
-			(uuid "af65d7ab-217a-4d70-b662-ae72120805a6")
+			(uuid "428fe900-7b70-48b0-a47e-d6a93020c67c")
 		)
 		(pin "23"
-			(uuid "5544ad0e-c49f-49aa-8736-fd116b6641f6")
+			(uuid "6d73c28c-4196-418c-af6a-3448ab28809f")
 		)
 		(pin "15"
-			(uuid "75e8da40-c88d-4141-a1d9-78d919d0a3ca")
+			(uuid "955902fd-1293-4b68-b9fd-132497dfbc46")
 		)
 		(pin "18"
-			(uuid "0f1f09b5-9a72-46b9-9c64-bc534536cbe0")
+			(uuid "45dbb471-1a7f-41d4-8b12-e88807fb768a")
 		)
 		(pin "26"
-			(uuid "c18a64e8-4fbb-4cd8-a5ec-50df94c5f18c")
+			(uuid "a283875b-2f9d-4f3d-b1cb-5dc462f84251")
 		)
 		(pin "41"
-			(uuid "4b1c7bf5-2c34-48c7-9d88-40ab41c1c27a")
+			(uuid "ef5df28b-5161-4ea3-af32-f510a259e54e")
 		)
 		(pin "24"
-			(uuid "ca1e031f-02a9-48f0-8144-a5c941da4682")
+			(uuid "7558c21a-8f78-4e0b-a9fd-c80afae3c78b")
 		)
 		(pin "37"
-			(uuid "6eb01002-05c1-4666-bc7b-4655950334bc")
+			(uuid "24d91700-fa55-4ff1-8fdc-d187cf9bf17a")
 		)
 		(pin "30"
-			(uuid "4143021d-387f-4779-a481-8f473f56a6e1")
+			(uuid "80261337-0305-4ccd-8084-b3bceb1bc856")
 		)
 		(pin "2"
-			(uuid "6dbaabac-a500-4b80-a84c-4a95de60273b")
+			(uuid "9708c363-d3fc-4698-82c7-415d02b06110")
 		)
 		(pin "32"
-			(uuid "3215a283-e8ce-4560-9c1c-71db6f3a9f3a")
+			(uuid "e0ea7395-ac4b-4a47-9b92-db8c0f23defb")
 		)
 		(pin "33"
-			(uuid "dbe7b158-dae7-4cf5-8b01-15d6662e81c4")
+			(uuid "a56a179d-b2cc-4572-811b-798f0ff21870")
 		)
 		(pin "42"
-			(uuid "ad984fd5-4654-47ce-880b-03653ecb1a25")
+			(uuid "cd9d834d-7edc-4ad2-8063-0f525f235f85")
 		)
 		(pin "40"
-			(uuid "471ad65c-70db-4ced-83ea-0c6847db8e48")
+			(uuid "ead07dc6-6d83-4ce5-8f29-e14b40b27ea4")
 		)
 		(pin "4"
-			(uuid "195dad01-c50c-41e3-949a-7b0c7d2cf6b1")
+			(uuid "147a83e3-b751-487a-8195-db6e79357c34")
 		)
 		(pin "27"
-			(uuid "f3b29ce7-da7c-4dc2-bb9e-4ab5e3dc3063")
+			(uuid "1bf95717-c1ad-4807-b199-4ce3e53a912c")
 		)
 		(pin "36"
-			(uuid "a2b3c9d3-306a-40b3-b5e6-c52d7abbb87f")
+			(uuid "26c1011d-b814-4ed8-81b0-def43c8b5332")
 		)
 		(pin "9"
-			(uuid "746dafe9-e7fe-4afa-a350-bc751e15caad")
+			(uuid "206e45d7-8166-4552-8096-c9c315319f69")
 		)
 		(pin "28"
-			(uuid "06a0948b-9c28-4b21-a557-abf4d5a4c293")
+			(uuid "4f891ef4-6fef-4026-be51-de39dc2984d3")
 		)
 		(pin "35"
-			(uuid "21d5ba89-2e4f-499b-b8dd-477c6c26bf05")
+			(uuid "d58c0942-0d12-4376-a37c-c7b8ee37b80f")
 		)
 		(pin "31"
-			(uuid "c45c6803-a7ea-405c-b685-5ba996655df3")
+			(uuid "6adda997-cd27-44b1-9aa6-368fd9465eaa")
 		)
 		(pin "25"
-			(uuid "ce4459aa-4171-4ee9-8d5e-a9f6779c9bf5")
+			(uuid "7b243202-8414-43a4-aaf9-e6532aca120a")
 		)
 		(pin "13"
-			(uuid "b0b389d9-a043-46ff-91de-dbd5cb8c9710")
+			(uuid "f6e43b99-38e8-409f-9399-a4111a90f946")
 		)
 		(pin "8"
-			(uuid "801c3bca-5594-434c-8dd9-5cf545b2af32")
+			(uuid "d188567a-8827-4620-8392-c835fa238984")
 		)
 		(pin "3"
-			(uuid "20b7612a-0834-4084-900f-138c65a03552")
+			(uuid "63f442d6-bec9-41d0-b6ad-26e5ec01ca26")
 		)
 		(pin "45"
-			(uuid "dc3e1946-398c-4cf0-8589-1a7e8ab9f56b")
+			(uuid "45e16f9b-9d36-4e5e-a053-7f95f0f8e281")
 		)
 		(pin "39"
-			(uuid "78fe14c1-558a-461e-884e-f62821a465bb")
+			(uuid "76dba83d-52c7-4a9e-bbfd-e2cc26352837")
 		)
 		(pin "44"
-			(uuid "99e6552d-f49b-410a-8872-e472fcc25003")
+			(uuid "f9e46e27-b367-4433-bb89-c28fcff02ab9")
 		)
 		(pin "19"
-			(uuid "59b4a034-de47-4cba-96e1-cb96a921225d")
+			(uuid "34db7565-9b1b-4c2f-b432-980fb9d3eef8")
 		)
 		(pin "14"
-			(uuid "94e0b600-2a40-45fb-b245-2584d4741f70")
+			(uuid "6eb267a0-fb8f-4b70-a0c3-7b5214ed9a3b")
 		)
 		(pin "29"
-			(uuid "86e87a64-edf5-4dba-916e-bc1482a84659")
+			(uuid "a959cf19-ea7f-4b38-a85c-5a52cdf2ba4d")
 		)
 		(pin "1"
-			(uuid "58725af5-ddc8-48a0-b55c-29bdd2da24e9")
+			(uuid "bc72e4bf-f486-4a8b-bd44-fe8462d2d61f")
 		)
 		(pin "17"
-			(uuid "f7db65fb-837e-47fc-8b18-1fa14b4ac2b6")
+			(uuid "d55acdd6-0583-4807-a37f-df0719ce566b")
 		)
 		(pin "34"
-			(uuid "cae8e547-485b-4a90-8f74-d15153a5bba1")
+			(uuid "bd673cd1-782a-4034-a686-cea6e9e77dd3")
 		)
 		(pin "12"
-			(uuid "3780015e-a414-4725-a81e-074f62f550da")
+			(uuid "44da89f7-d7c5-4847-ba15-bbf83e8531ec")
 		)
 		(pin "10"
-			(uuid "fd7eda1e-c801-42ef-98f4-7232cac6d48c")
+			(uuid "045e8c58-576c-46ed-bc7e-798672046b9b")
 		)
 		(pin "11"
-			(uuid "7f3ff03d-1441-46c0-8359-bafa9f258a41")
+			(uuid "96bc1a52-4c14-4df2-beb8-67fc20869257")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
 					(reference "U1")
 					(unit 1)
 				)
@@ -4254,7 +4254,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b0ef717-cf42-4859-941f-46a9ff40d0ff")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 219.71 46.99 0)
 			(effects
 				(font
@@ -4300,15 +4300,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "eb7604df-fe2e-4dc7-857f-406fb9e3e627")
+			(uuid "53680dc0-703b-4c1d-9261-84c56135ea13")
 		)
 		(pin "1"
-			(uuid "e6ac244d-0fbb-4e75-87f1-c2de8756bd47")
+			(uuid "eef023b0-9bbd-4b55-83c5-0476ba67a86c")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "C14")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4324,7 +4324,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2efe57d5-4c03-4423-8e96-880e0b5709bf")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 82.55 134.62 0)
 			(effects
 				(font
@@ -4369,12 +4369,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1bf7ad14-55a4-48d0-9097-23b280a1a064")
+			(uuid "878a7b7c-273f-4223-badf-e8bf43e04da7")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR019")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4389,7 +4389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39b24f5c-c7c9-46ad-a505-19299f290d80")
-		(property "Reference" "C13"
+		(property "Reference" "C15"
 			(at 208.28 46.99 0)
 			(effects
 				(font
@@ -4435,15 +4435,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a64550ac-d57e-47fa-a593-eac566ec8ab8")
+			(uuid "72425a2e-96f1-48a0-80cc-7dc49973c655")
 		)
 		(pin "1"
-			(uuid "93d6e4a8-e3ba-4c85-8c43-f7afdd5ea4e8")
+			(uuid "b45451cd-5360-45ba-aa8b-83d6e996e1f9")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "C13")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4458,7 +4458,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c78c490-3be5-4237-b14c-f7f60a9fea34")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 151.13 48.26 0)
 			(effects
 				(font
@@ -4503,12 +4503,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "39aaf238-efa8-4f86-b09e-24907ec3373f")
+			(uuid "09cb1692-4bd7-4d18-9120-e2f4f5a042da")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR026")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4523,7 +4523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fedc259-9895-4bf4-8aa2-27571dd7ab7d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 167.64 58.42 0)
 			(effects
 				(font
@@ -4568,12 +4568,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9321890d-0398-45f6-8c52-4b54e31f4a39")
+			(uuid "c7821602-f6d7-45cc-811c-33e0c437d80b")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR027")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4589,7 +4589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "539afcb0-aa5c-42bf-b298-7af7a0a9d0fb")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 140.97 48.26 0)
 			(effects
 				(font
@@ -4634,12 +4634,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "53b2bdf8-e129-4f16-9553-5f945a52368b")
+			(uuid "2c3dafa2-3792-4a36-9d34-16c4a9efc650")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR024")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4655,7 +4655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55e0e13e-76d2-4b4b-8318-896a0958a955")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 80.01 92.71 0)
 			(effects
 				(font
@@ -4700,12 +4700,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2ce310f4-e3fa-4075-b168-8bd321287494")
+			(uuid "17e7cc35-b339-4943-91eb-1d7a94c7725b")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR017")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -4720,7 +4720,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "701fc9aa-d536-41f4-aad5-89f6dcc409de")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 78.74 55.88 0)
 			(effects
 				(font
@@ -4765,15 +4765,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa863159-2be8-4393-bc20-11e316603125")
+			(uuid "041113e4-7144-4ddf-89b4-e0c515fb4475")
 		)
 		(pin "2"
-			(uuid "175c3422-50c3-43a9-9391-37bd166e6161")
+			(uuid "06f4bbcd-1815-4aa8-aeb4-afdec08b9283")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "R10")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4789,7 +4789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72633131-ab60-4f6b-b43d-0c0b44549389")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 144.78 140.97 0)
 			(effects
 				(font
@@ -4834,12 +4834,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "46b93e54-4bd4-453a-95f6-c0ebc98c4b07")
+			(uuid "f757c957-1a07-4aad-a424-b3bfbbc16d8d")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR025")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4855,7 +4855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d562117-fb47-400d-b20d-6ca6cdcf20d1")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR023"
 			(at 92.71 86.36 0)
 			(effects
 				(font
@@ -4900,12 +4900,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f03042f4-787d-4595-8836-6bf0592927ae")
+			(uuid "0a1426dc-33ae-40ef-bf6b-29c085a957c9")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR029")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4964,14 +4964,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d7dfeac-dcbb-4ede-9d0b-8d8134b6f454")
+			(uuid "fa8ffe45-9492-471e-a4de-543b778ee5d2")
 		)
 		(pin "2"
-			(uuid "2dfb1dc2-645b-438b-a383-e021f80ce7fc")
+			(uuid "8858c51d-c4ad-46ad-a226-1f8e501580d0")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
 					(reference "R8")
 					(unit 1)
 				)
@@ -5034,14 +5034,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "35a63b9f-f663-452a-b0b2-2307d659fe65")
+			(uuid "e70ef30b-05ba-45f7-8f0f-1d6d31a077ad")
 		)
 		(pin "2"
-			(uuid "b11c2343-f235-46ca-964c-3f08ffdb5b55")
+			(uuid "1abdf6e7-9a47-4fd7-8a24-986445868773")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -5057,7 +5057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d80b6c3-edcd-4450-b0d4-10fe40a0e7b6")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 170.18 46.99 0)
 			(effects
 				(font
@@ -5103,15 +5103,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "909ce893-1fd0-447f-8a80-3feee511fa79")
+			(uuid "e06fd11d-8152-46ac-89f8-661fae3938a2")
 		)
 		(pin "1"
-			(uuid "9dd3bc1d-7d2b-4a82-995f-85bcf9725158")
+			(uuid "b6488eb3-6b01-4efc-9372-63e70c2c8643")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "C10")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -5173,14 +5173,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "77ce5bb3-5164-4ab3-8da6-ea54a4475938")
+			(uuid "c1896ee6-209c-458a-baed-e8b7fb582da4")
 		)
 		(pin "2"
-			(uuid "d181bb65-3660-4e64-928a-ee22eed83977")
+			(uuid "11acd75d-7b4e-4111-8507-847feedeac8c")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
 					(reference "Y1")
 					(unit 1)
 				)
@@ -5196,7 +5196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b41a327b-77f8-4923-b5d7-a25ce4ea9ebd")
-		(property "Reference" "C16"
+		(property "Reference" "C9"
 			(at 100.33 82.042 90)
 			(effects
 				(font
@@ -5240,15 +5240,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a12c1f03-82b3-4761-aa46-0c6b2abbd3d9")
+			(uuid "e6cb851f-be50-46bc-9178-11b796fed222")
 		)
 		(pin "1"
-			(uuid "078edb52-5cc4-4555-b2c6-c31c20754b51")
+			(uuid "ba498aab-df41-4088-a759-0fb881a716a7")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "C16")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5311,17 +5311,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "6e348f39-2a03-4e91-be00-3ad97d2ed9e7")
+			(uuid "498b334c-13a8-4a9c-b515-cf8cfaa1b614")
 		)
 		(pin "1"
-			(uuid "b1193c7e-be38-4e15-9887-44c71f95ec31")
+			(uuid "ab1dc3c3-c222-4019-b5d7-dd7132a6da32")
 		)
 		(pin "3"
-			(uuid "5d9bc9ef-aa06-4a2a-b0e2-9099e7aab128")
+			(uuid "980783bd-d59b-4d0f-9227-b589e90f3a0d")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
 					(reference "JP1")
 					(unit 1)
 				)
@@ -5338,7 +5338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3940e20-e00f-4f63-b4d9-b6331f93bf1c")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 77.47 55.88 0)
 			(effects
 				(font
@@ -5383,12 +5383,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4de4dce-380d-450a-aae3-cec38f2afacd")
+			(uuid "7deda1d6-b259-429b-adfc-2f50dbe1e436")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR021")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5403,7 +5403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7a91451-9530-43e1-ab8c-594f8f665263")
-		(property "Reference" "C15"
+		(property "Reference" "C8"
 			(at 100.33 62.738 90)
 			(effects
 				(font
@@ -5447,15 +5447,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ab90e680-fc6e-4dc2-a5d1-bb3b038b9161")
+			(uuid "4929cb49-73bf-4886-8ec8-063a2d2d7612")
 		)
 		(pin "1"
-			(uuid "024dd0cf-e574-4bf1-b635-7cb1262a843d")
+			(uuid "b7bf49bb-eb49-4a45-b8a9-904765a92964")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "C15")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5471,7 +5471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7f57e66-7b17-4a27-aaa5-ee441937100b")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 217.17 48.26 0)
 			(effects
 				(font
@@ -5516,12 +5516,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6aaa5d17-a4d8-4bce-879c-3a200a3b15a2")
+			(uuid "07c082bb-ce08-4802-a230-2e142f9551e5")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR028")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5581,14 +5581,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6a7f28ef-af1a-4e4a-84cd-a14f73853650")
+			(uuid "3ea1022f-f997-4ca3-bb6c-471d5e0d527b")
 		)
 		(pin "2"
-			(uuid "c4cb094d-17aa-473a-bc40-1be4c4622cb6")
+			(uuid "2843ba84-332f-4e02-b4a4-0e804ecdb8d6")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
 					(reference "R11")
 					(unit 1)
 				)
@@ -5649,26 +5649,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "471cf086-7ac8-4e55-8490-f7b8d926e097")
+			(uuid "d04c3b3b-8d5e-4dc6-a4da-b0e2675423c2")
 		)
 		(pin "6"
-			(uuid "209752b7-6e8c-4b2b-a1ca-5def3a5a88e8")
+			(uuid "823dc1a0-8fed-4881-977b-75c352219b31")
 		)
 		(pin "5"
-			(uuid "c438bc18-7dc6-42ca-aab3-0660ef4c6ca5")
+			(uuid "11445a0a-14fb-490e-9240-2d8ae3078231")
 		)
 		(pin "2"
-			(uuid "66a505bd-acea-46c6-ac43-aede265de943")
+			(uuid "f13a7b7c-4e30-462c-9232-028139cb27c7")
 		)
 		(pin "3"
-			(uuid "1481b970-489d-4e1b-b6c4-f4491e7e3c78")
+			(uuid "db845b46-5aaa-4092-886a-0974c27b128a")
 		)
 		(pin "4"
-			(uuid "f85823f4-27a8-4a11-a0a4-6680ad6e9a5c")
+			(uuid "e53be545-2e7f-41be-b4fc-28d2c2db5978")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
 					(reference "J1")
 					(unit 1)
 				)
@@ -5685,7 +5685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec99a6a5-cc9f-417e-9139-27293293ed8f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 88.9 146.05 0)
 			(effects
 				(font
@@ -5730,12 +5730,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "94e0b6eb-a44c-46ec-8437-3c0dba1002ea")
+			(uuid "bc4153c8-fcc9-4ece-9135-676764dda087")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "#PWR020")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -5750,7 +5750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "edfb3a67-9032-4516-a6d0-0ec4e8207137")
-		(property "Reference" "C8"
+		(property "Reference" "C10"
 			(at 125.73 46.99 0)
 			(effects
 				(font
@@ -5796,15 +5796,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a39afa0f-b29a-4bc9-89b4-20e7665344bd")
+			(uuid "87e7242c-3154-47a2-9a58-ac7a05461de0")
 		)
 		(pin "1"
-			(uuid "83f2e75c-6c81-4dfc-8482-310a5d422e1d")
+			(uuid "6125e233-d760-4b61-a08b-a2b326f85d53")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
-					(reference "C8")
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5866,17 +5866,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "545daafa-f94e-4f26-a467-48cac6166038")
+			(uuid "6c6d0017-8415-4c40-80c8-a58195ffceb1")
 		)
 		(pin "1"
-			(uuid "5a3c491b-aa54-4b87-a0cb-fb5846b997b9")
+			(uuid "cd005b93-5e89-4072-925d-1be21814fa42")
 		)
 		(pin "3"
-			(uuid "76b53fea-818e-4c2b-8ec2-0606c47ac03c")
+			(uuid "0424ca82-c2e4-4135-b8b6-f253afb2d6d4")
 		)
 		(instances
 			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/aaea1710-efeb-46c9-b45d-10cd821d6114"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/19a6893b-6e4a-4325-88c3-1ed1bee3cf29"
 					(reference "JP2")
 					(unit 1)
 				)
