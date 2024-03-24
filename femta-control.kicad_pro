@@ -455,8 +455,20 @@
       "Microcontroller"
     ],
     [
-      "a5d62437-b064-4cbf-9208-8a111d35c84a",
-      "5V Protection"
+      "2005ce18-3dfb-489b-ad6c-5d04a90f0ec8",
+      "5V LCL"
+    ],
+    [
+      "d7ed326e-dbc5-4110-8331-7e3bdacabdbd",
+      "3.3V LCL"
+    ],
+    [
+      "85fed540-db98-47e1-a986-73b49dbf8bdb",
+      "BATT LCL"
+    ],
+    [
+      "9caee5f1-c259-48c3-ab00-5902eb9cdfc4",
+      "5V LCL1"
     ]
   ],
   "text_variables": {}
