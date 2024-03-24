@@ -2199,6 +2199,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 114.3) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8615ef7d-966b-4fd1-8073-043fe429323f")
+	)
+	(wire
+		(pts
 			(xy 44.45 111.76) (xy 44.45 114.3)
 		)
 		(stroke
@@ -2216,6 +2226,16 @@
 			(type default)
 		)
 		(uuid "90b0c7a0-80a1-42e7-bd82-fb4a2c1062f3")
+	)
+	(wire
+		(pts
+			(xy 104.14 116.84) (xy 95.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1d306d-c599-4130-84f9-fe81c595230c")
 	)
 	(wire
 		(pts
@@ -2500,6 +2520,17 @@
 		)
 		(uuid "1a61c122-430b-416c-926f-3579609ab9b5")
 	)
+	(label "I2C_SCL"
+		(at 95.25 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5438576b-db3b-4862-9ace-7948f3bc33fe")
+	)
 	(label "I2C_SDA"
 		(at 69.85 114.3 180)
 		(fields_autoplaced yes)
@@ -2510,6 +2541,17 @@
 			(justify right bottom)
 		)
 		(uuid "56f4c74f-2665-4574-9957-c7398f6a3206")
+	)
+	(label "I2C_SDA"
+		(at 95.25 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d394fd3-30d7-4894-9048-aac984ebaa4b")
 	)
 	(label "OCP_RST"
 		(at 69.85 111.76 180)
@@ -6115,7 +6157,7 @@
 		)
 	)
 	(sheet
-		(at 53.34 53.34)
+		(at 104.14 109.22)
 		(size 35.56 26.67)
 		(fields_autoplaced yes)
 		(stroke
@@ -6127,7 +6169,7 @@
 		)
 		(uuid "19a6893b-6e4a-4325-88c3-1ed1bee3cf29")
 		(property "Sheetname" "Microcontroller"
-			(at 53.34 52.6284 0)
+			(at 104.14 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,13 +6178,53 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 53.34 80.5946 0)
+			(at 104.14 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "I2C_MASTER_SDA" input
+			(at 139.7 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0af3b511-9403-401e-9757-e1bb58db0919")
+		)
+		(pin "I2C_MASTER_SCL" input
+			(at 139.7 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "65fecbf2-aa67-472e-9f99-5f3795c84f9a")
+		)
+		(pin "I2C_SLAVE_SCL" input
+			(at 104.14 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b592c9a-e69e-47a6-90b9-ff738f0eb5dd")
+		)
+		(pin "I2C_SLAVE_SDA" input
+			(at 104.14 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b5405ea6-3b27-47f8-8799-6c7ad00f53c3")
 		)
 		(instances
 			(project "femta-control"
