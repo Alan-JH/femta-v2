@@ -6619,6 +6619,44 @@
 		)
 	)
 	(sheet
+		(at 238.76 199.39)
+		(size 39.37 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3bf849ef-bca6-4864-a347-fbff558d0891")
+		(property "Sheetname" "Thruster Control"
+			(at 238.76 198.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thrust-control-master.kicad_sch"
+			(at 238.76 224.1046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 378.46 49.53)
 		(size 33.02 24.13)
 		(fields_autoplaced yes)

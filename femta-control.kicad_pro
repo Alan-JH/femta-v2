@@ -469,6 +469,22 @@
     [
       "9caee5f1-c259-48c3-ab00-5902eb9cdfc4",
       "5V LCL1"
+    ],
+    [
+      "3bf849ef-bca6-4864-a347-fbff558d0891",
+      "Thruster Control"
+    ],
+    [
+      "49dafe5d-519c-49b1-88d9-ec8cb6df7648",
+      "Thrust Channel 1"
+    ],
+    [
+      "a6f30b1f-5689-4abf-92ce-ea5546b50948",
+      "Thrust Channel 2"
+    ],
+    [
+      "8de52c6a-44a2-4c3d-988b-6d07c6a566b2",
+      "Thrust Channel 3"
     ]
   ],
   "text_variables": {}

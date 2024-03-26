@@ -1,0 +1,122 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1f7ccf7c-e143-4b37-a217-0a0ed3646d60")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.4 29.21)
+		(size 12.7 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49dafe5d-519c-49b1-88d9-ec8cb6df7648")
+		(property "Sheetname" "Thrust Channel 1"
+			(at 25.4 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thrust-channel.kicad_sch"
+			(at 25.4 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 97.79 29.21)
+		(size 12.7 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8de52c6a-44a2-4c3d-988b-6d07c6a566b2")
+		(property "Sheetname" "Thrust Channel 3"
+			(at 97.79 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thrust-channel.kicad_sch"
+			(at 97.79 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 29.21)
+		(size 12.7 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6f30b1f-5689-4abf-92ce-ea5546b50948")
+		(property "Sheetname" "Thrust Channel 2"
+			(at 59.69 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thrust-channel.kicad_sch"
+			(at 59.69 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
+					(page "25")
+				)
+			)
+		)
+	)
+)
