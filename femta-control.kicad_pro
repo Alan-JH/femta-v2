@@ -485,6 +485,42 @@
     [
       "8de52c6a-44a2-4c3d-988b-6d07c6a566b2",
       "Thrust Channel 3"
+    ],
+    [
+      "826227b2-3a4f-4a87-9419-7605bb4529f5",
+      "Thrust Channel 4"
+    ],
+    [
+      "47cd1a1a-1480-4eae-b9ce-a73cac0b3bdc",
+      "Thrust Channel 5"
+    ],
+    [
+      "37415780-54b9-4ed3-8ab8-f09b8d9e8267",
+      "Thrust Channel 6"
+    ],
+    [
+      "ace2e429-6c02-47f3-a5a8-ce53fd79b4bb",
+      "Thrust Channel 7"
+    ],
+    [
+      "b15c763d-24bc-4af2-a62c-4319be075b04",
+      "Thrust Channel 8"
+    ],
+    [
+      "0bdb3cfd-579d-4d91-9131-2e2259180401",
+      "Thrust Channel 9"
+    ],
+    [
+      "48dea7a3-b7a3-45de-ae24-752a9b0d2dec",
+      "Thrust Channel 10"
+    ],
+    [
+      "82e1dc8a-c377-4f8e-9e4d-066872e3ed88",
+      "Thrust Channel 11"
+    ],
+    [
+      "55c98fa7-476b-4db1-83b7-daf8067bd1e0",
+      "Thrust Channel 12"
     ]
   ],
   "text_variables": {}
