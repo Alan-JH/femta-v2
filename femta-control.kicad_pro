@@ -387,67 +387,67 @@
       "Root"
     ],
     [
-      "5dd6fce8-0699-43c5-9ecf-bfa8fbf17548",
+      "c29214a2-445b-49c4-ba25-1140c8e459b9",
       "FEMTA Thermal Circuit 1"
     ],
     [
-      "6eb9cfee-ec63-4d91-8cf2-60c979951fc5",
+      "9b1c7fd9-637f-48bf-ac09-7f6e57ba5bdc",
       "FEMTA Thermal Circuit 2"
     ],
     [
-      "827c1b3c-acab-4975-826a-b2bf20c856f1",
+      "57792b57-a8b2-4ae2-a65f-d073a53607df",
       "FEMTA Thermal Circuit 3"
     ],
     [
-      "e957c142-48f9-4497-bd07-6c27722dc29c",
+      "4b3705f0-c00a-429d-ab5e-9a3de534bfea",
       "FEMTA Thermal Circuit 4"
     ],
     [
-      "8ca9bf82-43a9-489e-9278-1e7b3ded8c88",
+      "36f4a0f5-c6ef-4880-95f2-683ab28a5f92",
       "FEMTA Thermal Circuit 5"
     ],
     [
-      "5c5d7119-53b5-4552-b642-502698199af7",
+      "7cd0b759-abba-448e-82f2-fb01ee7f01c3",
       "FEMTA Thermal Circuit 6"
     ],
     [
-      "20ece662-4604-404c-81eb-016aa9e98a07",
+      "81e9fc98-8c36-43eb-8ff3-906b14dd957d",
       "FEMTA Thermal Circuit 7"
     ],
     [
-      "f199a1bc-3963-4b08-ac6c-180f3bfc6edf",
+      "24059ba8-df81-47a4-8f04-24131e1b2531",
       "FEMTA Thermal Circuit 8"
     ],
     [
-      "be9f3b50-60a6-4ef9-a16a-565af92795be",
+      "5f6a0158-d239-4db9-9eb6-9cfd8a333427",
       "FEMTA Thermal Circuit 9"
     ],
     [
-      "4967f47f-257c-4ee5-9bd9-8db462a30f7e",
+      "bcfc164b-163f-4a12-9f28-1391b6184b31",
       "FEMTA Thermal Circuit 10"
     ],
     [
-      "758d6c27-6e02-4ebe-8aeb-b9839a7a75d4",
+      "5b6d1d84-6a4a-4569-9f88-8fdf243fa14f",
       "FEMTA Thermal Circuit 11"
     ],
     [
-      "12ef13cf-60a7-42de-be6d-cfe359bcc88c",
+      "4f4b7c5a-e4fd-4ea8-9fd0-29a2d9fad2bd",
       "FEMTA Thermal Circuit 12"
     ],
     [
-      "c256948a-f0e3-4e41-9bd0-6d788309a88b",
+      "d6bfffe4-90ea-4f78-89f5-f588e746bbbf",
       "Tank Thermal Circuit 1"
     ],
     [
-      "f06d9bb8-7bcd-40c6-b05c-e3a8442c7e04",
+      "6fcca572-34d2-4c78-a51d-64a8485e2af6",
       "Tank Thermal Circuit 2"
     ],
     [
-      "857e117c-eb89-408b-a122-7cfbe40f822a",
+      "ee9f0696-5c4c-4114-bd06-53e1de2c7abb",
       "Tank Thermal Circuit 3"
     ],
     [
-      "3b94d4d2-8d45-4745-a703-2197420eb838",
+      "88af8926-3292-4202-833f-5f0c7ce256db",
       "Tank Thermal Circuit 4"
     ],
     [
@@ -521,6 +521,14 @@
     [
       "55c98fa7-476b-4db1-83b7-daf8067bd1e0",
       "Thrust Channel 12"
+    ],
+    [
+      "217e6ea2-6933-4a2a-93ca-61414ae3305a",
+      "Thermal Circuits"
+    ],
+    [
+      "2e86c0c4-e360-4fa1-b2a4-095852b94f1a",
+      "DPT Sensors"
     ]
   ],
   "text_variables": {}
