@@ -1244,6 +1244,12 @@
 		)
 	)
 	(junction
+		(at 168.91 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14e85177-2cc7-4494-8b46-b99c7a0161ba")
+	)
+	(junction
 		(at 106.68 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1315,7 +1321,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 167.64) (xy 134.62 167.64)
+			(xy 116.84 167.64) (xy 134.62 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1402,6 +1408,16 @@
 			(type default)
 		)
 		(uuid "3efbb495-753c-42ba-bea4-c849622a93b4")
+	)
+	(wire
+		(pts
+			(xy 168.91 160.02) (xy 185.42 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c6ce29-c5bc-4c7c-a3b9-5de9a2dee6ac")
 	)
 	(wire
 		(pts
@@ -1784,8 +1800,8 @@
 		)
 		(uuid "07281950-9934-4e6a-9e0a-4ca7ffecfa89")
 	)
-	(label "HEATER_RST"
-		(at 119.38 167.64 0)
+	(label "HEATER_OCP_RST"
+		(at 116.84 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1860,6 +1876,17 @@
 			(justify left bottom)
 		)
 		(uuid "845d9d70-bd82-4c3e-96ab-848353cc482f")
+	)
+	(label "I_FEMTA_HEATER"
+		(at 185.42 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a300e871-3537-4e05-88ac-d73ca98f815b")
 	)
 	(label "OCP_RST"
 		(at 62.23 182.88 0)
@@ -3070,6 +3097,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VP")
+		(at 168.91 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5252d2a7-0466-4a60-8f85-f53bc9d58275")
+		(property "Reference" "#PWR015"
+			(at 168.91 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 168.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 168.91 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7d92ca3-46bd-4a4b-b4e0-91bae8e26ce9")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 128.27 57.15 0)
 		(unit 1)
@@ -3674,72 +3767,6 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VP")
-		(at 168.91 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd8ee189-e844-431b-85a8-e7fdd515fe3f")
-		(property "Reference" "#PWR0198"
-			(at 168.91 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VP"
-			(at 168.91 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 168.91 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1bdd2fe-d65c-4030-858d-c0558195e323")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -4819,7 +4846,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "9caee5f1-c259-48c3-ab00-5902eb9cdfc4")
-		(property "Sheetname" "5V LCL1"
+		(property "Sheetname" "HEATER 5V LCL"
 			(at 140.97 151.6884 0)
 			(effects
 				(font
