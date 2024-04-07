@@ -1414,6 +1414,285 @@
 				)
 			)
 		)
+		(symbol "Regulator_Linear:TPS7A91"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS7A91"
+				(at 3.81 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:Texas_S-PDSO-N10_EP1.2x2mm"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps7a91.pdf"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LDO voltage regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Texas*S*PDSO*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPS7A91_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TPS7A91_1_1"
+				(pin power_out line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 7.62 0)
+					(length 2.54) hide
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 2.54) hide
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SS_CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "NR/SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1650,7 +1929,7 @@
 		(uuid "30578950-36f0-4412-bee5-85e77475ba1c")
 	)
 	(junction
-		(at 52.07 64.77)
+		(at 58.42 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39aa7a9d-9a35-436c-a02d-01802b7413df")
@@ -1680,12 +1959,6 @@
 		(uuid "9d9ec4a9-7478-4373-a43d-71bd21b47c1d")
 	)
 	(junction
-		(at 102.87 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1943fa0-529a-4c51-880e-f85aa0b33f05")
-	)
-	(junction
 		(at 120.65 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1698,7 +1971,7 @@
 		(uuid "beeb53dd-4315-4fff-a906-e8390c41cc6f")
 	)
 	(junction
-		(at 52.07 41.91)
+		(at 58.42 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf955a4a-97d3-45f3-a4bd-3c91cefdb188")
@@ -2105,7 +2378,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 41.91) (xy 52.07 49.53)
+			(xy 58.42 41.91) (xy 58.42 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2172,6 +2445,16 @@
 			(type default)
 		)
 		(uuid "392f0879-16e0-4975-9f4a-1df8e908bd44")
+	)
+	(wire
+		(pts
+			(xy 34.29 55.88) (xy 34.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a21409c-d99b-495e-9f85-5ebd2d289ab2")
 	)
 	(wire
 		(pts
@@ -2275,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 64.77) (xy 73.66 64.77)
+			(xy 58.42 64.77) (xy 80.01 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2465,7 +2748,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 49.53) (xy 36.83 44.45)
+			(xy 43.18 49.53) (xy 43.18 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2695,7 +2978,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 41.91) (xy 73.66 41.91)
+			(xy 58.42 41.91) (xy 80.01 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2745,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 62.23) (xy 31.75 62.23)
+			(xy 43.18 62.23) (xy 38.1 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2775,7 +3058,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 72.39) (xy 52.07 72.39)
+			(xy 43.18 72.39) (xy 58.42 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3125,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 49.53) (xy 36.83 49.53)
+			(xy 58.42 49.53) (xy 43.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3355,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 67.31) (xy 36.83 72.39)
+			(xy 43.18 67.31) (xy 43.18 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3485,7 +3768,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 72.39) (xy 52.07 64.77)
+			(xy 58.42 72.39) (xy 58.42 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3565,6 +3848,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 33.02) (xy 34.29 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0723ebf-d642-47bd-9d2a-05200c622633")
+	)
+	(wire
+		(pts
 			(xy 293.37 33.02) (xy 309.88 33.02)
 		)
 		(stroke
@@ -3615,7 +3908,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 39.37) (xy 31.75 39.37)
+			(xy 43.18 39.37) (xy 38.1 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4732,7 +5025,7 @@
 		(uuid "a0a9b4c2-350e-4fe0-a1dc-815c497103b7")
 	)
 	(label "FEMTA_DEFAULT_TSET"
-		(at 73.66 41.91 180)
+		(at 80.01 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5117,7 +5410,7 @@
 		(uuid "d2aae9ab-0970-45b4-be62-9f449b169b1d")
 	)
 	(label "TANK_DEFAULT_TSET"
-		(at 73.66 64.77 180)
+		(at 80.01 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5435,6 +5728,28 @@
 			)
 		)
 	)
+	(global_label "THERMISTOR_SUP"
+		(shape input)
+		(at 34.29 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1629e874-ddb6-47cb-8153-2fff176dfae3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9763 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FEMTA_HEATER_VCC"
 		(shape input)
 		(at 572.77 49.53 180)
@@ -5545,6 +5860,28 @@
 			)
 		)
 	)
+	(global_label "THERMISTOR_SUP"
+		(shape input)
+		(at 220.98 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73cbba13-7dc4-490a-9f54-9deb29e73860")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.2937 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FEMTA_HEATER_VCC"
 		(shape input)
 		(at 179.07 49.53 180)
@@ -5611,6 +5948,28 @@
 			)
 		)
 	)
+	(global_label "THERMISTOR_SUP"
+		(shape input)
+		(at 34.29 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9bbe0f4e-8230-40ae-88ac-b975479ba558")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9763 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FEMTA_HEATER_VCC"
 		(shape input)
 		(at 336.55 49.53 180)
@@ -5646,6 +6005,28 @@
 		(uuid "cdcd6b17-02b1-4575-87c8-a15b4a403fb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 703.9211 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "THERMISTOR_SUP"
+		(shape input)
+		(at 91.44 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cecc48a5-1a70-4480-af1a-9fa3ce504438")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.1263 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,6 +6350,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 185.42 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1fcbbc70-0305-4e94-bcca-edd11bbc0188")
+		(property "Reference" "#PWR01"
+			(at 185.42 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 185.42 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 185.42 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c547bd8-ea56-4476-b93c-fea09f8b11fe")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC595")
 		(at 64.77 203.2 0)
 		(unit 1)
@@ -6215,73 +6662,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 27.94 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3bed60d1-48cd-42ee-9c8b-081dd74ce566")
-		(property "Reference" "#PWR0179"
-			(at 27.94 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 27.94 31.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 27.94 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "afd55a31-feeb-4a69-bfc5-9adb95aec515")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a"
-					(reference "#PWR0179")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 27.94 62.23 0)
+		(at 34.29 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6289,7 +6671,7 @@
 		(dnp no)
 		(uuid "3d5a401b-bc92-4d55-b270-9f436b8c966e")
 		(property "Reference" "RV2"
-			(at 26.416 62.23 0)
+			(at 32.766 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +6680,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 27.94 62.23 90)
+			(at 34.29 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6306,7 +6688,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 62.23 0)
+			(at 34.29 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6315,7 +6697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 62.23 0)
+			(at 34.29 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,7 +6706,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 27.94 62.23 0)
+			(at 34.29 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,72 +6727,6 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a"
 					(reference "RV2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 102.87 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53ff2dcc-bb35-476f-99cb-e11c7e2a76d7")
-		(property "Reference" "#PWR0183"
-			(at 102.87 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 102.87 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 102.87 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbf6104c-d75f-43f1-81b9-1b2c2eee1848")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a"
-					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -6571,7 +6887,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 44.45 41.91 0)
+		(at 50.8 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6580,7 +6896,7 @@
 		(fields_autoplaced yes)
 		(uuid "66b91061-006b-47fb-a114-292bbf6ed594")
 		(property "Reference" "U34"
-			(at 44.45 31.75 0)
+			(at 50.8 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6588,7 +6904,7 @@
 			)
 		)
 		(property "Value" "LM358-N-Q1"
-			(at 44.45 34.29 0)
+			(at 50.8 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6596,7 +6912,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 41.91 0)
+			(at 50.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,7 +6921,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 44.45 41.91 0)
+			(at 50.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +6930,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 44.45 41.91 0)
+			(at 50.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6982,7 +7298,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 44.45 64.77 0)
+		(at 50.8 64.77 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6991,7 +7307,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1a4fd83-0c63-4be2-a5f2-a1f1197879ec")
 		(property "Reference" "U34"
-			(at 44.45 54.61 0)
+			(at 50.8 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,7 +7315,7 @@
 			)
 		)
 		(property "Value" "LM358-N-Q1"
-			(at 44.45 57.15 0)
+			(at 50.8 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +7323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +7332,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 44.45 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,7 +7341,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 44.45 64.77 0)
+			(at 50.8 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7249,7 +7565,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 43.18 0)
+		(at 34.29 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7257,7 +7573,7 @@
 		(dnp no)
 		(uuid "a46848e8-98d8-4eaa-bb80-3080bbe7fcee")
 		(property "Reference" "#PWR0180"
-			(at 27.94 49.53 0)
+			(at 34.29 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7266,7 +7582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 47.498 0)
+			(at 34.29 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 43.18 0)
+			(at 34.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 43.18 0)
+			(at 34.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 43.18 0)
+			(at 34.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7314,7 +7630,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 66.04 0)
+		(at 34.29 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7322,7 +7638,7 @@
 		(dnp no)
 		(uuid "a4beb37b-dd15-4bf8-a036-90d687df5858")
 		(property "Reference" "#PWR0182"
-			(at 27.94 72.39 0)
+			(at 34.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,7 +7647,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 70.358 0)
+			(at 34.29 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7339,7 +7655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 66.04 0)
+			(at 34.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,7 +7664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 66.04 0)
+			(at 34.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,7 +7673,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 66.04 0)
+			(at 34.29 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7756,7 +8072,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 27.94 39.37 0)
+		(at 34.29 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7764,7 +8080,7 @@
 		(dnp no)
 		(uuid "dc8da59e-74bd-48e8-976c-65aad8d0846e")
 		(property "Reference" "RV1"
-			(at 26.416 39.37 0)
+			(at 32.766 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7773,7 +8089,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 27.94 39.37 90)
+			(at 34.29 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7781,7 +8097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 39.37 0)
+			(at 34.29 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +8106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 39.37 0)
+			(at 34.29 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7799,7 +8115,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 27.94 39.37 0)
+			(at 34.29 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8137,71 +8453,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 27.94 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4e2e6bf-2a5f-41bb-aa16-39a626fcbb1a")
-		(property "Reference" "#PWR0181"
-			(at 27.94 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 27.94 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 27.94 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb8fdf52-ac49-4266-a556-ae2a3811db63")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a"
-					(reference "#PWR0181")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 187.96 0)
 		(unit 1)
@@ -8330,6 +8581,101 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a"
 					(reference "R268")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TPS7A91")
+		(at 205.74 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9d96701-b649-4032-8c1a-d4b7dcfae39a")
+		(property "Reference" "U62"
+			(at 205.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS7A91"
+			(at 205.74 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Texas_S-PDSO-N10_EP1.2x2mm"
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps7a91.pdf"
+			(at 205.74 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A, High-Accuracy, Low-Noise LDO Voltage Regulator, Texas S-PDSO-N10"
+			(at 205.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "46045828-bef2-4d08-bc4a-807e0c08dba8")
+		)
+		(pin "11"
+			(uuid "35f832a9-17d7-4052-81a8-f7860e328525")
+		)
+		(pin "5"
+			(uuid "4c367f9b-ac99-42d9-8fde-79c242b72a6f")
+		)
+		(pin "6"
+			(uuid "9795a20b-56a7-4b79-9af7-dfec4d4543e4")
+		)
+		(pin "7"
+			(uuid "22d8aa2c-b4bf-4ce6-aa9c-ae9b1f3d3c7e")
+		)
+		(pin "8"
+			(uuid "0a6fcdba-7ed6-433f-bf0a-f97a3934f210")
+		)
+		(pin "2"
+			(uuid "d06d29ab-7354-4ac0-83a3-67fe51b93ffd")
+		)
+		(pin "3"
+			(uuid "04adddd5-63d2-43cd-a7cf-22216bf50dbf")
+		)
+		(pin "9"
+			(uuid "cb6445a3-6fe4-4920-8b74-0ae0ac59d484")
+		)
+		(pin "4"
+			(uuid "0dea2c69-210b-4234-82b0-75f2acfb25f8")
+		)
+		(pin "1"
+			(uuid "c988fd23-59c1-4f23-855a-6b9d3611b0cc")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a"
+					(reference "U62")
 					(unit 1)
 				)
 			)
