@@ -2385,7 +2385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0609a430-8a11-4f1d-9a74-9220702a9384")
-		(property "Reference" "#PWR0288"
+		(property "Reference" "#PWR0252"
 			(at 57.15 144.78 0)
 			(effects
 				(font
@@ -2435,7 +2435,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0288")
+					(reference "#PWR0252")
 					(unit 1)
 				)
 			)
@@ -2451,7 +2451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07c6b1a5-5b07-4661-8a01-cb59166795bf")
-		(property "Reference" "U55"
+		(property "Reference" "U58"
 			(at 158.4041 44.45 0)
 			(effects
 				(font
@@ -2469,7 +2469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm"
 			(at 156.21 92.71 0)
 			(effects
 				(font
@@ -2532,7 +2532,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "U55")
+					(reference "U58")
 					(unit 1)
 				)
 			)
@@ -2615,7 +2615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10c698c3-99c4-43c0-9614-0fdbfe58e800")
-		(property "Reference" "R245"
+		(property "Reference" "R240"
 			(at 76.2 111.76 0)
 			(effects
 				(font
@@ -2668,7 +2668,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R245")
+					(reference "R240")
 					(unit 1)
 				)
 			)
@@ -2684,7 +2684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "286f8805-b449-4617-97af-1506e9bf5b1a")
-		(property "Reference" "C111"
+		(property "Reference" "C107"
 			(at 135.89 101.5999 0)
 			(effects
 				(font
@@ -2738,7 +2738,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "C111")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -2754,7 +2754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b60f8a4-570c-4871-b098-0f18117a37be")
-		(property "Reference" "C109"
+		(property "Reference" "C106"
 			(at 135.89 45.7199 0)
 			(effects
 				(font
@@ -2808,7 +2808,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "C109")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -2824,7 +2824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34871561-8634-41a6-b1ae-0ff137af97cc")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 200.66 57.1499 0)
 			(effects
 				(font
@@ -2884,7 +2884,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2900,7 +2900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "353cb14d-323d-411d-8d7e-b247eb9d1f85")
-		(property "Reference" "#PWR0283"
+		(property "Reference" "#PWR0267"
 			(at 193.04 71.12 0)
 			(effects
 				(font
@@ -2950,7 +2950,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0283")
+					(reference "#PWR0267")
 					(unit 1)
 				)
 			)
@@ -2966,7 +2966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d93557e-afb4-47e0-97a5-5ac0471dfb73")
-		(property "Reference" "#PWR0280"
+		(property "Reference" "#PWR0253"
 			(at 91.44 53.34 0)
 			(effects
 				(font
@@ -3016,7 +3016,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0280")
+					(reference "#PWR0253")
 					(unit 1)
 				)
 			)
@@ -3031,7 +3031,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ec5b619-5add-4e47-9ce2-ab3a9a191a49")
-		(property "Reference" "#PWR0279"
+		(property "Reference" "#PWR0262"
 			(at 156.21 88.9 0)
 			(effects
 				(font
@@ -3081,7 +3081,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0279")
+					(reference "#PWR0262")
 					(unit 1)
 				)
 			)
@@ -3097,7 +3097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41871452-021f-42ca-b2b7-669e292b124b")
-		(property "Reference" "C108"
+		(property "Reference" "C104"
 			(at 36.83 45.7199 0)
 			(effects
 				(font
@@ -3151,7 +3151,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "C108")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -3166,7 +3166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "444cb450-ffad-4ebe-97f7-a937c50ef46f")
-		(property "Reference" "#PWR0292"
+		(property "Reference" "#PWR0260"
 			(at 132.08 127 0)
 			(effects
 				(font
@@ -3216,7 +3216,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0292")
+					(reference "#PWR0260")
 					(unit 1)
 				)
 			)
@@ -3232,7 +3232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f5569a-0f48-4c63-957e-a0e67f098f7a")
-		(property "Reference" "#PWR0282"
+		(property "Reference" "#PWR0265"
 			(at 190.5 53.34 0)
 			(effects
 				(font
@@ -3282,7 +3282,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0282")
+					(reference "#PWR0265")
 					(unit 1)
 				)
 			)
@@ -3298,7 +3298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52e58592-c5a0-4eb6-ad97-5162c24e3eff")
-		(property "Reference" "#PWR0278"
+		(property "Reference" "#PWR0261"
 			(at 156.21 45.72 0)
 			(effects
 				(font
@@ -3348,7 +3348,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0278")
+					(reference "#PWR0261")
 					(unit 1)
 				)
 			)
@@ -3364,7 +3364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5543b059-fc1b-4f13-b316-670a5ac9ba97")
-		(property "Reference" "C110"
+		(property "Reference" "C105"
 			(at 36.83 101.5999 0)
 			(effects
 				(font
@@ -3418,7 +3418,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "C110")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -3434,7 +3434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61064739-3aa1-4920-8487-2f26ba747076")
-		(property "Reference" "#PWR0274"
+		(property "Reference" "#PWR0249"
 			(at 57.15 45.72 0)
 			(effects
 				(font
@@ -3484,7 +3484,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0274")
+					(reference "#PWR0249")
 					(unit 1)
 				)
 			)
@@ -3499,7 +3499,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "636d41f2-dabd-408d-8b4e-5b96b81f83d5")
-		(property "Reference" "R247"
+		(property "Reference" "R245"
 			(at 133.35 127 0)
 			(effects
 				(font
@@ -3552,7 +3552,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R247")
+					(reference "R245")
 					(unit 1)
 				)
 			)
@@ -3567,7 +3567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6466091e-08db-42a5-8c9a-469fa711cd5b")
-		(property "Reference" "R248"
+		(property "Reference" "R246"
 			(at 133.35 134.62 0)
 			(effects
 				(font
@@ -3620,7 +3620,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R248")
+					(reference "R246")
 					(unit 1)
 				)
 			)
@@ -3712,7 +3712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e242375-ac0f-487e-97ec-8b11702addda")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 101.6 113.0299 0)
 			(effects
 				(font
@@ -3772,7 +3772,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3787,7 +3787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88af0153-6cad-45b7-9d27-e5f9e647bd70")
-		(property "Reference" "R239"
+		(property "Reference" "R247"
 			(at 175.26 55.88 0)
 			(effects
 				(font
@@ -3840,7 +3840,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R239")
+					(reference "R247")
 					(unit 1)
 				)
 			)
@@ -3855,7 +3855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89174440-ab29-4656-b858-9cfc3bbf2456")
-		(property "Reference" "R238"
+		(property "Reference" "R241"
 			(at 85.09 57.15 0)
 			(effects
 				(font
@@ -3908,7 +3908,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R238")
+					(reference "R241")
 					(unit 1)
 				)
 			)
@@ -3924,7 +3924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ca7784e-5477-4602-8b84-7dda8e437c36")
-		(property "Reference" "U56"
+		(property "Reference" "U57"
 			(at 59.3441 100.33 0)
 			(effects
 				(font
@@ -3942,7 +3942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm"
 			(at 57.15 148.59 0)
 			(effects
 				(font
@@ -4005,7 +4005,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "U56")
+					(reference "U57")
 					(unit 1)
 				)
 			)
@@ -4020,7 +4020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90193e70-97d8-4574-8676-5a335d358c0f")
-		(property "Reference" "#PWR0286"
+		(property "Reference" "#PWR0248"
 			(at 33.02 127 0)
 			(effects
 				(font
@@ -4070,7 +4070,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0286")
+					(reference "#PWR0248")
 					(unit 1)
 				)
 			)
@@ -4085,7 +4085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95607776-5f56-4516-9af8-5417ccf68492")
-		(property "Reference" "#PWR0294"
+		(property "Reference" "#PWR0264"
 			(at 156.21 144.78 0)
 			(effects
 				(font
@@ -4135,7 +4135,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0294")
+					(reference "#PWR0264")
 					(unit 1)
 				)
 			)
@@ -4151,7 +4151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "957016fe-902c-4254-aff3-c4791203a028")
-		(property "Reference" "#PWR0290"
+		(property "Reference" "#PWR0256"
 			(at 93.98 127 0)
 			(effects
 				(font
@@ -4201,7 +4201,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0290")
+					(reference "#PWR0256")
 					(unit 1)
 				)
 			)
@@ -4216,7 +4216,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a12f7cf0-bc19-43dc-8de9-bd65b0f6e4a2")
-		(property "Reference" "#PWR0284"
+		(property "Reference" "#PWR0258"
 			(at 132.08 71.12 0)
 			(effects
 				(font
@@ -4266,7 +4266,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0284")
+					(reference "#PWR0258")
 					(unit 1)
 				)
 			)
@@ -4282,7 +4282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a02519-3f4d-4af5-86ed-1fcead24b5bf")
-		(property "Reference" "#PWR0293"
+		(property "Reference" "#PWR0263"
 			(at 156.21 101.6 0)
 			(effects
 				(font
@@ -4332,7 +4332,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0293")
+					(reference "#PWR0263")
 					(unit 1)
 				)
 			)
@@ -4347,7 +4347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a82dce06-e1aa-4634-8cf3-2a664175df75")
-		(property "Reference" "R242"
+		(property "Reference" "R244"
 			(at 133.35 78.74 0)
 			(effects
 				(font
@@ -4400,7 +4400,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R242")
+					(reference "R244")
 					(unit 1)
 				)
 			)
@@ -4415,7 +4415,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b31b58d5-54a1-4607-b818-f8e3e047da6b")
-		(property "Reference" "#PWR0291"
+		(property "Reference" "#PWR0259"
 			(at 132.08 113.03 0)
 			(effects
 				(font
@@ -4465,7 +4465,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0291")
+					(reference "#PWR0259")
 					(unit 1)
 				)
 			)
@@ -4480,7 +4480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b576dfc0-2318-471b-8374-29c8dae56e93")
-		(property "Reference" "#PWR0275"
+		(property "Reference" "#PWR0246"
 			(at 33.02 57.15 0)
 			(effects
 				(font
@@ -4530,7 +4530,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0275")
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -4622,7 +4622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be75b7a6-dff0-4a78-8612-4e12c45fef62")
-		(property "Reference" "U54"
+		(property "Reference" "U56"
 			(at 59.3441 44.45 0)
 			(effects
 				(font
@@ -4640,7 +4640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm"
 			(at 57.15 92.71 0)
 			(effects
 				(font
@@ -4703,7 +4703,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "U54")
+					(reference "U56")
 					(unit 1)
 				)
 			)
@@ -4719,7 +4719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2eb30d7-7499-4d22-8bbd-6de4edd7b8c0")
-		(property "Reference" "U57"
+		(property "Reference" "U59"
 			(at 158.4041 100.33 0)
 			(effects
 				(font
@@ -4737,7 +4737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm"
 			(at 156.21 148.59 0)
 			(effects
 				(font
@@ -4800,7 +4800,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "U57")
+					(reference "U59")
 					(unit 1)
 				)
 			)
@@ -4815,7 +4815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2c90687-1926-4f04-9a34-c5569dcad2eb")
-		(property "Reference" "#PWR0277"
+		(property "Reference" "#PWR0257"
 			(at 132.08 57.15 0)
 			(effects
 				(font
@@ -4865,7 +4865,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0277")
+					(reference "#PWR0257")
 					(unit 1)
 				)
 			)
@@ -4881,7 +4881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4232ce4-d7cd-4ab6-86be-4c854fd5da52")
-		(property "Reference" "#PWR0281"
+		(property "Reference" "#PWR0255"
 			(at 93.98 71.12 0)
 			(effects
 				(font
@@ -4931,7 +4931,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0281")
+					(reference "#PWR0255")
 					(unit 1)
 				)
 			)
@@ -4947,7 +4947,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db2075ad-061c-4e6f-b6f7-a1fd995d3e9e")
-		(property "Reference" "#PWR0287"
+		(property "Reference" "#PWR0251"
 			(at 57.15 101.6 0)
 			(effects
 				(font
@@ -4997,7 +4997,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0287")
+					(reference "#PWR0251")
 					(unit 1)
 				)
 			)
@@ -5013,7 +5013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbef27dc-a4be-4152-ab0c-4d50577029e4")
-		(property "Reference" "#PWR0289"
+		(property "Reference" "#PWR0254"
 			(at 91.44 109.22 0)
 			(effects
 				(font
@@ -5063,7 +5063,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0289")
+					(reference "#PWR0254")
 					(unit 1)
 				)
 			)
@@ -5078,7 +5078,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddeb3081-16a5-4a7b-ad14-efa2267c8ccd")
-		(property "Reference" "R237"
+		(property "Reference" "R239"
 			(at 76.2 55.88 0)
 			(effects
 				(font
@@ -5131,7 +5131,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R237")
+					(reference "R239")
 					(unit 1)
 				)
 			)
@@ -5146,7 +5146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de6c60e9-07a2-496b-9e24-c5ba9d695eee")
-		(property "Reference" "#PWR0276"
+		(property "Reference" "#PWR0250"
 			(at 57.15 88.9 0)
 			(effects
 				(font
@@ -5196,7 +5196,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0276")
+					(reference "#PWR0250")
 					(unit 1)
 				)
 			)
@@ -5211,7 +5211,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8bc119c-1174-49ed-9fbf-af3bf8d10841")
-		(property "Reference" "R241"
+		(property "Reference" "R243"
 			(at 133.35 71.12 0)
 			(effects
 				(font
@@ -5264,7 +5264,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R241")
+					(reference "R243")
 					(unit 1)
 				)
 			)
@@ -5279,7 +5279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eecb804f-9d03-4761-8c92-8f769db3e914")
-		(property "Reference" "R249"
+		(property "Reference" "R248"
 			(at 175.26 111.76 0)
 			(effects
 				(font
@@ -5332,7 +5332,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R249")
+					(reference "R248")
 					(unit 1)
 				)
 			)
@@ -5348,7 +5348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f255b8e7-2db0-478a-8189-738e00167549")
-		(property "Reference" "#PWR0295"
+		(property "Reference" "#PWR0266"
 			(at 190.5 109.22 0)
 			(effects
 				(font
@@ -5398,7 +5398,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0295")
+					(reference "#PWR0266")
 					(unit 1)
 				)
 			)
@@ -5413,7 +5413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5dcc351-315d-4f5d-881f-269f5fca1658")
-		(property "Reference" "#PWR0285"
+		(property "Reference" "#PWR0247"
 			(at 33.02 113.03 0)
 			(effects
 				(font
@@ -5463,7 +5463,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0285")
+					(reference "#PWR0247")
 					(unit 1)
 				)
 			)
@@ -5478,7 +5478,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6b1a0d1-a28c-4230-8c7e-12059bbce67e")
-		(property "Reference" "R246"
+		(property "Reference" "R242"
 			(at 85.09 113.03 0)
 			(effects
 				(font
@@ -5531,7 +5531,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R246")
+					(reference "R242")
 					(unit 1)
 				)
 			)
@@ -5546,7 +5546,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa54f202-202f-441d-a2ff-355fcb2f3325")
-		(property "Reference" "R244"
+		(property "Reference" "R238"
 			(at 34.29 134.62 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R244")
+					(reference "R238")
 					(unit 1)
 				)
 			)
@@ -5614,7 +5614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb26830c-027b-4177-83d3-ca4e20847376")
-		(property "Reference" "R243"
+		(property "Reference" "R237"
 			(at 34.29 127 0)
 			(effects
 				(font
@@ -5667,7 +5667,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R243")
+					(reference "R237")
 					(unit 1)
 				)
 			)
@@ -5682,7 +5682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fefb2242-2d28-4d91-89d8-c57b21bca27b")
-		(property "Reference" "R240"
+		(property "Reference" "R249"
 			(at 184.15 57.15 0)
 			(effects
 				(font
@@ -5735,7 +5735,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "R240")
+					(reference "R249")
 					(unit 1)
 				)
 			)
@@ -5751,7 +5751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff8374aa-36ad-43fb-a462-6ca046bfa720")
-		(property "Reference" "#PWR0296"
+		(property "Reference" "#PWR0268"
 			(at 193.04 127 0)
 			(effects
 				(font
@@ -5801,7 +5801,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/2e86c0c4-e360-4fa1-b2a4-095852b94f1a"
-					(reference "#PWR0296")
+					(reference "#PWR0268")
 					(unit 1)
 				)
 			)

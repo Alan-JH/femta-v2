@@ -2058,7 +2058,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "70925bd7-991e-4bfd-934b-814ffa7151c2")
+		(uuid "0c8feac7-d90d-4b69-99ca-94299b520746")
 	)
 	(global_label "THERMISTOR_SUP"
 		(shape input)
@@ -2070,7 +2070,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e39992fd-0cec-4c29-8770-55b83f1d4b1d")
+		(uuid "046fed29-2e03-48fa-9299-8b8805dfacf9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.4263 53.34 0)
 			(effects
@@ -2082,66 +2082,6 @@
 			)
 		)
 	)
-	(hierarchical_label "~{ENABLE}"
-		(shape input)
-		(at 118.11 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0a7b4202-6cda-492e-9807-b3bf6d076417")
-	)
-	(hierarchical_label "T_ADC"
-		(shape output)
-		(at 100.33 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4cdb2990-7374-41bb-af9f-4575aa0e5c20")
-	)
-	(hierarchical_label "HEATER_VCC"
-		(shape input)
-		(at 171.45 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5dca8eb9-303e-4e0c-99d3-f24ff07edc49")
-	)
-	(hierarchical_label "HEATER+"
-		(shape output)
-		(at 175.26 77.47 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "61d7bb0c-7c9e-4d69-a2ed-e0ca91744d37")
-	)
-	(hierarchical_label "DAC_SETPT"
-		(shape input)
-		(at 83.82 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "680503f5-1a6f-4f28-aa2b-4505214270d4")
-	)
 	(hierarchical_label "DAC_SETPT_EN"
 		(shape input)
 		(at 83.82 107.95 180)
@@ -2152,7 +2092,7 @@
 			)
 			(justify right)
 		)
-		(uuid "7ad2c24a-fe90-4eb3-a70e-a808c42c780d")
+		(uuid "0ac1717c-d4c5-436d-9897-2f05387d7716")
 	)
 	(hierarchical_label "HEATER_ON"
 		(shape output)
@@ -2164,7 +2104,55 @@
 			)
 			(justify left)
 		)
-		(uuid "89a764d2-5dfc-4653-8a6d-41fa52af50a5")
+		(uuid "35a7d8d4-3cca-4903-b71e-ff4f1bb858cd")
+	)
+	(hierarchical_label "~{ENABLE}"
+		(shape input)
+		(at 118.11 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56b4187c-099c-4db4-bcbd-b5cf51155019")
+	)
+	(hierarchical_label "DAC_SETPT"
+		(shape input)
+		(at 83.82 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59c11dac-8585-4264-9896-1e041d43abd1")
+	)
+	(hierarchical_label "HEATER_VCC"
+		(shape input)
+		(at 171.45 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ec1cc98-e72a-4a31-904b-92c2f0778654")
+	)
+	(hierarchical_label "HEATER+"
+		(shape output)
+		(at 175.26 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9a3d83f7-15fb-409f-afc7-042b708da7f1")
 	)
 	(hierarchical_label "THERM+"
 		(shape input)
@@ -2176,7 +2164,7 @@
 			)
 			(justify right)
 		)
-		(uuid "9b2a9856-c23e-41ce-a287-9ff2ecf80987")
+		(uuid "acb43f21-572c-4c54-bc2d-571f20004ebe")
 	)
 	(hierarchical_label "DEFAULT_SETPT"
 		(shape input)
@@ -2188,430 +2176,19 @@
 			)
 			(justify right)
 		)
-		(uuid "f33a1207-9ed2-46d8-a579-e815cc8a45fb")
+		(uuid "dabc59ed-3447-46c3-a445-273f8ec75a4b")
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 78.74 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "040249f6-e5af-4dfb-b184-17deaa9a7d54")
-		(property "Reference" "R93"
-			(at 80.01 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "115K"
-			(at 78.74 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.962 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "709bea0c-e5ec-485d-bd0e-b7c8018e2289")
-		)
-		(pin "1"
-			(uuid "f619140f-0de6-47d5-9a9c-f5b34e84317b")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "R93")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1186b531-7e34-4e9f-908c-905f7d20ba2b")
-		(property "Reference" "R97"
-			(at 119.38 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 120.65 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 122.428 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "24334ee1-5fe3-4079-942b-46031090ba95")
-		)
-		(pin "1"
-			(uuid "3d39c514-b9db-4bf6-8c67-51bef35d51f0")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "R97")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(hierarchical_label "T_ADC"
+		(shape output)
+		(at 100.33 44.45 0)
 		(fields_autoplaced yes)
-		(uuid "18a505a7-fe89-4c3a-88d3-f78493c0b1f2")
-		(property "Reference" "#PWR0142"
-			(at 96.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "GND"
-			(at 96.52 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "517b834a-0c36-4603-98b2-b61ac96b3805")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "#PWR0142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 105.41 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "26657baa-ccc1-4254-ab6f-33b879ec047a")
-		(property "Reference" "C72"
-			(at 102.616 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 102.616 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.4448 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 105.41 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "666d6125-239f-496c-8adf-a50e42b1948e")
-		)
-		(pin "1"
-			(uuid "91589c9f-6df6-4178-b2c6-fede41cef1df")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "C72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.3 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "273ee1f5-e6be-47dd-914b-b2f308acfd25")
-		(property "Reference" "R96"
-			(at 114.3 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7K"
-			(at 114.3 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 80.772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8229299b-78c3-48bc-b07c-f1de07761e92")
-		)
-		(pin "1"
-			(uuid "64d6d6f3-5b50-4639-aa99-0c05aae4bacf")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "R96")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_Switch:TS5A3159ADBVR")
-		(at 123.19 102.87 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a888646-0c1a-49a4-a68d-d22b666f87c8")
-		(property "Reference" "U26"
-			(at 128.27 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TS5A3159-Q1"
-			(at 128.27 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 123.825 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf"
-			(at 123.825 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6"
-			(at 123.19 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "e38669bf-c9e5-47dd-ae18-1438c5cb62f7")
-		)
-		(pin "3"
-			(uuid "ff54c22b-de7f-423f-9dac-547070152e4d")
-		)
-		(pin "2"
-			(uuid "9e663b42-b2c5-48c9-ac9d-424d185a4d1f")
-		)
-		(pin "6"
-			(uuid "6f0d3371-067e-43f4-a594-c5255e22927c")
-		)
-		(pin "4"
-			(uuid "6f3fdb71-9064-443f-b1fc-75b86b1c6dcf")
-		)
-		(pin "1"
-			(uuid "359d529b-6c8a-46b1-a32c-6e4ec9c07c65")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "U26")
-					(unit 2)
-				)
-			)
-		)
+		(uuid "f4fc9c99-f812-4046-8f18-8642142527a6")
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -2621,8 +2198,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2eb2ef78-28be-4b90-b956-d2416a7fdb72")
-		(property "Reference" "#PWR0144"
+		(uuid "06adbb12-0ea2-4174-95a3-bcba235d7a96")
+		(property "Reference" "#PWR0114"
 			(at 123.19 92.71 0)
 			(effects
 				(font
@@ -2672,31 +2249,33 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "#PWR0144")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 176.53 73.66 90)
+		(lib_id "power:GND")
+		(at 171.45 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "31baf9f7-aaa4-49d4-846c-6296d6a3646a")
-		(property "Reference" "R100"
-			(at 176.53 71.374 90)
+		(fields_autoplaced yes)
+		(uuid "0b676bcb-f1cd-4d0d-89ec-7aecf4409212")
+		(property "Reference" "#PWR0119"
+			(at 171.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "10K"
-			(at 176.53 73.66 90)
+		(property "Value" "GND"
+			(at 171.45 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 75.438 90)
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,8 +2291,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 176.53 73.66 0)
+		(property "Datasheet" ""
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2721,311 +2300,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 176.53 73.66 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "0b663d44-f087-4dc2-84b7-a474e5dbda41")
 		)
 		(pin "1"
-			(uuid "d6295728-5120-427d-a183-1970ecf7aaf3")
+			(uuid "e101244d-81cc-486d-a108-eaef939227ec")
 		)
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "R100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 153.67 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "358f0e9a-7d68-4ce4-9e89-05c4e9a3a5e3")
-		(property "Reference" "R98"
-			(at 152.4 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 153.67 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.448 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 153.67 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2b3a237e-ac0c-4a25-955f-205e85eec9ee")
-		)
-		(pin "1"
-			(uuid "8e86c82e-65e3-4e2a-b5bc-efa1c94a112b")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "R98")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "364c81c5-3bab-473e-b85f-d129b87ae212")
-		(property "Reference" "R94"
-			(at 92.71 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 91.44 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 89.662 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 91.44 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a8c032e0-d732-413c-a20d-3638f2dbb15c")
-		)
-		(pin "1"
-			(uuid "1978100d-f7a0-4262-ae1e-916a49f96153")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "R94")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 135.89 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4632834e-eb25-4ba6-9249-ebe533a96f6e")
-		(property "Reference" "C74"
-			(at 138.684 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 138.684 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 136.8552 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 135.89 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 135.89 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "035a8a6b-54d8-494e-a04a-d69a29961f6e")
-		)
-		(pin "1"
-			(uuid "bb36c284-8d55-47d1-9af5-323de3876646")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "C74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "femta-control-custom:TLV1805-Q1DBV")
-		(at 130.81 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "47afe8de-2f94-4f75-913a-8dc84d697cd3")
-		(property "Reference" "U27"
-			(at 134.62 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TLV1805-Q1DBV"
-			(at 134.62 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 132.08 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv1805-q1.pdf?ts=1710516518048"
-			(at 130.81 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 130.81 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1300b7f5-fdc4-4f9f-977a-983184ce8d43")
-		)
-		(pin "3"
-			(uuid "4f805396-aeb1-45da-a225-8fcb00af16db")
-		)
-		(pin "4"
-			(uuid "94e886c6-f8a7-4c10-b88c-79f41adcc4d6")
-		)
-		(pin "1"
-			(uuid "de6087a4-54b7-4c28-9173-58d1a572d6b0")
-		)
-		(pin "5"
-			(uuid "68bda45f-df7f-4116-8336-a451cf5371d0")
-		)
-		(pin "6"
-			(uuid "60ae7143-9950-4ad8-99aa-0e6ea1bef07a")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "U27")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -3041,8 +2331,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "62f14a9a-48b9-4f15-97ca-7cf16a461cf5")
-		(property "Reference" "U26"
+		(uuid "0f71eb4f-e2a0-4466-9a24-a7c8a6b6ad33")
+		(property "Reference" "U25"
 			(at 91.44 90.17 0)
 			(effects
 				(font
@@ -3108,211 +2398,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "U26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 96.52 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73f9f925-fbab-4d95-8f06-61e63cdf40be")
-		(property "Reference" "C71"
-			(at 99.314 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 99.314 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.4852 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 96.52 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "031fd8aa-b71b-4a05-8d83-4190dfae6f92")
-		)
-		(pin "1"
-			(uuid "c9b54e29-c951-4558-a42a-1b397ad1294d")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 110.49 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7eed235d-4b06-4212-8e7b-1c07d8092cd6")
-		(property "Reference" "C73"
-			(at 113.284 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 113.284 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.4552 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6d8ed8a-c071-4c4a-99a1-fed57b2d6860")
-		)
-		(pin "1"
-			(uuid "bd9d4b3b-71ac-4abe-82ad-e0b2dcac2bff")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "C73")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80a94ba8-11f9-4b88-89a3-8df3d6b23430")
-		(property "Reference" "#PWR0149"
-			(at 171.45 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e101244d-81cc-486d-a108-eaef939227ec")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "#PWR0149")
+					(reference "U25")
 					(unit 1)
 				)
 			)
@@ -3320,23 +2406,24 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 160.02 67.31 270)
+		(at 153.67 60.96 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9a651d4d-6be1-411e-a4cf-cf6fd41f77cd")
-		(property "Reference" "R99"
-			(at 160.02 65.024 90)
+		(uuid "1092447f-eafd-48e0-8647-12dd19b428c2")
+		(property "Reference" "R116"
+			(at 152.4 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100"
-			(at 160.02 67.31 90)
+		(property "Value" "10K"
+			(at 153.67 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,7 +2431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 65.532 90)
+			(at 155.448 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3353,7 +2440,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 67.31 0)
+			(at 153.67 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3362,7 +2449,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 160.02 67.31 0)
+			(at 153.67 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,145 +2458,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "41c65a63-9d4e-4640-8e53-352478c7e918")
+			(uuid "2b3a237e-ac0c-4a25-955f-205e85eec9ee")
 		)
 		(pin "1"
-			(uuid "e5ee49d5-f783-4d1f-9f35-eb512d03f73b")
+			(uuid "8e86c82e-65e3-4e2a-b5bc-efa1c94a112b")
 		)
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "R99")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a75c762-eaa2-435d-86e8-2be6cb162d0b")
-		(property "Reference" "#PWR0145"
-			(at 123.19 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 119.634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63d9e9a2-4ee3-43f3-8a93-8f8feebfc06f")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "#PWR0145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 120.65 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a31cd5d9-ef84-4134-8cc0-24c60d57718b")
-		(property "Reference" "#PWR0143"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 120.65 62.484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e033827c-3352-4916-b4fa-01584dc6d817")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "#PWR0143")
+					(reference "R116")
 					(unit 1)
 				)
 			)
@@ -3517,24 +2474,23 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 105.41 91.44 180)
+		(at 114.3 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a932704b-46c7-4564-a24a-e9b86953f8b3")
-		(property "Reference" "R95"
-			(at 104.14 91.44 0)
+		(uuid "35101896-3a41-4ef1-9486-0fd97cc70f38")
+		(property "Reference" "R114"
+			(at 114.3 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "300"
-			(at 105.41 91.44 90)
+		(property "Value" "4.7K"
+			(at 114.3 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +2498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.188 91.44 90)
+			(at 114.3 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +2507,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 91.44 0)
+			(at 114.3 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +2516,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 105.41 91.44 0)
+			(at 114.3 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,48 +2525,49 @@
 			)
 		)
 		(pin "2"
-			(uuid "95fc1121-8ca0-43dc-adf1-adde6c5c5d93")
+			(uuid "8229299b-78c3-48bc-b07c-f1de07761e92")
 		)
 		(pin "1"
-			(uuid "175b29c5-46f9-4c21-a49a-5fc5281ef565")
+			(uuid "64d6d6f3-5b50-4639-aa99-0c05aae4bacf")
 		)
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "R95")
+					(reference "R114")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 135.89 54.61 0)
+		(lib_id "Device:C")
+		(at 194.31 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b4ebc1f2-38d8-49c5-9a82-632ccf1fa906")
-		(property "Reference" "#PWR0148"
-			(at 135.89 60.96 0)
+		(uuid "393dc202-0d56-46c8-a837-31d8109cdae4")
+		(property "Reference" "C65"
+			(at 197.104 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 135.89 58.674 0)
+		(property "Value" "10uF"
+			(at 197.104 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 54.61 0)
+			(at 195.2752 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,8 +2575,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 135.89 54.61 0)
+		(property "Datasheet" "~"
+			(at 194.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,22 +2584,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 54.61 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 194.31 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "734f2c43-a497-4d86-a310-dfef4be4daf8")
 		)
 		(pin "1"
-			(uuid "4a6b9a33-e9c9-4a19-8e1a-3e3a6a915849")
+			(uuid "c690fcc6-ffb2-4ef2-b94b-630af16dcf4f")
 		)
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "#PWR0148")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -3657,7 +2617,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cc64ccdd-e354-424d-8265-23a38b1aefe7")
+		(uuid "3af3ba21-553b-4692-9143-91f8317de962")
 		(property "Reference" "Q13"
 			(at 174.244 68.58 0)
 			(effects
@@ -3758,85 +2718,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 194.31 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4fff105-57df-4c96-9f80-5563b2442f5c")
-		(property "Reference" "C75"
-			(at 197.104 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 197.104 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.2752 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 194.31 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "734f2c43-a497-4d86-a310-dfef4be4daf8")
-		)
-		(pin "1"
-			(uuid "c690fcc6-ffb2-4ef2-b94b-630af16dcf4f")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "C75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 128.27 76.2 0)
+		(at 123.19 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e8c5ef55-c79f-4833-8f4b-2bc2ebbc7ce1")
-		(property "Reference" "#PWR0147"
-			(at 128.27 82.55 0)
+		(uuid "509389b4-5565-42be-94ee-980f71e45903")
+		(property "Reference" "#PWR0115"
+			(at 123.19 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +2736,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 80.01 0)
+			(at 123.19 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3853,7 +2744,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 76.2 0)
+			(at 123.19 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +2753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 76.2 0)
+			(at 123.19 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +2762,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 76.2 0)
+			(at 123.19 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,12 +2771,516 @@
 			)
 		)
 		(pin "1"
-			(uuid "2a9f43b2-a41c-4030-8ad3-d17db11802fc")
+			(uuid "63d9e9a2-4ee3-43f3-8a93-8f8feebfc06f")
 		)
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "#PWR0147")
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "519e31e9-7cd9-437b-9bef-a6b4755c5422")
+		(property "Reference" "R115"
+			(at 119.38 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 120.65 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 122.428 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24334ee1-5fe3-4079-942b-46031090ba95")
+		)
+		(pin "1"
+			(uuid "3d39c514-b9db-4bf6-8c67-51bef35d51f0")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "R115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "femta-control-custom:TLV1805-Q1DBV")
+		(at 130.81 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5421b72e-37a0-4ade-89f5-e7c2d8f04d85")
+		(property "Reference" "U26"
+			(at 134.62 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TLV1805-Q1DBV"
+			(at 134.62 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 132.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv1805-q1.pdf?ts=1710516518048"
+			(at 130.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1300b7f5-fdc4-4f9f-977a-983184ce8d43")
+		)
+		(pin "3"
+			(uuid "4f805396-aeb1-45da-a225-8fcb00af16db")
+		)
+		(pin "4"
+			(uuid "94e886c6-f8a7-4c10-b88c-79f41adcc4d6")
+		)
+		(pin "1"
+			(uuid "de6087a4-54b7-4c28-9173-58d1a572d6b0")
+		)
+		(pin "5"
+			(uuid "68bda45f-df7f-4116-8336-a451cf5371d0")
+		)
+		(pin "6"
+			(uuid "60ae7143-9950-4ad8-99aa-0e6ea1bef07a")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "U26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110.49 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a9dcbb1-397d-4dc4-9cd1-419d3144fb08")
+		(property "Reference" "C63"
+			(at 113.284 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 113.284 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.4552 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 110.49 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6d8ed8a-c071-4c4a-99a1-fed57b2d6860")
+		)
+		(pin "1"
+			(uuid "bd9d4b3b-71ac-4abe-82ad-e0b2dcac2bff")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_Switch:TS5A3159ADBVR")
+		(at 123.19 102.87 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5abc2629-aceb-416e-85d4-00ec3d634c6b")
+		(property "Reference" "U25"
+			(at 128.27 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TS5A3159-Q1"
+			(at 128.27 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 123.825 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ts5a3159a.pdf"
+			(at 123.825 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPDT Analog Switch, 1.65-V to 5.5-V Single-Supply Operation, 1Ohm Ron, SOT-23-6"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e38669bf-c9e5-47dd-ae18-1438c5cb62f7")
+		)
+		(pin "3"
+			(uuid "ff54c22b-de7f-423f-9dac-547070152e4d")
+		)
+		(pin "2"
+			(uuid "9e663b42-b2c5-48c9-ac9d-424d185a4d1f")
+		)
+		(pin "6"
+			(uuid "6f0d3371-067e-43f4-a594-c5255e22927c")
+		)
+		(pin "4"
+			(uuid "6f3fdb71-9064-443f-b1fc-75b86b1c6dcf")
+		)
+		(pin "1"
+			(uuid "359d529b-6c8a-46b1-a32c-6e4ec9c07c65")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "U25")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e1a1be1-aa51-41eb-9c3d-96ab4e4b231b")
+		(property "Reference" "#PWR0118"
+			(at 135.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a6b9a33-e9c9-4a19-8e1a-3e3a6a915849")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 96.52 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f54c022-ccbc-4121-84a5-4754c86518d0")
+		(property "Reference" "C61"
+			(at 99.314 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 99.314 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.4852 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 96.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "031fd8aa-b71b-4a05-8d83-4190dfae6f92")
+		)
+		(pin "1"
+			(uuid "c9b54e29-c951-4558-a42a-1b397ad1294d")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ac3cb56-97d0-4bee-979e-2e9feea1310e")
+		(property "Reference" "R113"
+			(at 104.14 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "300"
+			(at 105.41 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.188 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95fc1121-8ca0-43dc-adf1-adde6c5c5d93")
+		)
+		(pin "1"
+			(uuid "175b29c5-46f9-4c21-a49a-5fc5281ef565")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -3900,8 +3295,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ed2dfde9-db36-4463-9d9a-cbfa4957e3a2")
-		(property "Reference" "#PWR0146"
+		(uuid "6dd5f6d1-7477-4d11-b798-07e534f7727f")
+		(property "Reference" "#PWR0116"
 			(at 128.27 50.8 0)
 			(effects
 				(font
@@ -3951,7 +3346,612 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
-					(reference "#PWR0146")
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6df3d73d-84c5-4ade-81db-252089562de8")
+		(property "Reference" "#PWR0112"
+			(at 96.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "517b834a-0c36-4603-98b2-b61ac96b3805")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 78.74 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "810cf014-3a9a-4583-a001-775d4696a244")
+		(property "Reference" "R111"
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "115K"
+			(at 78.74 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.962 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 78.74 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "709bea0c-e5ec-485d-bd0e-b7c8018e2289")
+		)
+		(pin "1"
+			(uuid "f619140f-0de6-47d5-9a9c-f5b34e84317b")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 160.02 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a92522a7-52d8-47ca-ac1a-1bdcd2823445")
+		(property "Reference" "R117"
+			(at 160.02 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 160.02 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41c65a63-9d4e-4640-8e53-352478c7e918")
+		)
+		(pin "1"
+			(uuid "e5ee49d5-f783-4d1f-9f35-eb512d03f73b")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "R117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 176.53 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b926fc81-c559-4062-8d8e-a444eaf45fb1")
+		(property "Reference" "R118"
+			(at 176.53 71.374 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 176.53 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 176.53 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0b663d44-f087-4dc2-84b7-a474e5dbda41")
+		)
+		(pin "1"
+			(uuid "d6295728-5120-427d-a183-1970ecf7aaf3")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "R118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 105.41 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0c655da-ef20-446f-b9b2-3bf108f571b2")
+		(property "Reference" "C62"
+			(at 102.616 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 102.616 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.4448 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "666d6125-239f-496c-8adf-a50e42b1948e")
+		)
+		(pin "1"
+			(uuid "91589c9f-6df6-4178-b2c6-fede41cef1df")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb8d48a2-caf4-44e4-b5d1-4b8a2cf0229e")
+		(property "Reference" "#PWR0113"
+			(at 120.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e033827c-3352-4916-b4fa-01584dc6d817")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd154468-5703-43ce-950f-c1694a1d4acf")
+		(property "Reference" "C64"
+			(at 138.684 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 138.684 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 136.8552 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "035a8a6b-54d8-494e-a04a-d69a29961f6e")
+		)
+		(pin "1"
+			(uuid "bb36c284-8d55-47d1-9af5-323de3876646")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7d38a7e-38bc-4b00-824f-93e29e179f20")
+		(property "Reference" "R112"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 91.44 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 89.662 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8c032e0-d732-413c-a20d-3638f2dbb15c")
+		)
+		(pin "1"
+			(uuid "1978100d-f7a0-4262-ae1e-916a49f96153")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1ddd507-10ee-4199-ae6d-a13bfb8282ea")
+		(property "Reference" "#PWR0117"
+			(at 128.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a9f43b2-a41c-4030-8ad3-d17db11802fc")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/217e6ea2-6933-4a2a-93ca-61414ae3305a/32e22e35-b33b-47a1-a6d3-56fb349a24b3"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
