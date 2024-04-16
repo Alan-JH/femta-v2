@@ -10329,7 +10329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "30K"
 			(at 171.45 86.36 90)
 			(effects
 				(font
@@ -10598,7 +10598,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "100m"
 			(at 146.05 74.93 90)
 			(effects
 				(font
@@ -12637,7 +12637,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX4210EEUA+"
+		(property "Value" "MAX4210DEUA+"
 			(at 151.13 81.534 0)
 			(do_not_autoplace yes)
 			(effects
@@ -13370,7 +13370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16K"
+		(property "Value" "20K"
 			(at 170.18 26.67 90)
 			(effects
 				(font
@@ -13574,7 +13574,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "30K"
 			(at 170.18 34.29 90)
 			(effects
 				(font
@@ -13714,7 +13714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX4210EEUA+"
+		(property "Value" "MAX4210DEUA+"
 			(at 149.86 29.464 0)
 			(do_not_autoplace yes)
 			(effects
@@ -14209,7 +14209,7 @@
 				)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "100m"
 			(at 144.78 22.86 90)
 			(effects
 				(font
@@ -15962,7 +15962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "16K"
+		(property "Value" "20K"
 			(at 171.45 78.74 90)
 			(effects
 				(font

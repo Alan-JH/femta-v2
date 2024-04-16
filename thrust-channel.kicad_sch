@@ -2357,7 +2357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX4210EEUA+"
+		(property "Value" "MAX4210DEUA+"
 			(at 96.52 47.244 0)
 			(do_not_autoplace yes)
 			(effects
