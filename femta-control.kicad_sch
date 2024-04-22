@@ -4641,6 +4641,44 @@
 		)
 	)
 	(sheet
+		(at 236.22 171.45)
+		(size 43.18 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "25504b25-63a2-43d8-9fee-c553eccedd0e")
+		(property "Sheetname" "Thrust Control Side 1"
+			(at 236.22 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thrust-control-side.kicad_sch"
+			(at 236.22 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 209.55 123.19)
 		(size 17.78 7.62)
 		(fields_autoplaced yes)
@@ -4710,7 +4748,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3bf849ef-bca6-4864-a347-fbff558d0891")
-		(property "Sheetname" "Thruster Control"
+		(property "Sheetname" "Thruster Control Main"
 			(at 238.76 198.6784 0)
 			(effects
 				(font
@@ -4719,7 +4757,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "thrust-control-master.kicad_sch"
+		(property "Sheetfile" "thrust-control-main.kicad_sch"
 			(at 238.76 224.1046 0)
 			(effects
 				(font
@@ -4918,6 +4956,44 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
 					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 294.64 171.45)
+		(size 43.18 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c8752098-45e2-4d20-a718-e7a412b889c5")
+		(property "Sheetname" "Thrust Control Side 2"
+			(at 294.64 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thrust-control-side.kicad_sch"
+			(at 294.64 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "8")
 				)
 			)
 		)
