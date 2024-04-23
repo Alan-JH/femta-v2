@@ -1632,6 +1632,12 @@
 		)
 	)
 	(junction
+		(at 163.83 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bff22cc-f15d-4d1f-8c7a-00b909a8cb05")
+	)
+	(junction
 		(at 90.17 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1705,7 +1711,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 95.25) (xy 64.77 95.25)
+			(xy 54.61 91.44) (xy 64.77 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1725,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 99.06) (xy 93.98 99.06)
+			(xy 104.14 91.44) (xy 93.98 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1845,6 +1851,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 59.69) (xy 163.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e624fe0-ccf4-490a-82e4-c6b020fbb2e8")
+	)
+	(wire
+		(pts
 			(xy 163.83 69.85) (xy 176.53 69.85)
 		)
 		(stroke
@@ -1865,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 85.09) (xy 93.98 85.09)
+			(xy 104.14 81.28) (xy 93.98 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1955,16 +1971,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 81.28) (xy 93.98 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c725401-e124-4e54-8309-09cf715e16c5")
-	)
-	(wire
-		(pts
 			(xy 194.31 54.61) (xy 204.47 54.61)
 		)
 		(stroke
@@ -2042,16 +2048,6 @@
 			(type default)
 		)
 		(uuid "afc53611-ac77-4940-a575-de6d35ba56e6")
-	)
-	(wire
-		(pts
-			(xy 104.14 95.25) (xy 93.98 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b19423d1-0566-47a5-8a31-1b0bd8f92f13")
 	)
 	(wire
 		(pts
@@ -2145,7 +2141,7 @@
 		(uuid "21eb818f-fcc0-4d85-a334-b848e24712ab")
 	)
 	(label "POUT_2"
-		(at 104.14 99.06 180)
+		(at 104.14 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2165,17 +2161,6 @@
 			(justify right bottom)
 		)
 		(uuid "509bc730-65cb-4b42-a1a2-31e3ba4f4e91")
-	)
-	(label "OUT_2"
-		(at 104.14 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5e956bc7-915e-4c93-827e-be6514c8932d")
 	)
 	(label "POUT_1"
 		(at 153.67 54.61 0)
@@ -2299,7 +2284,7 @@
 		(uuid "da10d2cc-8f24-47af-b543-d1551eaab02f")
 	)
 	(label "PSET_2"
-		(at 54.61 95.25 0)
+		(at 54.61 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2320,17 +2305,6 @@
 		)
 		(uuid "ecab6753-3671-4020-9561-5fa70aad1dfd")
 	)
-	(label "OUT_1"
-		(at 104.14 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f4fee72b-5d75-4730-bcb9-1046b525a0ed")
-	)
 	(label "SPI_MOSI"
 		(at 71.12 41.91 0)
 		(fields_autoplaced yes)
@@ -2343,7 +2317,7 @@
 		(uuid "f5c4ebe3-5a36-43f4-8217-08df08fe9d7a")
 	)
 	(label "POUT_1"
-		(at 104.14 85.09 180)
+		(at 104.14 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4085,7 +4059,7 @@
 	)
 	(sheet
 		(at 64.77 78.74)
-		(size 29.21 8.89)
+		(size 29.21 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4105,7 +4079,7 @@
 			)
 		)
 		(property "Sheetfile" "thrust-channel.kicad_sch"
-			(at 64.77 88.2146 0)
+			(at 64.77 84.4046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,16 +4098,6 @@
 			(uuid "baf5fbe4-c80f-41d0-8be5-68c11f712e23")
 		)
 		(pin "TELEM_POUT" output
-			(at 93.98 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0746f9e3-9324-4dcd-b48f-44931a68eb86")
-		)
-		(pin "OUT" output
 			(at 93.98 81.28 0)
 			(effects
 				(font
@@ -4141,7 +4105,7 @@
 				)
 				(justify right)
 			)
-			(uuid "54c2db55-6d63-4d3b-8a49-70b57711c1da")
+			(uuid "0746f9e3-9324-4dcd-b48f-44931a68eb86")
 		)
 		(instances
 			(project "femta-control"
@@ -4155,8 +4119,8 @@
 		)
 	)
 	(sheet
-		(at 64.77 92.71)
-		(size 29.21 8.89)
+		(at 64.77 88.9)
+		(size 29.21 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -4167,7 +4131,7 @@
 		)
 		(uuid "f663376f-9b89-41b3-aeca-9c6d61fe2c6e")
 		(property "Sheetname" "Thrust Channel 2"
-			(at 64.77 91.9984 0)
+			(at 64.77 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4140,7 @@
 			)
 		)
 		(property "Sheetfile" "thrust-channel.kicad_sch"
-			(at 64.77 102.1846 0)
+			(at 64.77 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +4149,7 @@
 			)
 		)
 		(pin "PSET" input
-			(at 64.77 95.25 180)
+			(at 64.77 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4159,7 @@
 			(uuid "f772bc5c-cab0-4836-8726-e6a18edb8286")
 		)
 		(pin "TELEM_POUT" output
-			(at 93.98 99.06 0)
+			(at 93.98 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,16 +4167,6 @@
 				(justify right)
 			)
 			(uuid "5cfcb77c-b452-4f8e-b595-a243e51396b6")
-		)
-		(pin "OUT" output
-			(at 93.98 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "dab0433c-194d-4053-91b8-6d23a4914ea2")
 		)
 		(instances
 			(project "femta-control"

@@ -4515,6 +4515,44 @@
 		)
 	)
 	(sheet
+		(at 292.1 91.44)
+		(size 40.64 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a97e3f3-1996-4f2f-9833-0a2e3ec261dd")
+		(property "Sheetname" "Valves"
+			(at 292.1 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "valve-master.kicad_sch"
+			(at 292.1 121.2346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 78.74 152.4)
 		(size 21.59 17.78)
 		(fields_autoplaced yes)

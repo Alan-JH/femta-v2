@@ -3350,7 +3350,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 54.61) (xy 287.02 54.61)
+			(xy 266.7 50.8) (xy 287.02 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3360,7 +3360,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 39.37) (xy 129.54 39.37)
+			(xy 109.22 35.56) (xy 129.54 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3390,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 60.96) (xy 129.54 60.96)
+			(xy 109.22 57.15) (xy 129.54 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3400,23 +3400,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 34.29) (xy 129.54 34.29)
+			(xy 109.22 30.48) (xy 129.54 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e9f5d9d-96b8-4878-98a1-b94c71b08ddb")
-	)
-	(wire
-		(pts
-			(xy 190.5 50.8) (xy 210.82 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fe59cb7-9381-4974-bab8-095cfafdef20")
 	)
 	(wire
 		(pts
@@ -3430,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 58.42) (xy 129.54 58.42)
+			(xy 109.22 54.61) (xy 129.54 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3460,16 +3450,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 26.67) (xy 210.82 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14fd4089-63b5-4b31-aeac-9568eebe5f5a")
-	)
-	(wire
-		(pts
 			(xy 128.27 120.65) (xy 144.78 120.65)
 		)
 		(stroke
@@ -3477,26 +3457,6 @@
 			(type default)
 		)
 		(uuid "15f515b4-c231-4b78-b82c-2fb1c9daca5a")
-	)
-	(wire
-		(pts
-			(xy 109.22 50.8) (xy 129.54 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16c7a0ff-3419-4b71-b993-169fea95de58")
-	)
-	(wire
-		(pts
-			(xy 266.7 26.67) (xy 287.02 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17d525c1-a7f5-494d-b159-7c31ffdc5ab0")
 	)
 	(wire
 		(pts
@@ -3537,16 +3497,6 @@
 			(type default)
 		)
 		(uuid "1d6ce797-ade5-42b2-859b-9e7dc1f26972")
-	)
-	(wire
-		(pts
-			(xy 243.84 38.1) (xy 260.35 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1de5fe2f-9e08-4129-83bb-f3db14944b18")
 	)
 	(wire
 		(pts
@@ -3630,16 +3580,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 26.67) (xy 129.54 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23c9f681-8d33-4da4-997f-36fa42b2b768")
-	)
-	(wire
-		(pts
 			(xy 162.56 31.75) (xy 179.07 31.75)
 		)
 		(stroke
@@ -3710,16 +3650,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 62.23) (xy 336.55 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "318c705e-6272-42d1-ba6e-9a2ba4ec570c")
-	)
-	(wire
-		(pts
 			(xy 55.88 60.96) (xy 55.88 68.58)
 		)
 		(stroke
@@ -3760,7 +3690,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 60.96) (xy 287.02 60.96)
+			(xy 266.7 57.15) (xy 287.02 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3780,16 +3710,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 74.93) (xy 129.54 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "392f0879-16e0-4975-9f4a-1df8e908bd44")
-	)
-	(wire
-		(pts
 			(xy 31.75 74.93) (xy 31.75 77.47)
 		)
 		(stroke
@@ -3800,7 +3720,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 39.37) (xy 210.82 39.37)
+			(xy 190.5 35.56) (xy 210.82 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3810,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 60.96) (xy 210.82 60.96)
+			(xy 190.5 57.15) (xy 210.82 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3887,16 +3807,6 @@
 			(type default)
 		)
 		(uuid "3e00d4b1-0831-43fc-a5d0-93e2f4e0eeed")
-	)
-	(wire
-		(pts
-			(xy 162.56 86.36) (xy 179.07 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f6076ac-d8f4-4ab7-8ce7-62191eb9da62")
 	)
 	(wire
 		(pts
@@ -4090,16 +4000,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 38.1) (xy 179.07 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55f8cce0-23c2-42b0-bc9a-9f70635d97c5")
-	)
-	(wire
-		(pts
 			(xy 232.41 147.32) (xy 215.9 147.32)
 		)
 		(stroke
@@ -4150,7 +4050,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 34.29) (xy 287.02 34.29)
+			(xy 266.7 30.48) (xy 287.02 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4170,7 +4070,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 30.48) (xy 287.02 30.48)
+			(xy 266.7 26.67) (xy 287.02 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4200,7 +4100,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 30.48) (xy 210.82 30.48)
+			(xy 190.5 26.67) (xy 210.82 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4230,7 +4130,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 63.5) (xy 210.82 63.5)
+			(xy 190.5 59.69) (xy 210.82 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4250,7 +4150,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 63.5) (xy 287.02 63.5)
+			(xy 266.7 59.69) (xy 287.02 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4410,7 +4310,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 36.83) (xy 210.82 36.83)
+			(xy 190.5 33.02) (xy 210.82 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4470,7 +4370,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 58.42) (xy 287.02 58.42)
+			(xy 266.7 54.61) (xy 287.02 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4550,7 +4450,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 39.37) (xy 287.02 39.37)
+			(xy 266.7 35.56) (xy 287.02 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4710,16 +4610,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 62.23) (xy 179.07 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96d522b2-b3e0-492f-98bd-8869692ee148")
-	)
-	(wire
-		(pts
 			(xy 107.95 118.11) (xy 104.14 118.11)
 		)
 		(stroke
@@ -4737,16 +4627,6 @@
 			(type default)
 		)
 		(uuid "99606914-ca33-4e39-b3c1-0352e4c96696")
-	)
-	(wire
-		(pts
-			(xy 243.84 62.23) (xy 260.35 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ae050bd-ea3d-47d9-90cc-2961f5c106f0")
 	)
 	(wire
 		(pts
@@ -4770,7 +4650,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 36.83) (xy 129.54 36.83)
+			(xy 109.22 33.02) (xy 129.54 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4870,16 +4750,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 50.8) (xy 287.02 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a44f945e-12f0-4d6d-ab1d-82a0dd7f8a87")
-	)
-	(wire
-		(pts
 			(xy 40.64 198.12) (xy 54.61 198.12)
 		)
 		(stroke
@@ -4900,7 +4770,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 30.48) (xy 129.54 30.48)
+			(xy 109.22 26.67) (xy 129.54 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4920,7 +4790,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 58.42) (xy 210.82 58.42)
+			(xy 190.5 54.61) (xy 210.82 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4960,7 +4830,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 36.83) (xy 287.02 36.83)
+			(xy 266.7 33.02) (xy 287.02 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4990,7 +4860,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 85.09) (xy 129.54 85.09)
+			(xy 109.22 81.28) (xy 129.54 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5010,7 +4880,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 87.63) (xy 129.54 87.63)
+			(xy 109.22 83.82) (xy 129.54 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5310,7 +5180,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 34.29) (xy 210.82 34.29)
+			(xy 190.5 30.48) (xy 210.82 30.48)
 		)
 		(stroke
 			(width 0)
@@ -5390,7 +5260,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 54.61) (xy 210.82 54.61)
+			(xy 190.5 50.8) (xy 210.82 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5420,7 +5290,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 82.55) (xy 129.54 82.55)
+			(xy 109.22 78.74) (xy 129.54 78.74)
 		)
 		(stroke
 			(width 0)
@@ -5440,7 +5310,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 54.61) (xy 129.54 54.61)
+			(xy 109.22 50.8) (xy 129.54 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5540,16 +5410,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 38.1) (xy 336.55 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f08995a6-b25c-43fb-beeb-bd0614fb20c1")
-	)
-	(wire
-		(pts
 			(xy 254 97.79) (xy 262.89 97.79)
 		)
 		(stroke
@@ -5620,7 +5480,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 63.5) (xy 129.54 63.5)
+			(xy 109.22 59.69) (xy 129.54 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5670,7 +5530,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 78.74) (xy 129.54 78.74)
+			(xy 109.22 74.93) (xy 129.54 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5740,7 +5600,7 @@
 		(uuid "02d840c9-e8af-4ceb-b446-f6c68a8786c2")
 	)
 	(label "DAC_SET_FEMTA3"
-		(at 266.7 36.83 0)
+		(at 266.7 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5751,7 +5611,7 @@
 		(uuid "05401275-b798-49f5-b1d8-62af1527a768")
 	)
 	(label "EN_FEMTA4"
-		(at 109.22 54.61 0)
+		(at 109.22 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5762,7 +5622,7 @@
 		(uuid "05c83c5c-ac8a-4a75-a046-a0e9795b8c01")
 	)
 	(label "TANK_DEFAULT_TSET"
-		(at 109.22 82.55 0)
+		(at 109.22 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5773,7 +5633,7 @@
 		(uuid "06be577c-a085-4672-8a2e-035921513b1a")
 	)
 	(label "DAC_SET_FEMTA5"
-		(at 190.5 60.96 0)
+		(at 190.5 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5817,7 +5677,7 @@
 		(uuid "0e6aa465-b399-49d4-8dc0-028bbc3987e9")
 	)
 	(label "FEMTA_DEFAULT_TSET"
-		(at 109.22 58.42 0)
+		(at 109.22 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5826,17 +5686,6 @@
 			(justify left bottom)
 		)
 		(uuid "0f99286c-77dc-4156-a9bd-f08fec3c412e")
-	)
-	(label "HTR_PWR_FEMTA4"
-		(at 179.07 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16ce1392-6007-4401-b055-114c6e6e68e4")
 	)
 	(label "SPI_MISO"
 		(at 271.78 149.86 180)
@@ -5938,7 +5787,7 @@
 		(uuid "2e036df9-b4d6-491a-8e19-b8b0c009259c")
 	)
 	(label "DAC_SET_FEMTA6"
-		(at 266.7 60.96 0)
+		(at 266.7 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5992,19 +5841,8 @@
 		)
 		(uuid "352fc53a-a7f9-412f-9722-c4e40573e51e")
 	)
-	(label "HTR_PWR_FEMTA1"
-		(at 179.07 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3721d475-7fe4-4cfd-92df-d994b18ab287")
-	)
 	(label "DAC_EN_FEMTA2"
-		(at 190.5 39.37 0)
+		(at 190.5 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6059,7 +5897,7 @@
 		(uuid "45812e88-f09d-4aed-806f-cd5e0c1edc96")
 	)
 	(label "FEMTA_DEFAULT_TSET"
-		(at 190.5 58.42 0)
+		(at 190.5 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6114,7 +5952,7 @@
 		(uuid "51d35fff-01a9-457a-9212-75a0765de944")
 	)
 	(label "DAC_EN_FEMTA4"
-		(at 109.22 63.5 0)
+		(at 109.22 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6158,7 +5996,7 @@
 		(uuid "5685b2f9-3342-4988-99e7-5d699fa05cb2")
 	)
 	(label "DAC_EN_FEMTA5"
-		(at 190.5 63.5 0)
+		(at 190.5 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6178,17 +6016,6 @@
 			(justify left bottom)
 		)
 		(uuid "5cc1e423-da69-4cfd-b7ad-bd9b74ae7945")
-	)
-	(label "THERM_FEMTA1"
-		(at 109.22 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cef96b3-761a-4531-82a5-3aec213f285e")
 	)
 	(label "ADC_T_TANK1"
 		(at 209.55 107.95 0)
@@ -6213,7 +6040,7 @@
 		(uuid "615aea8c-d6f7-4e2e-8f6d-a0af1e2c2bbd")
 	)
 	(label "DAC_EN_FEMTA6"
-		(at 266.7 63.5 0)
+		(at 266.7 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6290,7 +6117,7 @@
 		(uuid "70afc7a3-c3a4-4f39-9d7c-7a382d36d537")
 	)
 	(label "DAC_SET_FEMTA1"
-		(at 109.22 36.83 0)
+		(at 109.22 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6334,7 +6161,7 @@
 		(uuid "75b3558d-1718-4d3f-a363-59ffb0e2c928")
 	)
 	(label "DAC_EN_FEMTA3"
-		(at 266.7 39.37 0)
+		(at 266.7 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6356,7 +6183,7 @@
 		(uuid "79f90807-e704-49b8-a87a-5c3c1a2c17cc")
 	)
 	(label "EN_FEMTA3"
-		(at 266.7 30.48 0)
+		(at 266.7 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6388,17 +6215,6 @@
 		)
 		(uuid "7d8c530b-c273-4381-b7ff-2b27db6024b9")
 	)
-	(label "HTR_PWR_FEMTA6"
-		(at 336.55 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "81e55251-c835-48b0-aed8-3cb96cde1420")
-	)
 	(label "ADC_P_FEMTA2"
 		(at 260.35 31.75 180)
 		(fields_autoplaced yes)
@@ -6422,7 +6238,7 @@
 		(uuid "8802e3b6-1b22-473a-a59a-15feef1b1c16")
 	)
 	(label "DAC_EN_TANK1"
-		(at 109.22 87.63 0)
+		(at 109.22 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6431,17 +6247,6 @@
 			(justify left bottom)
 		)
 		(uuid "8821d464-1a2b-428c-a428-deed45ea2e2b")
-	)
-	(label "HTR_PWR_FEMTA2"
-		(at 260.35 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "890f6fd2-28ae-46d2-a3e4-5c68f2edea33")
 	)
 	(label "DAC_SET_FEMTA2"
 		(at 331.47 95.25 180)
@@ -6509,17 +6314,6 @@
 		)
 		(uuid "8e7359a8-0fe9-4306-9b15-b55949441643")
 	)
-	(label "HTR_PWR_FEMTA5"
-		(at 260.35 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "94c8949c-cd58-4bc4-aa97-b922cee21f73")
-	)
 	(label "ADC_P_FEMTA6"
 		(at 336.55 55.88 180)
 		(fields_autoplaced yes)
@@ -6532,7 +6326,7 @@
 		(uuid "960ae308-c73e-4a86-a546-04581dae079c")
 	)
 	(label "EN_FEMTA5"
-		(at 190.5 54.61 0)
+		(at 190.5 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6541,17 +6335,6 @@
 			(justify left bottom)
 		)
 		(uuid "9841f229-986a-4e0b-a38a-4c859070ed5d")
-	)
-	(label "HTR_PWR_FEMTA3"
-		(at 336.55 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9863e8fd-c330-4f8a-bf2f-06779632c839")
 	)
 	(label "165_CS"
 		(at 21.59 190.5 0)
@@ -6576,7 +6359,7 @@
 		(uuid "996277ad-b2bd-4cc2-bd72-6a9d95eb2580")
 	)
 	(label "FEMTA_DEFAULT_TSET"
-		(at 266.7 58.42 0)
+		(at 266.7 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6630,17 +6413,6 @@
 		)
 		(uuid "a51e3693-0a16-4c8f-9865-efe559c63b69")
 	)
-	(label "HTR_PWR_TANK1"
-		(at 179.07 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a9d2fbef-1598-4b14-9a40-239ae2a4a733")
-	)
 	(label "ADC_T_FEMTA6"
 		(at 336.55 50.8 180)
 		(fields_autoplaced yes)
@@ -6675,7 +6447,7 @@
 		(uuid "ad4dd97e-6e6f-4440-a3c7-bb3a15f7c9ce")
 	)
 	(label "DAC_EN_FEMTA1"
-		(at 109.22 39.37 0)
+		(at 109.22 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6697,7 +6469,7 @@
 		(uuid "ae435a05-e93c-427d-86f5-2d2513d4b79c")
 	)
 	(label "EN_FEMTA2"
-		(at 190.5 30.48 0)
+		(at 190.5 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6719,7 +6491,7 @@
 		(uuid "b0a8ce9c-54e1-4c23-8929-84d493cc1f03")
 	)
 	(label "DAC_SET_FEMTA2"
-		(at 190.5 36.83 0)
+		(at 190.5 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6740,17 +6512,6 @@
 		)
 		(uuid "b1f8c2fa-bf0e-480d-8aa1-3af9039eb8ac")
 	)
-	(label "THERM_FEMTA5"
-		(at 190.5 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b22d568a-be32-41ab-b519-75d8b8a38b2c")
-	)
 	(label "HTR_ON_FEMTA3"
 		(at 336.55 29.21 180)
 		(fields_autoplaced yes)
@@ -6763,7 +6524,7 @@
 		(uuid "b25c95d6-b534-4bba-8884-75994d085095")
 	)
 	(label "DAC_SET_FEMTA4"
-		(at 109.22 60.96 0)
+		(at 109.22 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6774,7 +6535,7 @@
 		(uuid "b7b380a3-9f93-4453-94a0-465e47f20a4f")
 	)
 	(label "FEMTA_DEFAULT_TSET"
-		(at 266.7 34.29 0)
+		(at 266.7 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6818,7 +6579,7 @@
 		(uuid "ba9574e8-123d-45eb-97c0-9407353f774f")
 	)
 	(label "FEMTA_DEFAULT_TSET"
-		(at 190.5 34.29 0)
+		(at 190.5 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6838,17 +6599,6 @@
 			(justify right bottom)
 		)
 		(uuid "be2ffc71-cb39-47c7-a705-438de71f0187")
-	)
-	(label "THERM_FEMTA3"
-		(at 266.7 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c245c7d0-e4f4-4196-9d53-8b0216d85e20")
 	)
 	(label "ADC_P_FEMTA3"
 		(at 336.55 31.75 180)
@@ -6871,17 +6621,6 @@
 			(justify left bottom)
 		)
 		(uuid "c5b6042b-b8e8-4bb5-8ee4-58df06214c4e")
-	)
-	(label "THERM_TANK1"
-		(at 109.22 74.93 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c776eee2-575b-4d34-ab8a-01754d200e6d")
 	)
 	(label "EN_FEMTA5"
 		(at 196.85 123.19 180)
@@ -7027,7 +6766,7 @@
 		(uuid "dcce8799-1f76-42ad-a98d-ca81f4cb4090")
 	)
 	(label "EN_FEMTA6"
-		(at 266.7 54.61 0)
+		(at 266.7 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7038,7 +6777,7 @@
 		(uuid "e0209a0f-e950-4164-8a92-7ce760ec3106")
 	)
 	(label "FEMTA_DEFAULT_TSET"
-		(at 109.22 34.29 0)
+		(at 109.22 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7048,19 +6787,8 @@
 		)
 		(uuid "e4a55e93-9f74-4f4a-a6cb-b94389a8b711")
 	)
-	(label "THERM_FEMTA6"
-		(at 266.7 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4e3ce96-bc05-4c7f-90ed-1a3534978db6")
-	)
 	(label "EN_TANK1"
-		(at 109.22 78.74 0)
+		(at 109.22 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7071,7 +6799,7 @@
 		(uuid "ea1188e3-e442-46e4-b337-91ccf0eeb838")
 	)
 	(label "EN_FEMTA1"
-		(at 109.22 30.48 0)
+		(at 109.22 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7115,7 +6843,7 @@
 		(uuid "f1aa979a-980c-4c4d-aa41-cfbbf0f81b17")
 	)
 	(label "DAC_SET_TANK1"
-		(at 109.22 85.09 0)
+		(at 109.22 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7135,17 +6863,6 @@
 			(justify right bottom)
 		)
 		(uuid "f597c049-c948-4b06-852e-3a17fc5a6c2c")
-	)
-	(label "THERM_FEMTA2"
-		(at 190.5 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "faf08447-03b2-4ccc-bcc3-4712b0e1f78d")
 	)
 	(label "ADC_T_FEMTA6"
 		(at 209.55 105.41 0)
@@ -7168,17 +6885,6 @@
 			(justify right bottom)
 		)
 		(uuid "fc105442-75cc-4cb6-b297-4e8d6d24b37e")
-	)
-	(label "THERM_FEMTA4"
-		(at 109.22 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff23a40e-e91c-4404-aef9-b0920e00087e")
 	)
 	(global_label "THERMISTOR_SUP"
 		(shape input)
@@ -11811,7 +11517,7 @@
 	)
 	(sheet
 		(at 129.54 72.39)
-		(size 33.02 17.78)
+		(size 33.02 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -11831,7 +11537,7 @@
 			)
 		)
 		(property "Sheetfile" "thermal-subcircuit-tank.kicad_sch"
-			(at 129.54 90.7546 0)
+			(at 129.54 86.9446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11839,18 +11545,8 @@
 				(justify left top)
 			)
 		)
-		(pin "THERM+" input
-			(at 129.54 74.93 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5afd63b7-9e15-42a7-a284-939e47450fb2")
-		)
 		(pin "~{ENABLE}" input
-			(at 129.54 78.74 180)
+			(at 129.54 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11860,7 +11556,7 @@
 			(uuid "31b6b4d3-6de4-4457-b1fd-f536374cb7f7")
 		)
 		(pin "DAC_SETPT" input
-			(at 129.54 85.09 180)
+			(at 129.54 81.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,7 +11566,7 @@
 			(uuid "315e168b-306b-4989-9d81-f50e00708b3a")
 		)
 		(pin "DAC_SETPT_EN" input
-			(at 129.54 87.63 180)
+			(at 129.54 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11889,18 +11585,8 @@
 			)
 			(uuid "38f4a47a-c516-47c1-8a37-132079886238")
 		)
-		(pin "HEATER+" output
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "169dbb5d-2069-41db-a3c8-bad6e96bf7d2")
-		)
 		(pin "DEFAULT_SETPT" input
-			(at 129.54 82.55 180)
+			(at 129.54 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11939,7 +11625,7 @@
 	)
 	(sheet
 		(at 129.54 48.26)
-		(size 33.02 17.78)
+		(size 33.02 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -11959,7 +11645,7 @@
 			)
 		)
 		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
-			(at 129.54 66.6246 0)
+			(at 129.54 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11967,18 +11653,8 @@
 				(justify left top)
 			)
 		)
-		(pin "THERM+" input
-			(at 129.54 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8dcb50bb-4e01-4ac0-b7ed-fe46aa01ff3e")
-		)
 		(pin "~{ENABLE}" input
-			(at 129.54 54.61 180)
+			(at 129.54 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11988,7 +11664,7 @@
 			(uuid "098e33c5-fe99-43d3-8a19-6e3fb33f0fa0")
 		)
 		(pin "DAC_SETPT" input
-			(at 129.54 60.96 180)
+			(at 129.54 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11998,7 +11674,7 @@
 			(uuid "564e378c-8120-4e40-927d-240adeb17e0d")
 		)
 		(pin "DAC_SETPT_EN" input
-			(at 129.54 63.5 180)
+			(at 129.54 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12017,18 +11693,8 @@
 			)
 			(uuid "de2132b5-5dd1-4556-aaac-44dbcea978a3")
 		)
-		(pin "HEATER+" output
-			(at 162.56 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "55dc0c58-8429-4ef1-b340-6018a9f208f8")
-		)
 		(pin "DEFAULT_SETPT" input
-			(at 129.54 58.42 180)
+			(at 129.54 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12067,7 +11733,7 @@
 	)
 	(sheet
 		(at 210.82 48.26)
-		(size 33.02 17.78)
+		(size 33.02 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -12087,7 +11753,7 @@
 			)
 		)
 		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
-			(at 210.82 66.6246 0)
+			(at 210.82 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12095,18 +11761,8 @@
 				(justify left top)
 			)
 		)
-		(pin "THERM+" input
-			(at 210.82 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8aa25f25-3988-4980-9d2f-9dbae6e018fb")
-		)
 		(pin "~{ENABLE}" input
-			(at 210.82 54.61 180)
+			(at 210.82 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12116,7 +11772,7 @@
 			(uuid "3db27cf9-5dfd-4503-aebe-da1447856bb8")
 		)
 		(pin "DAC_SETPT" input
-			(at 210.82 60.96 180)
+			(at 210.82 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12126,7 +11782,7 @@
 			(uuid "af4ff6f5-fa3b-4157-a8c1-43b14dfb82eb")
 		)
 		(pin "DAC_SETPT_EN" input
-			(at 210.82 63.5 180)
+			(at 210.82 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12145,18 +11801,8 @@
 			)
 			(uuid "7a770616-04ea-44bf-b8f9-06c35eeb83b6")
 		)
-		(pin "HEATER+" output
-			(at 243.84 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1ac50787-adc8-468f-8cde-53a3ebb48e6f")
-		)
 		(pin "DEFAULT_SETPT" input
-			(at 210.82 58.42 180)
+			(at 210.82 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12195,7 +11841,7 @@
 	)
 	(sheet
 		(at 210.82 24.13)
-		(size 33.02 17.78)
+		(size 33.02 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -12215,7 +11861,7 @@
 			)
 		)
 		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
-			(at 210.82 42.4946 0)
+			(at 210.82 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12223,18 +11869,8 @@
 				(justify left top)
 			)
 		)
-		(pin "THERM+" input
-			(at 210.82 26.67 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "77ef8a22-717f-462a-8904-186b8060d799")
-		)
 		(pin "~{ENABLE}" input
-			(at 210.82 30.48 180)
+			(at 210.82 26.67 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12244,7 +11880,7 @@
 			(uuid "4c2bab8b-4d54-498c-b7d0-203d12fe13b1")
 		)
 		(pin "DAC_SETPT" input
-			(at 210.82 36.83 180)
+			(at 210.82 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12254,7 +11890,7 @@
 			(uuid "f130dba2-dd98-49a0-b976-21be65d9a7c3")
 		)
 		(pin "DAC_SETPT_EN" input
-			(at 210.82 39.37 180)
+			(at 210.82 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12273,18 +11909,8 @@
 			)
 			(uuid "1d7ade22-4d48-4428-b845-a2af2088e043")
 		)
-		(pin "HEATER+" output
-			(at 243.84 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e58e100f-3538-4fac-b576-17524df46fa6")
-		)
 		(pin "DEFAULT_SETPT" input
-			(at 210.82 34.29 180)
+			(at 210.82 30.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12323,7 +11949,7 @@
 	)
 	(sheet
 		(at 287.02 24.13)
-		(size 33.02 17.78)
+		(size 33.02 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -12343,7 +11969,7 @@
 			)
 		)
 		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
-			(at 287.02 42.4946 0)
+			(at 287.02 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12351,18 +11977,8 @@
 				(justify left top)
 			)
 		)
-		(pin "THERM+" input
-			(at 287.02 26.67 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "651dccf3-a1c8-4fa8-b592-fecb3c166181")
-		)
 		(pin "~{ENABLE}" input
-			(at 287.02 30.48 180)
+			(at 287.02 26.67 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12372,7 +11988,7 @@
 			(uuid "e30fa272-31a1-4e3d-bab0-c18257ebc170")
 		)
 		(pin "DAC_SETPT" input
-			(at 287.02 36.83 180)
+			(at 287.02 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12382,7 +11998,7 @@
 			(uuid "b1f44feb-6e30-4db5-b0f7-fb1e70f9f7cd")
 		)
 		(pin "DAC_SETPT_EN" input
-			(at 287.02 39.37 180)
+			(at 287.02 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12401,18 +12017,8 @@
 			)
 			(uuid "e2d2ac7e-649c-4e09-8789-5c0961082469")
 		)
-		(pin "HEATER+" output
-			(at 320.04 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "53569cf6-6762-45b0-817c-31def585016f")
-		)
 		(pin "DEFAULT_SETPT" input
-			(at 287.02 34.29 180)
+			(at 287.02 30.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12451,7 +12057,7 @@
 	)
 	(sheet
 		(at 129.54 24.13)
-		(size 33.02 17.78)
+		(size 33.02 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -12471,7 +12077,7 @@
 			)
 		)
 		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
-			(at 129.54 42.4946 0)
+			(at 129.54 38.6846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12479,18 +12085,8 @@
 				(justify left top)
 			)
 		)
-		(pin "THERM+" input
-			(at 129.54 26.67 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "73ff48c1-3cae-485c-a6c6-0cccb5e186a4")
-		)
 		(pin "~{ENABLE}" input
-			(at 129.54 30.48 180)
+			(at 129.54 26.67 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12500,7 +12096,7 @@
 			(uuid "c9c77327-74ef-4b2d-a5ca-4933a0cacb79")
 		)
 		(pin "DAC_SETPT" input
-			(at 129.54 36.83 180)
+			(at 129.54 33.02 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12510,7 +12106,7 @@
 			(uuid "d064f7a4-ada5-4b80-b01f-6564a3829d8a")
 		)
 		(pin "DAC_SETPT_EN" input
-			(at 129.54 39.37 180)
+			(at 129.54 35.56 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12529,18 +12125,8 @@
 			)
 			(uuid "45f14948-8d31-4511-895a-54d55fcac942")
 		)
-		(pin "HEATER+" output
-			(at 162.56 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1e415d64-1d06-44b5-bf65-7cf1c90781de")
-		)
 		(pin "DEFAULT_SETPT" input
-			(at 129.54 34.29 180)
+			(at 129.54 30.48 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,7 +12165,7 @@
 	)
 	(sheet
 		(at 287.02 48.26)
-		(size 33.02 17.78)
+		(size 33.02 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -12599,7 +12185,7 @@
 			)
 		)
 		(property "Sheetfile" "thermal-subcircuit.kicad_sch"
-			(at 287.02 66.6246 0)
+			(at 287.02 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12607,18 +12193,8 @@
 				(justify left top)
 			)
 		)
-		(pin "THERM+" input
-			(at 287.02 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7827a8b9-73c7-4306-ac71-a57708420a83")
-		)
 		(pin "~{ENABLE}" input
-			(at 287.02 54.61 180)
+			(at 287.02 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12628,7 +12204,7 @@
 			(uuid "b4540a48-bde2-48ff-9b0f-043b24263110")
 		)
 		(pin "DAC_SETPT" input
-			(at 287.02 60.96 180)
+			(at 287.02 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12638,7 +12214,7 @@
 			(uuid "c153cec8-1282-4ff8-816f-2c67ed6d604c")
 		)
 		(pin "DAC_SETPT_EN" input
-			(at 287.02 63.5 180)
+			(at 287.02 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12657,18 +12233,8 @@
 			)
 			(uuid "d8369167-ff1f-4777-8620-20237d3ef4b7")
 		)
-		(pin "HEATER+" output
-			(at 320.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b55d79d7-5537-4359-bb48-85490198677f")
-		)
 		(pin "DEFAULT_SETPT" input
-			(at 287.02 58.42 180)
+			(at 287.02 54.61 180)
 			(effects
 				(font
 					(size 1.27 1.27)

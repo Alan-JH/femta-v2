@@ -705,6 +705,103 @@
 				)
 			)
 		)
+		(symbol "femta-control-custom:FEMTA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FEMTA"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FEMTA_1_1"
+				(rectangle
+					(start -3.81 0)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 6.35 -2.54 180)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "femta-control-custom:MAX4210"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1270,6 +1367,12 @@
 		(uuid "51d0c563-ed8f-4804-8101-5badbbc8fc3c")
 	)
 	(junction
+		(at 135.89 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83cec141-acfa-484c-9736-9675d1ef62dc")
+	)
+	(junction
 		(at 69.85 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1461,7 +1564,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 100.33) (xy 153.67 100.33)
+			(xy 135.89 100.33) (xy 143.51 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1550,7 +1653,7 @@
 		(uuid "ff6bae2d-83f6-4a6e-b723-d635727ece0e")
 	)
 	(label "V_OUT"
-		(at 152.4 100.33 180)
+		(at 143.51 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1582,18 +1685,6 @@
 			(justify left)
 		)
 		(uuid "14a0e1a1-7e8d-4f0d-a285-eb15409d255c")
-	)
-	(hierarchical_label "OUT"
-		(shape output)
-		(at 153.67 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "20efc3b8-b685-453a-9131-dcdbed39fe4e")
 	)
 	(hierarchical_label "PSET"
 		(shape input)
@@ -2879,6 +2970,120 @@
 		)
 	)
 	(symbol
+		(lib_id "femta-control-custom:FEMTA")
+		(at 138.43 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b05ca73-902a-4744-a7ba-87eb85628cc9")
+		(property "Reference" "U84"
+			(at 139.7 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FEMTA"
+			(at 139.7 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de691614-f13d-4259-accc-a41a9b0a46cb")
+		)
+		(pin "2"
+			(uuid "4e3a7f67-d2f5-4870-b8c8-d5c0fc102d62")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/49dafe5d-519c-49b1-88d9-ec8cb6df7648"
+					(reference "U84")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/c8752098-45e2-4d20-a718-e7a412b889c5/193305be-6cda-4233-81aa-0afa66e3e4ce"
+					(reference "U80")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/c8752098-45e2-4d20-a718-e7a412b889c5/f663376f-9b89-41b3-aeca-9c6d61fe2c6e"
+					(reference "U81")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e/193305be-6cda-4233-81aa-0afa66e3e4ce"
+					(reference "U82")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e/f663376f-9b89-41b3-aeca-9c6d61fe2c6e"
+					(reference "U83")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/a6f30b1f-5689-4abf-92ce-ea5546b50948"
+					(reference "U85")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/8de52c6a-44a2-4c3d-988b-6d07c6a566b2"
+					(reference "U86")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/826227b2-3a4f-4a87-9419-7605bb4529f5"
+					(reference "U87")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/47cd1a1a-1480-4eae-b9ce-a73cac0b3bdc"
+					(reference "U88")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/37415780-54b9-4ed3-8ab8-f09b8d9e8267"
+					(reference "U89")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/ace2e429-6c02-47f3-a5a8-ce53fd79b4bb"
+					(reference "U90")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/b15c763d-24bc-4af2-a62c-4319be075b04"
+					(reference "U91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 69.85 57.15 0)
 		(unit 1)
@@ -3094,6 +3299,116 @@
 				)
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e/f663376f-9b89-41b3-aeca-9c6d61fe2c6e"
 					(reference "R220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbe0e94a-ddac-4fc1-9da4-27d9402db844")
+		(property "Reference" "#PWR0303"
+			(at 135.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb0a2574-f37b-486a-83a0-04bbf11af835")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/c8752098-45e2-4d20-a718-e7a412b889c5/193305be-6cda-4233-81aa-0afa66e3e4ce"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/c8752098-45e2-4d20-a718-e7a412b889c5/f663376f-9b89-41b3-aeca-9c6d61fe2c6e"
+					(reference "#PWR0304")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e/193305be-6cda-4233-81aa-0afa66e3e4ce"
+					(reference "#PWR0305")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e/f663376f-9b89-41b3-aeca-9c6d61fe2c6e"
+					(reference "#PWR0306")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/49dafe5d-519c-49b1-88d9-ec8cb6df7648"
+					(reference "#PWR0307")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/a6f30b1f-5689-4abf-92ce-ea5546b50948"
+					(reference "#PWR0308")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/8de52c6a-44a2-4c3d-988b-6d07c6a566b2"
+					(reference "#PWR0309")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/826227b2-3a4f-4a87-9419-7605bb4529f5"
+					(reference "#PWR0310")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/47cd1a1a-1480-4eae-b9ce-a73cac0b3bdc"
+					(reference "#PWR0311")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/37415780-54b9-4ed3-8ab8-f09b8d9e8267"
+					(reference "#PWR0312")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/ace2e429-6c02-47f3-a5a8-ce53fd79b4bb"
+					(reference "#PWR0313")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/b15c763d-24bc-4af2-a62c-4319be075b04"
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
