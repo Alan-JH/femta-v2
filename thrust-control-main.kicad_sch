@@ -1933,116 +1933,116 @@
 		)
 	)
 	(junction
-		(at 149.86 137.16)
+		(at 190.5 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "049b8567-372d-4f8c-991a-eac6487309d0")
 	)
 	(junction
-		(at 149.86 107.95)
+		(at 190.5 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0792455c-e650-4bb8-bcf4-e8f07f9194ea")
 	)
 	(junction
-		(at 62.23 35.56)
+		(at 81.28 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16a2aecc-c3cb-4c29-ba34-ed00fd63e2bd")
 	)
 	(junction
-		(at 50.8 43.18)
+		(at 69.85 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "233b4e27-8d10-4011-bd37-a18ad4385ff6")
 	)
 	(junction
-		(at 149.86 77.47)
+		(at 190.5 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "484e31a7-3547-4109-bbc8-98d654141ff3")
 	)
 	(junction
-		(at 149.86 63.5)
+		(at 190.5 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cc269b0-7fe9-49d6-88fb-9756d91dba4a")
 	)
 	(junction
-		(at 245.11 67.31)
+		(at 60.96 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5175be60-df5b-4da2-b9bd-2df04309fc3e")
 	)
 	(junction
-		(at 149.86 152.4)
+		(at 190.5 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f018c2a-bcb8-4e75-a77e-0768be14e78f")
 	)
 	(junction
-		(at 149.86 48.26)
+		(at 190.5 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f776b04-8d78-4571-9281-b756fc849a93")
 	)
 	(junction
-		(at 49.53 63.5)
+		(at 68.58 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dac078e-d471-41ad-8017-f1b20660805e")
 	)
 	(junction
-		(at 31.75 63.5)
+		(at 50.8 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "831b0592-d593-49b9-ab6d-93e32920c58d")
 	)
 	(junction
-		(at 33.02 27.94)
+		(at 52.07 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83bc16d9-32b1-4f48-a487-d7490f7e0629")
 	)
 	(junction
-		(at 234.95 67.31)
+		(at 50.8 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a42467ba-812d-4b95-8c1d-1bd2119322ff")
 	)
 	(junction
-		(at 45.72 102.87)
+		(at 64.77 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab7668f6-149e-4d91-9a95-bb2a6da83f6e")
 	)
 	(junction
-		(at 149.86 92.71)
+		(at 190.5 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccfa3a97-62cc-4a38-8ff7-ec704a971dac")
 	)
 	(junction
-		(at 33.02 43.18)
+		(at 52.07 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cebe7faf-d7f5-463a-a378-b373c019e172")
 	)
 	(junction
-		(at 260.35 67.31)
+		(at 76.2 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eed0fa11-e9c7-480b-8bec-6a329e4c60eb")
 	)
 	(junction
-		(at 149.86 123.19)
+		(at 190.5 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa2dff57-72d3-4e52-9b1c-c920d1fbab2d")
 	)
 	(wire
 		(pts
-			(xy 33.02 27.94) (xy 50.8 27.94)
+			(xy 52.07 48.26) (xy 69.85 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2052,7 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 58.42) (xy 114.3 58.42)
+			(xy 166.37 49.53) (xy 154.94 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2062,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 63.5) (xy 49.53 74.93)
+			(xy 68.58 83.82) (xy 68.58 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2072,7 +2072,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 140.97) (xy 138.43 137.16)
+			(xy 179.07 132.08) (xy 179.07 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2082,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 137.16) (xy 149.86 137.16)
+			(xy 179.07 128.27) (xy 190.5 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2092,7 +2092,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 78.74) (xy 85.09 78.74)
+			(xy 114.3 69.85) (xy 125.73 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2102,7 +2102,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 67.31) (xy 234.95 67.31)
+			(xy 60.96 143.51) (xy 50.8 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2112,7 +2112,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 92.71) (xy 29.21 92.71)
+			(xy 36.83 113.03) (xy 48.26 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2122,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 80.01) (xy 29.21 80.01)
+			(xy 36.83 100.33) (xy 48.26 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2132,7 +2132,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 67.31) (xy 250.19 67.31)
+			(xy 76.2 143.51) (xy 66.04 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2142,7 +2142,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 39.37) (xy 33.02 43.18)
+			(xy 52.07 59.69) (xy 52.07 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2152,7 +2152,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 63.5) (xy 149.86 63.5)
+			(xy 179.07 54.61) (xy 190.5 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 93.98) (xy 259.08 93.98)
+			(xy 86.36 170.18) (xy 74.93 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2172,7 +2172,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 90.17) (xy 68.58 90.17)
+			(xy 78.74 110.49) (xy 87.63 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2182,7 +2182,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 99.06) (xy 114.3 99.06)
+			(xy 166.37 90.17) (xy 154.94 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2192,7 +2192,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 63.5) (xy 64.77 63.5)
+			(xy 68.58 83.82) (xy 83.82 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2202,7 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 129.54) (xy 114.3 129.54)
+			(xy 166.37 120.65) (xy 154.94 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2212,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 86.36) (xy 259.08 86.36)
+			(xy 86.36 162.56) (xy 74.93 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2222,7 +2222,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 59.69) (xy 138.43 63.5)
+			(xy 179.07 50.8) (xy 179.07 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2232,7 +2232,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 87.63) (xy 29.21 87.63)
+			(xy 36.83 107.95) (xy 48.26 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2242,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 87.63) (xy 68.58 87.63)
+			(xy 78.74 107.95) (xy 87.63 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2252,7 +2252,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 48.26) (xy 149.86 48.26)
+			(xy 179.07 39.37) (xy 190.5 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2262,7 +2262,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 35.56) (xy 62.23 35.56)
+			(xy 80.01 55.88) (xy 81.28 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2272,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 99.06) (xy 259.08 99.06)
+			(xy 86.36 175.26) (xy 74.93 175.26)
 		)
 		(stroke
 			(width 0)
@@ -2282,7 +2282,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 67.31) (xy 234.95 67.31)
+			(xy 25.4 64.77) (xy 34.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f2ee0d-743a-4916-bcb9-813ae935b3e8")
+	)
+	(wire
+		(pts
+			(xy 39.37 143.51) (xy 50.8 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2292,7 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 85.09) (xy 68.58 85.09)
+			(xy 78.74 105.41) (xy 87.63 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2302,7 +2312,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 102.87) (xy 49.53 102.87)
+			(xy 64.77 123.19) (xy 68.58 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2312,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 67.31) (xy 250.19 78.74)
+			(xy 66.04 143.51) (xy 66.04 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2322,7 +2332,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 88.9) (xy 138.43 92.71)
+			(xy 34.29 72.39) (xy 25.4 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1627cf-e20b-4b5d-adfb-88f669980dd7")
+	)
+	(wire
+		(pts
+			(xy 179.07 80.01) (xy 179.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2332,7 +2352,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 67.31) (xy 234.95 76.2)
+			(xy 50.8 143.51) (xy 50.8 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2342,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 109.22) (xy 85.09 109.22)
+			(xy 114.3 100.33) (xy 125.73 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2352,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 67.31) (xy 223.52 71.12)
+			(xy 39.37 143.51) (xy 39.37 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2362,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 63.5) (xy 41.91 74.93)
+			(xy 60.96 83.82) (xy 60.96 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2372,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 82.55) (xy 29.21 82.55)
+			(xy 36.83 102.87) (xy 48.26 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2382,7 +2402,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 96.52) (xy 236.22 96.52)
+			(xy 43.18 172.72) (xy 52.07 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2392,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 97.79) (xy 29.21 97.79)
+			(xy 36.83 118.11) (xy 48.26 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2402,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 93.98) (xy 236.22 93.98)
+			(xy 43.18 170.18) (xy 52.07 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2412,7 +2432,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 102.87) (xy 45.72 102.87)
+			(xy 60.96 123.19) (xy 64.77 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2422,7 +2442,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 119.38) (xy 85.09 119.38)
+			(xy 25.4 69.85) (xy 34.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862bac76-02f3-4366-9fbc-0cdaf6207e03")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 125.73 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2432,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 119.38) (xy 114.3 119.38)
+			(xy 166.37 110.49) (xy 154.94 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2442,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 119.38) (xy 138.43 123.19)
+			(xy 179.07 110.49) (xy 179.07 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2452,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 123.19) (xy 149.86 123.19)
+			(xy 179.07 114.3) (xy 190.5 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2462,7 +2492,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 92.71) (xy 149.86 92.71)
+			(xy 179.07 83.82) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2472,7 +2502,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 91.44) (xy 259.08 91.44)
+			(xy 86.36 167.64) (xy 74.93 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2482,7 +2512,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 88.9) (xy 259.08 88.9)
+			(xy 86.36 165.1) (xy 74.93 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2492,7 +2522,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 77.47) (xy 149.86 77.47)
+			(xy 179.07 68.58) (xy 190.5 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2502,7 +2532,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 67.31) (xy 270.51 67.31)
+			(xy 76.2 143.51) (xy 86.36 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2512,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 83.82) (xy 236.22 83.82)
+			(xy 50.8 160.02) (xy 52.07 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2522,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 109.22) (xy 114.3 109.22)
+			(xy 166.37 100.33) (xy 154.94 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2532,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 85.09) (xy 29.21 85.09)
+			(xy 36.83 105.41) (xy 48.26 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2542,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 68.58) (xy 85.09 68.58)
+			(xy 114.3 59.69) (xy 125.73 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2552,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 92.71) (xy 68.58 92.71)
+			(xy 78.74 113.03) (xy 87.63 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2562,7 +2592,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 88.9) (xy 85.09 88.9)
+			(xy 114.3 80.01) (xy 125.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2572,7 +2602,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 107.95) (xy 149.86 107.95)
+			(xy 179.07 99.06) (xy 190.5 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2582,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 58.42) (xy 85.09 58.42)
+			(xy 114.3 49.53) (xy 125.73 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2592,7 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 35.56) (xy 71.12 35.56)
+			(xy 81.28 55.88) (xy 90.17 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2602,7 +2632,17 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 67.31) (xy 245.11 78.74)
+			(xy 25.4 67.31) (xy 34.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3882a45-86db-47ce-82fa-1f821d4ce45e")
+	)
+	(wire
+		(pts
+			(xy 60.96 143.51) (xy 60.96 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2612,7 +2652,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 78.74) (xy 114.3 78.74)
+			(xy 166.37 69.85) (xy 154.94 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2622,7 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 99.06) (xy 85.09 99.06)
+			(xy 114.3 90.17) (xy 125.73 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2632,7 +2672,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 63.5) (xy 31.75 63.5)
+			(xy 40.64 83.82) (xy 50.8 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2642,7 +2682,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 91.44) (xy 236.22 91.44)
+			(xy 43.18 167.64) (xy 52.07 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2652,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 81.28) (xy 138.43 77.47)
+			(xy 179.07 72.39) (xy 179.07 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2662,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 129.54) (xy 85.09 129.54)
+			(xy 114.3 120.65) (xy 125.73 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2672,7 +2712,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 114.3 88.9)
+			(xy 166.37 80.01) (xy 154.94 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +2722,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 101.6) (xy 259.08 101.6)
+			(xy 86.36 177.8) (xy 74.93 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2692,7 +2732,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 83.82) (xy 259.08 83.82)
+			(xy 86.36 160.02) (xy 74.93 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2702,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 68.58) (xy 114.3 68.58)
+			(xy 166.37 59.69) (xy 154.94 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2712,7 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 88.9) (xy 236.22 88.9)
+			(xy 43.18 165.1) (xy 52.07 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2722,7 +2762,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 43.18) (xy 50.8 43.18)
+			(xy 52.07 63.5) (xy 69.85 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2732,7 +2772,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 90.17) (xy 29.21 90.17)
+			(xy 36.83 110.49) (xy 48.26 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2742,7 +2782,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 63.5) (xy 41.91 63.5)
+			(xy 50.8 83.82) (xy 60.96 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2752,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 96.52) (xy 259.08 96.52)
+			(xy 86.36 172.72) (xy 74.93 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2762,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 52.07) (xy 138.43 48.26)
+			(xy 179.07 43.18) (xy 179.07 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2772,7 +2812,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 152.4) (xy 149.86 152.4)
+			(xy 179.07 143.51) (xy 190.5 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2782,7 +2822,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 27.94) (xy 33.02 31.75)
+			(xy 52.07 48.26) (xy 52.07 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 95.25) (xy 29.21 95.25)
+			(xy 36.83 115.57) (xy 48.26 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2802,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 111.76) (xy 138.43 107.95)
+			(xy 179.07 102.87) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2812,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 43.18) (xy 62.23 43.18)
+			(xy 69.85 63.5) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2822,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 148.59) (xy 138.43 152.4)
+			(xy 179.07 139.7) (xy 179.07 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2830,8 +2870,18 @@
 		)
 		(uuid "f800185e-83e5-4a3a-9edc-9722ec2ca50e")
 	)
+	(wire
+		(pts
+			(xy 25.4 62.23) (xy 34.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd77b5eb-3e2c-42e9-bf0c-f565582b2080")
+	)
 	(label "POUT_8"
-		(at 17.78 97.79 0)
+		(at 36.83 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2842,7 +2892,7 @@
 		(uuid "008db878-69e7-4c20-a2d7-6b58b629da5f")
 	)
 	(label "PSET_5"
-		(at 73.66 99.06 0)
+		(at 114.3 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2853,7 +2903,7 @@
 		(uuid "02643328-e080-451b-b94e-7356fe04f555")
 	)
 	(label "SPI_CLK"
-		(at 68.58 85.09 180)
+		(at 87.63 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2864,7 +2914,7 @@
 		(uuid "049275ea-9a79-42fd-8857-62c85847b7fc")
 	)
 	(label "POUT_1"
-		(at 125.73 58.42 180)
+		(at 166.37 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2875,7 +2925,7 @@
 		(uuid "1845b99d-1cb3-477a-a977-2ea10681329a")
 	)
 	(label "SPI_MOSI"
-		(at 227.33 91.44 0)
+		(at 43.18 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2886,7 +2936,7 @@
 		(uuid "19a69bd7-5b67-4735-98f2-b1fd64c09fc7")
 	)
 	(label "PSET_5"
-		(at 270.51 93.98 180)
+		(at 86.36 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2897,7 +2947,7 @@
 		(uuid "1bd2b237-c2dc-4754-bca7-d0efad2d93ca")
 	)
 	(label "PSET_4"
-		(at 270.51 91.44 180)
+		(at 86.36 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2908,7 +2958,7 @@
 		(uuid "25974b5f-9ef8-4d86-a8a5-7aa7eecc95f9")
 	)
 	(label "PSET_1"
-		(at 270.51 83.82 180)
+		(at 86.36 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2919,7 +2969,7 @@
 		(uuid "25f7a486-d34e-4070-8699-a096782e2d2d")
 	)
 	(label "POUT_3"
-		(at 125.73 78.74 180)
+		(at 166.37 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2930,7 +2980,7 @@
 		(uuid "2ad7438f-1fb9-4ea7-ad72-2a2c66f82389")
 	)
 	(label "PSET_7"
-		(at 270.51 99.06 180)
+		(at 86.36 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2941,7 +2991,7 @@
 		(uuid "2f92c640-e9f7-42eb-a487-455fd165322b")
 	)
 	(label "POUT_4"
-		(at 125.73 88.9 180)
+		(at 166.37 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2952,7 +3002,7 @@
 		(uuid "324a46dc-e0ae-4008-b902-59f75b05cacc")
 	)
 	(label "SPI_CLK"
-		(at 227.33 88.9 0)
+		(at 43.18 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2963,7 +3013,7 @@
 		(uuid "32f8f8d0-80e5-4559-9928-c1f280e26bd2")
 	)
 	(label "POUT_8"
-		(at 125.73 129.54 180)
+		(at 166.37 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2974,7 +3024,7 @@
 		(uuid "352a3e6d-6f8a-4a5b-af16-4b5b74786ca9")
 	)
 	(label "PSET_6"
-		(at 73.66 109.22 0)
+		(at 114.3 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2985,7 +3035,7 @@
 		(uuid "46bc2719-3f50-4cfd-9ded-b4843e01bac9")
 	)
 	(label "PSET_6"
-		(at 270.51 96.52 180)
+		(at 86.36 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2996,7 +3046,7 @@
 		(uuid "52bb7237-8d41-4057-81de-a5c36bba0357")
 	)
 	(label "PSET_2"
-		(at 270.51 86.36 180)
+		(at 86.36 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3007,7 +3057,7 @@
 		(uuid "5e27ec67-6e0a-4286-9ce5-490fa5d4484b")
 	)
 	(label "POUT_2"
-		(at 17.78 82.55 0)
+		(at 36.83 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3018,7 +3068,7 @@
 		(uuid "6dddfcf3-9c52-47e0-882b-3718201ba748")
 	)
 	(label "SPI_MISO"
-		(at 68.58 87.63 180)
+		(at 87.63 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3028,8 +3078,19 @@
 		)
 		(uuid "71471147-e794-4bf7-bf1b-2f95f1c3a0ba")
 	)
-	(label "ADC_CS"
-		(at 68.58 92.71 180)
+	(label "SPI_MISO"
+		(at 34.29 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71fbde9e-82c1-42e9-868c-b2852da18f0c")
+	)
+	(label "POUT_CS"
+		(at 87.63 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3039,8 +3100,19 @@
 		)
 		(uuid "7564889f-4cc5-4def-b1eb-e6af56a5b96a")
 	)
+	(label "SPI_CLK"
+		(at 34.29 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "769569d6-80f0-402b-9fb9-9ea4cbf888f5")
+	)
 	(label "PSET_8"
-		(at 270.51 101.6 180)
+		(at 86.36 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3051,7 +3123,7 @@
 		(uuid "785aacd2-5316-4e64-96d8-b4d53af6b522")
 	)
 	(label "3V_REF"
-		(at 270.51 67.31 180)
+		(at 86.36 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3061,8 +3133,19 @@
 		)
 		(uuid "83877c58-2485-4538-a7da-f30220fc412a")
 	)
+	(label "PSET_CS"
+		(at 34.29 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87ce2452-c6d6-4228-882f-63b528ba6796")
+	)
 	(label "POUT_1"
-		(at 17.78 80.01 0)
+		(at 36.83 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3073,7 +3156,7 @@
 		(uuid "89fd164c-8f7b-415f-afb3-00dc785ecbda")
 	)
 	(label "PSET_7"
-		(at 73.66 119.38 0)
+		(at 114.3 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3084,7 +3167,7 @@
 		(uuid "8eccf6d9-f5e1-4ddf-88cf-3e5efff8b80a")
 	)
 	(label "PSET_4"
-		(at 73.66 88.9 0)
+		(at 114.3 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3095,7 +3178,7 @@
 		(uuid "936d5933-021e-4b2e-86c3-b26537ac5a5c")
 	)
 	(label "PSET_3"
-		(at 73.66 78.74 0)
+		(at 114.3 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3106,7 +3189,7 @@
 		(uuid "949a658e-fffa-4dba-b0e8-e0c17d20ee89")
 	)
 	(label "POUT_4"
-		(at 17.78 87.63 0)
+		(at 36.83 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3117,7 +3200,7 @@
 		(uuid "a45377ec-00cd-463f-bebb-5f2a2f74ed3b")
 	)
 	(label "3V_REF"
-		(at 21.59 63.5 0)
+		(at 40.64 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3128,7 +3211,7 @@
 		(uuid "a5e4a8c1-ab1a-4ff4-a98d-cb8ab7135e7f")
 	)
 	(label "PSET_8"
-		(at 73.66 129.54 0)
+		(at 114.3 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3138,8 +3221,8 @@
 		)
 		(uuid "bbe9b26d-81f8-48fe-9450-52ee2a62b2a9")
 	)
-	(label "DAC_CS"
-		(at 227.33 96.52 0)
+	(label "PSET_CS"
+		(at 43.18 172.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3149,8 +3232,30 @@
 		)
 		(uuid "c237849f-e9aa-4391-87fd-7aa12350271f")
 	)
+	(label "SPI_MOSI"
+		(at 34.29 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8566b09-0b20-4408-8164-d1b7e0ec607c")
+	)
+	(label "POUT_CS"
+		(at 34.29 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c90835c5-72c9-4bb6-94f9-a8b2c325c11e")
+	)
 	(label "POUT_7"
-		(at 125.73 119.38 180)
+		(at 166.37 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3161,7 +3266,7 @@
 		(uuid "cce66601-81c3-4a14-9175-90c97a582d98")
 	)
 	(label "PSET_3"
-		(at 270.51 88.9 180)
+		(at 86.36 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3172,7 +3277,7 @@
 		(uuid "d08e026e-6320-414c-9587-013f0482d839")
 	)
 	(label "POUT_5"
-		(at 125.73 99.06 180)
+		(at 166.37 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3183,7 +3288,7 @@
 		(uuid "d1cb5bcb-2be6-4c9b-9aed-9506d6c47298")
 	)
 	(label "PSET_2"
-		(at 73.66 68.58 0)
+		(at 114.3 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3194,7 +3299,7 @@
 		(uuid "d49439c7-11f2-4c10-8088-973d7f217ead")
 	)
 	(label "POUT_2"
-		(at 125.73 68.58 180)
+		(at 166.37 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3205,7 +3310,7 @@
 		(uuid "d6ac254f-fb28-401d-886a-7a3bc65f3694")
 	)
 	(label "PSET_1"
-		(at 73.66 58.42 0)
+		(at 114.3 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3216,7 +3321,7 @@
 		(uuid "d76e66cc-3d12-4814-90b1-e6810be737bd")
 	)
 	(label "SPI_MISO"
-		(at 227.33 93.98 0)
+		(at 43.18 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3227,7 +3332,7 @@
 		(uuid "d7bbd3ab-4163-4738-b1e0-53c6ba7b6170")
 	)
 	(label "POUT_7"
-		(at 17.78 95.25 0)
+		(at 36.83 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3238,7 +3343,7 @@
 		(uuid "d9f7050c-2af9-4a07-a0a9-dd671faea851")
 	)
 	(label "POUT_6"
-		(at 125.73 109.22 180)
+		(at 166.37 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3249,7 +3354,7 @@
 		(uuid "dd5bb13a-2411-44f4-a5e5-f31a3471aaed")
 	)
 	(label "POUT_6"
-		(at 17.78 92.71 0)
+		(at 36.83 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3260,7 +3365,7 @@
 		(uuid "df748ba3-24ac-4d94-8137-6a9dcdfeddea")
 	)
 	(label "3V_REF"
-		(at 71.12 35.56 180)
+		(at 90.17 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3271,7 +3376,7 @@
 		(uuid "e6a6ecd9-5dfd-4ad5-9f18-1e6904853f7a")
 	)
 	(label "SPI_MOSI"
-		(at 68.58 90.17 180)
+		(at 87.63 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3282,7 +3387,7 @@
 		(uuid "ea21edb1-49c2-42d4-9e27-86756888b74c")
 	)
 	(label "POUT_5"
-		(at 17.78 90.17 0)
+		(at 36.83 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3293,7 +3398,7 @@
 		(uuid "f1e2a42c-2b78-4b32-97ca-1dd18d17a4c1")
 	)
 	(label "POUT_3"
-		(at 17.78 85.09 0)
+		(at 36.83 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3303,9 +3408,69 @@
 		)
 		(uuid "f2753ea4-49de-4ce5-b61e-c326f453f53c")
 	)
+	(hierarchical_label "POUT_CS"
+		(shape input)
+		(at 25.4 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22a05f10-21e9-416d-a4b6-9d1a14d2da3f")
+	)
+	(hierarchical_label "SPI_CLK"
+		(shape input)
+		(at 25.4 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "601d64b6-243e-4f10-a460-06ab2eef570e")
+	)
+	(hierarchical_label "PSET_CS"
+		(shape input)
+		(at 25.4 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7660317-8e2c-46d7-b160-2c8680a5d62d")
+	)
+	(hierarchical_label "SPI_MOSI"
+		(shape input)
+		(at 25.4 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9d84e01-6ccb-4ef8-8a2b-df687f3b0c3d")
+	)
+	(hierarchical_label "SPI_MISO"
+		(shape output)
+		(at 25.4 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e16721b0-d067-4464-845a-1110a837110e")
+	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 55.88 0)
+		(at 179.07 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3313,8 +3478,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10faf2fb-ee9b-4751-86eb-df3145d22a2f")
-		(property "Reference" "C81"
-			(at 142.24 54.6099 0)
+		(property "Reference" "C28"
+			(at 182.88 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3488,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 142.24 57.1499 0)
+			(at 182.88 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +3497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.3952 59.69 0)
+			(at 180.0352 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +3506,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 55.88 0)
+			(at 179.07 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +3515,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 55.88 0)
+			(at 179.07 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3532,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "C81")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -3375,7 +3540,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 64.77 67.31 0)
+		(at 83.82 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3383,8 +3548,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1affcf75-4dca-428a-8bb9-ffa4ea992634")
-		(property "Reference" "C39"
-			(at 68.58 66.0399 0)
+		(property "Reference" "C27"
+			(at 87.63 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3393,7 +3558,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 68.58 68.5799 0)
+			(at 87.63 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3402,7 +3567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 65.7352 71.12 0)
+			(at 84.7852 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3576,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 67.31 0)
+			(at 83.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3585,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 64.77 67.31 0)
+			(at 83.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3437,7 +3602,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "C39")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -3445,7 +3610,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 31.75 67.31 0)
+		(at 50.8 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3453,8 +3618,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28f24d55-bbcc-41eb-bf93-abf90cc376b0")
-		(property "Reference" "C38"
-			(at 35.56 66.0399 0)
+		(property "Reference" "C23"
+			(at 54.61 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3628,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 35.56 68.5799 0)
+			(at 54.61 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 32.7152 71.12 0)
+			(at 51.7652 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 67.31 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3655,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 31.75 67.31 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3672,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "C38")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3515,7 +3680,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 33.02 27.94 0)
+		(at 52.07 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3523,8 +3688,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28fbf958-a1f5-441d-80b2-55d08141fbd5")
-		(property "Reference" "#PWR0107"
-			(at 33.02 31.75 0)
+		(property "Reference" "#PWR052"
+			(at 52.07 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,7 +3698,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 33.02 22.86 0)
+			(at 52.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 27.94 0)
+			(at 52.07 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,7 +3715,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 27.94 0)
+			(at 52.07 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,7 +3724,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 33.02 27.94 0)
+			(at 52.07 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3738,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0107")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3581,7 +3746,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 247.65 106.68 0)
+		(at 63.5 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3589,8 +3754,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29b51eae-10cb-4a74-9e5e-0e8d716774ec")
-		(property "Reference" "#PWR0105"
-			(at 247.65 113.03 0)
+		(property "Reference" "#PWR055"
+			(at 63.5 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3599,7 +3764,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 111.76 0)
+			(at 63.5 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,7 +3772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 106.68 0)
+			(at 63.5 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3616,7 +3781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 106.68 0)
+			(at 63.5 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3790,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 247.65 106.68 0)
+			(at 63.5 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3804,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0105")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3647,7 +3812,7 @@
 	)
 	(symbol
 		(lib_id "Analog_ADC:MCP3208")
-		(at 44.45 87.63 0)
+		(at 63.5 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3655,8 +3820,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c039fa8-24d0-4286-8841-70c17e46403c")
-		(property "Reference" "U20"
-			(at 51.7241 72.39 0)
+		(property "Reference" "U10"
+			(at 70.7741 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3665,7 +3830,7 @@
 			)
 		)
 		(property "Value" "MCP3208"
-			(at 51.7241 74.93 0)
+			(at 70.7741 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3674,7 +3839,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-			(at 46.99 85.09 0)
+			(at 66.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3683,7 +3848,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/21298c.pdf"
-			(at 46.99 85.09 0)
+			(at 66.04 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,7 +3857,7 @@
 			)
 		)
 		(property "Description" "A/D Converter, 12-Bit, 8-Channel, SPI Interface , 2.7V-5.5V"
-			(at 44.45 87.63 0)
+			(at 63.5 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,7 +3916,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "U20")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -3759,7 +3924,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 49.53 63.5 0)
+		(at 68.58 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3767,8 +3932,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c7a6187-f6ef-4a27-9387-47656ff60100")
-		(property "Reference" "#PWR0101"
-			(at 49.53 67.31 0)
+		(property "Reference" "#PWR057"
+			(at 68.58 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3942,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 49.53 58.42 0)
+			(at 68.58 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3785,7 +3950,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 63.5 0)
+			(at 68.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3794,7 +3959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 63.5 0)
+			(at 68.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3803,7 +3968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 49.53 63.5 0)
+			(at 68.58 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3817,7 +3982,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0101")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -3825,7 +3990,7 @@
 	)
 	(symbol
 		(lib_id "Reference_Voltage:MAX6103")
-		(at 53.34 35.56 0)
+		(at 72.39 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3833,8 +3998,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d53091a-8fc6-44f0-a34a-3bd525e7acb4")
-		(property "Reference" "U45"
-			(at 46.99 34.2899 0)
+		(property "Reference" "U12"
+			(at 66.04 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +4008,7 @@
 			)
 		)
 		(property "Value" "MAX6103"
-			(at 46.99 36.8299 0)
+			(at 66.04 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3852,7 +4017,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 55.88 43.18 0)
+			(at 74.93 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3862,7 +4027,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX6100-MAX6107.pdf"
-			(at 55.88 44.45 0)
+			(at 74.93 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +4037,7 @@
 			)
 		)
 		(property "Description" "Low-dropout high current voltage reference, 3.000V, ±0.4% accuracy, SOT-23"
-			(at 53.34 35.56 0)
+			(at 72.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +4057,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "U45")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -3900,15 +4065,15 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 152.4 55.88 0)
+		(at 193.04 46.99 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2f4896c9-fef4-4f05-9209-852b93eb6de2")
-		(property "Reference" "U33"
-			(at 151.13 55.118 0)
+		(property "Reference" "U13"
+			(at 191.77 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +4082,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 151.13 56.896 0)
+			(at 191.77 48.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +4091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 55.88 0)
+			(at 193.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +4100,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 152.4 55.88 0)
+			(at 193.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +4109,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 152.4 55.88 0)
+			(at 193.04 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +4144,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "U33")
+					(reference "U13")
 					(unit 3)
 				)
 			)
@@ -3987,7 +4152,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 102.87 0)
+		(at 64.77 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3995,8 +4160,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "305be966-e15d-443f-a0bb-1b9af2ed0e72")
-		(property "Reference" "#PWR0100"
-			(at 45.72 109.22 0)
+		(property "Reference" "#PWR056"
+			(at 64.77 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +4170,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 107.95 0)
+			(at 64.77 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +4178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 102.87 0)
+			(at 64.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +4187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 102.87 0)
+			(at 64.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +4196,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 102.87 0)
+			(at 64.77 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4210,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0100")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4053,7 +4218,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 92.71 0)
+		(at 190.5 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4061,8 +4226,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3401ecfa-b2ab-445c-abff-bec78a5bcc72")
-		(property "Reference" "#PWR0148"
-			(at 149.86 99.06 0)
+		(property "Reference" "#PWR063"
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4071,7 +4236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 97.79 0)
+			(at 190.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,7 +4244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 92.71 0)
+			(at 190.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +4253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 92.71 0)
+			(at 190.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +4262,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 92.71 0)
+			(at 190.5 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4111,7 +4276,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0148")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4119,15 +4284,15 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 152.4 85.09 0)
+		(at 193.04 76.2 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "361a9494-5359-4de3-bd47-ace3df6a3a04")
-		(property "Reference" "U34"
-			(at 151.13 84.328 0)
+		(property "Reference" "U14"
+			(at 191.77 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4136,7 +4301,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 151.13 86.106 0)
+			(at 191.77 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 85.09 0)
+			(at 193.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4319,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 152.4 85.09 0)
+			(at 193.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4328,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 152.4 85.09 0)
+			(at 193.04 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4363,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "U34")
+					(reference "U14")
 					(unit 3)
 				)
 			)
@@ -4206,7 +4371,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 260.35 71.12 0)
+		(at 76.2 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4214,8 +4379,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41a1d868-f064-42f9-bc59-6f6393af52a0")
-		(property "Reference" "C41"
-			(at 264.16 69.8499 0)
+		(property "Reference" "C25"
+			(at 80.01 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4389,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 264.16 72.3899 0)
+			(at 80.01 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4233,7 +4398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.3152 74.93 0)
+			(at 77.1652 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4242,7 +4407,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 71.12 0)
+			(at 76.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4416,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 260.35 71.12 0)
+			(at 76.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4433,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "C41")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4276,15 +4441,15 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 152.4 115.57 0)
+		(at 193.04 106.68 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "450b9e56-9bfb-4fe2-8748-3718186fc095")
-		(property "Reference" "U46"
-			(at 151.13 114.808 0)
+		(property "Reference" "U15"
+			(at 191.77 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4458,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 151.13 116.586 0)
+			(at 191.77 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,7 +4467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 115.57 0)
+			(at 193.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +4476,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 152.4 115.57 0)
+			(at 193.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4320,7 +4485,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 152.4 115.57 0)
+			(at 193.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4520,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "U46")
+					(reference "U15")
 					(unit 3)
 				)
 			)
@@ -4363,7 +4528,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 123.19 0)
+		(at 190.5 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4371,8 +4536,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49d2bf8d-c57e-4f3a-840d-25f9c89c0266")
-		(property "Reference" "#PWR0296"
-			(at 149.86 129.54 0)
+		(property "Reference" "#PWR065"
+			(at 190.5 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +4546,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 128.27 0)
+			(at 190.5 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 123.19 0)
+			(at 190.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 123.19 0)
+			(at 190.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4572,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 123.19 0)
+			(at 190.5 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +4586,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0296")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -4429,7 +4594,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 62.23 39.37 0)
+		(at 81.28 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4437,8 +4602,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64e0384a-8cc4-4fee-a9f1-8c2c173b2db8")
-		(property "Reference" "C42"
-			(at 66.04 38.0999 0)
+		(property "Reference" "C26"
+			(at 85.09 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,7 +4612,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 66.04 40.6399 0)
+			(at 85.09 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4621,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.1952 43.18 0)
+			(at 82.2452 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4630,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 39.37 0)
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4474,7 +4639,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 62.23 39.37 0)
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +4656,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "C42")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -4499,7 +4664,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 144.78 0)
+		(at 179.07 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4507,8 +4672,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64e0ab03-0b2f-435f-998b-1dd257f2eeb6")
-		(property "Reference" "C93"
-			(at 142.24 143.5099 0)
+		(property "Reference" "C31"
+			(at 182.88 134.6199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4682,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 142.24 146.0499 0)
+			(at 182.88 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +4691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.3952 148.59 0)
+			(at 180.0352 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +4700,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 144.78 0)
+			(at 179.07 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4709,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 144.78 0)
+			(at 179.07 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +4726,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "C93")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -4569,7 +4734,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 78.74 0)
+		(at 39.37 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4577,8 +4742,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "662cd95c-0baf-47ef-945f-c0ce98b5995b")
-		(property "Reference" "#PWR0103"
-			(at 223.52 85.09 0)
+		(property "Reference" "#PWR050"
+			(at 39.37 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4587,7 +4752,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 83.82 0)
+			(at 39.37 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4595,7 +4760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 78.74 0)
+			(at 39.37 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +4769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 78.74 0)
+			(at 39.37 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +4778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 78.74 0)
+			(at 39.37 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4627,7 +4792,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0103")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4635,7 +4800,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 43.18 0)
+		(at 52.07 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4643,8 +4808,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69fee5b0-5c77-4d19-abe3-1273047d0fbd")
-		(property "Reference" "#PWR0108"
-			(at 33.02 49.53 0)
+		(property "Reference" "#PWR053"
+			(at 52.07 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4653,7 +4818,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 48.26 0)
+			(at 52.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 43.18 0)
+			(at 52.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 43.18 0)
+			(at 52.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +4844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 43.18 0)
+			(at 52.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4693,7 +4858,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0108")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4701,7 +4866,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 149.86 77.47 0)
+		(at 190.5 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4709,8 +4874,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a1fab83-8b24-43bb-88e7-a6d9c1e3cc15")
-		(property "Reference" "#PWR0147"
-			(at 149.86 81.28 0)
+		(property "Reference" "#PWR062"
+			(at 190.5 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +4884,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 149.86 72.39 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4727,7 +4892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 77.47 0)
+			(at 190.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4736,7 +4901,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 77.47 0)
+			(at 190.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4910,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 149.86 77.47 0)
+			(at 190.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4924,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0147")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -4767,7 +4932,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 149.86 137.16 0)
+		(at 190.5 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4775,8 +4940,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78902a09-9fb8-41b5-b4c2-ce05a8967671")
-		(property "Reference" "#PWR0297"
-			(at 149.86 140.97 0)
+		(property "Reference" "#PWR066"
+			(at 190.5 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4950,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 149.86 132.08 0)
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,7 +4958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 137.16 0)
+			(at 190.5 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +4967,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 137.16 0)
+			(at 190.5 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4976,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 149.86 137.16 0)
+			(at 190.5 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4825,7 +4990,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0297")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -4833,7 +4998,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 71.12 0)
+		(at 50.8 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4841,8 +5006,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78e0a16c-3713-4af1-a645-f697003e0ad9")
-		(property "Reference" "#PWR099"
-			(at 31.75 77.47 0)
+		(property "Reference" "#PWR051"
+			(at 50.8 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4851,7 +5016,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 76.2 0)
+			(at 50.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,7 +5024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 71.12 0)
+			(at 50.8 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +5033,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 71.12 0)
+			(at 50.8 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +5042,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 71.12 0)
+			(at 50.8 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,7 +5056,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR099")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4899,7 +5064,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 234.95 80.01 0)
+		(at 50.8 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4907,8 +5072,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bc0b377-721d-4395-a8e1-d91a5f62368f")
-		(property "Reference" "R84"
-			(at 233.172 80.01 0)
+		(property "Reference" "R33"
+			(at 49.022 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4917,7 +5082,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 234.95 80.01 90)
+			(at 50.8 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +5090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.728 80.01 90)
+			(at 52.578 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5099,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 80.01 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +5108,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 234.95 80.01 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4960,7 +5125,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "R84")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -4968,7 +5133,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 115.57 0)
+		(at 179.07 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4976,8 +5141,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cdf82a8-1f0c-4f26-b2a5-2958a7da4559")
-		(property "Reference" "C92"
-			(at 142.24 114.2999 0)
+		(property "Reference" "C30"
+			(at 182.88 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +5151,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 142.24 116.8399 0)
+			(at 182.88 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4995,7 +5160,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.3952 119.38 0)
+			(at 180.0352 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5004,7 +5169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 115.57 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5013,7 +5178,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 115.57 0)
+			(at 179.07 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +5195,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "C92")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -5038,7 +5203,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 149.86 48.26 0)
+		(at 190.5 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5046,8 +5211,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fb5b4e9-5260-4e85-9010-fdd25169b65c")
-		(property "Reference" "#PWR0145"
-			(at 149.86 52.07 0)
+		(property "Reference" "#PWR060"
+			(at 190.5 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +5221,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 149.86 43.18 0)
+			(at 190.5 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5229,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 48.26 0)
+			(at 190.5 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 48.26 0)
+			(at 190.5 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5247,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 149.86 48.26 0)
+			(at 190.5 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,7 +5261,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0145")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -5104,7 +5269,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 149.86 107.95 0)
+		(at 190.5 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5112,8 +5277,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "966883e1-d901-446c-8432-9e84d1d8990f")
-		(property "Reference" "#PWR0292"
-			(at 149.86 111.76 0)
+		(property "Reference" "#PWR064"
+			(at 190.5 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5287,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 149.86 102.87 0)
+			(at 190.5 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +5295,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 107.95 0)
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 107.95 0)
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,7 +5313,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 149.86 107.95 0)
+			(at 190.5 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5327,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0292")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -5170,7 +5335,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 71.12 0)
+		(at 83.82 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5178,8 +5343,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97c881f7-affa-4341-b956-e932272bf013")
-		(property "Reference" "#PWR0102"
-			(at 64.77 77.47 0)
+		(property "Reference" "#PWR059"
+			(at 83.82 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5188,7 +5353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 76.2 0)
+			(at 83.82 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 71.12 0)
+			(at 83.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5205,7 +5370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 71.12 0)
+			(at 83.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 71.12 0)
+			(at 83.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +5393,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0102")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -5236,7 +5401,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 33.02 35.56 0)
+		(at 52.07 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5244,8 +5409,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a71d2147-dab6-48c7-9a79-c0f2491b9e5a")
-		(property "Reference" "C45"
-			(at 29.21 34.2899 0)
+		(property "Reference" "C24"
+			(at 48.26 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,7 +5419,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 29.21 36.8299 0)
+			(at 48.26 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +5428,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.9852 39.37 0)
+			(at 53.0352 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 35.56 0)
+			(at 52.07 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5446,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 33.02 35.56 0)
+			(at 52.07 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5463,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "C45")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5306,7 +5471,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 152.4 0)
+		(at 190.5 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5314,8 +5479,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a90a7682-2554-4738-9a15-66ad0a89df3e")
-		(property "Reference" "#PWR0298"
-			(at 149.86 158.75 0)
+		(property "Reference" "#PWR067"
+			(at 190.5 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +5489,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 157.48 0)
+			(at 190.5 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5332,7 +5497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 152.4 0)
+			(at 190.5 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5341,7 +5506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 152.4 0)
+			(at 190.5 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5350,7 +5515,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 152.4 0)
+			(at 190.5 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5529,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0298")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -5372,7 +5537,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 63.5 0)
+		(at 190.5 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5380,8 +5545,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b421bf83-1fda-462a-9940-38e92bf19b5d")
-		(property "Reference" "#PWR0146"
-			(at 149.86 69.85 0)
+		(property "Reference" "#PWR061"
+			(at 190.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5555,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 68.58 0)
+			(at 190.5 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 63.5 0)
+			(at 190.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,7 +5572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 63.5 0)
+			(at 190.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5416,7 +5581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 63.5 0)
+			(at 190.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5430,7 +5595,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0146")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -5438,7 +5603,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 74.93 0)
+		(at 76.2 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5446,8 +5611,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8aba17f-c7bb-4190-bcde-9f462403d5b6")
-		(property "Reference" "#PWR0106"
-			(at 260.35 81.28 0)
+		(property "Reference" "#PWR058"
+			(at 76.2 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5621,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 80.01 0)
+			(at 76.2 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5464,7 +5629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 74.93 0)
+			(at 76.2 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,7 +5638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 74.93 0)
+			(at 76.2 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 74.93 0)
+			(at 76.2 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +5661,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0106")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -5504,7 +5669,7 @@
 	)
 	(symbol
 		(lib_id "femta-control-custom:LTC2620IGN")
-		(at 247.65 78.74 0)
+		(at 63.5 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5512,8 +5677,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d27fe72e-ffe2-4e1e-a53c-8359fc6426f5")
-		(property "Reference" "U21"
-			(at 249.8441 106.68 0)
+		(property "Reference" "U11"
+			(at 65.6941 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5687,7 @@
 			)
 		)
 		(property "Value" "LTC2620IGN"
-			(at 249.8441 109.22 0)
+			(at 65.6941 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 78.74 0)
+			(at 63.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 78.74 0)
+			(at 63.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5714,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 78.74 0)
+			(at 63.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,7 +5773,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "U21")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -5616,15 +5781,15 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM358")
-		(at 152.4 144.78 0)
+		(at 193.04 135.89 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "dabb15c3-6a58-4c47-be36-b85f008b9a4e")
-		(property "Reference" "U62"
-			(at 151.13 144.018 0)
+		(property "Reference" "U16"
+			(at 191.77 135.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5798,7 @@
 			)
 		)
 		(property "Value" "LM358"
-			(at 151.13 145.796 0)
+			(at 191.77 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 144.78 0)
+			(at 193.04 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5816,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
-			(at 152.4 144.78 0)
+			(at 193.04 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5660,7 +5825,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
-			(at 152.4 144.78 0)
+			(at 193.04 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5860,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "U62")
+					(reference "U16")
 					(unit 3)
 				)
 			)
@@ -5703,7 +5868,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 245.11 67.31 0)
+		(at 60.96 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5711,8 +5876,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7ff2d34-9421-4c9a-a70c-ef96e5b0a605")
-		(property "Reference" "#PWR0104"
-			(at 245.11 71.12 0)
+		(property "Reference" "#PWR054"
+			(at 60.96 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +5886,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 245.11 62.23 0)
+			(at 60.96 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +5894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 67.31 0)
+			(at 60.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,7 +5903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 67.31 0)
+			(at 60.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5912,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 245.11 67.31 0)
+			(at 60.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,7 +5926,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "#PWR0104")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -5769,7 +5934,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 85.09 0)
+		(at 179.07 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5777,8 +5942,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee57f9b8-b5e3-4c7b-9cf8-0de56c632e97")
-		(property "Reference" "C82"
-			(at 142.24 83.8199 0)
+		(property "Reference" "C29"
+			(at 182.88 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5787,7 +5952,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 142.24 86.3599 0)
+			(at 182.88 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5796,7 +5961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.3952 88.9 0)
+			(at 180.0352 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5805,7 +5970,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 85.09 0)
+			(at 179.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,7 +5979,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 85.09 0)
+			(at 179.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5831,7 +5996,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "C82")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -5839,7 +6004,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 223.52 74.93 0)
+		(at 39.37 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5847,8 +6012,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f95e7256-61c5-4df1-9dfb-595a3c5af688")
-		(property "Reference" "C40"
-			(at 227.33 73.6599 0)
+		(property "Reference" "C22"
+			(at 43.18 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +6022,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 227.33 76.1999 0)
+			(at 43.18 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +6031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.4852 78.74 0)
+			(at 40.3352 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +6040,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 74.93 0)
+			(at 39.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +6049,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 223.52 74.93 0)
+			(at 39.37 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5901,14 +6066,14 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891"
-					(reference "C40")
+					(reference "C22")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 85.09 106.68)
+		(at 125.73 97.79)
 		(size 29.21 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -5920,7 +6085,7 @@
 		)
 		(uuid "37415780-54b9-4ed3-8ab8-f09b8d9e8267")
 		(property "Sheetname" "Thrust Channel 6"
-			(at 85.09 105.9684 0)
+			(at 125.73 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +6094,7 @@
 			)
 		)
 		(property "Sheetfile" "thrust-channel.kicad_sch"
-			(at 85.09 112.3446 0)
+			(at 125.73 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +6103,7 @@
 			)
 		)
 		(pin "PSET" input
-			(at 85.09 109.22 180)
+			(at 125.73 100.33 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +6113,7 @@
 			(uuid "f2d9fcb7-cb92-4b28-b374-8d213f8e71e4")
 		)
 		(pin "TELEM_POUT" output
-			(at 114.3 109.22 0)
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,7 +6131,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 96.52)
+		(at 125.73 87.63)
 		(size 29.21 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -5978,7 +6143,7 @@
 		)
 		(uuid "47cd1a1a-1480-4eae-b9ce-a73cac0b3bdc")
 		(property "Sheetname" "Thrust Channel 5"
-			(at 85.09 95.8084 0)
+			(at 125.73 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +6152,7 @@
 			)
 		)
 		(property "Sheetfile" "thrust-channel.kicad_sch"
-			(at 85.09 102.1846 0)
+			(at 125.73 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5996,7 +6161,7 @@
 			)
 		)
 		(pin "PSET" input
-			(at 85.09 99.06 180)
+			(at 125.73 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6006,7 +6171,7 @@
 			(uuid "da983a50-eddd-4aa8-a3aa-09247cd01f8f")
 		)
 		(pin "TELEM_POUT" output
-			(at 114.3 99.06 0)
+			(at 154.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6024,7 +6189,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 55.88)
+		(at 125.73 46.99)
 		(size 29.21 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -6036,7 +6201,7 @@
 		)
 		(uuid "49dafe5d-519c-49b1-88d9-ec8cb6df7648")
 		(property "Sheetname" "Thrust Channel 1"
-			(at 85.09 55.1684 0)
+			(at 125.73 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +6210,7 @@
 			)
 		)
 		(property "Sheetfile" "thrust-channel.kicad_sch"
-			(at 85.09 61.5446 0)
+			(at 125.73 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6219,7 @@
 			)
 		)
 		(pin "PSET" input
-			(at 85.09 58.42 180)
+			(at 125.73 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6229,7 @@
 			(uuid "7da0df91-7b63-45b7-9868-5291148bb40d")
 		)
 		(pin "TELEM_POUT" output
-			(at 114.3 58.42 0)
+			(at 154.94 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6247,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 86.36)
+		(at 125.73 77.47)
 		(size 29.21 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -6094,7 +6259,7 @@
 		)
 		(uuid "826227b2-3a4f-4a87-9419-7605bb4529f5")
 		(property "Sheetname" "Thrust Channel 4"
-			(at 85.09 85.6484 0)
+			(at 125.73 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6103,7 +6268,7 @@
 			)
 		)
 		(property "Sheetfile" "thrust-channel.kicad_sch"
-			(at 85.09 92.0246 0)
+			(at 125.73 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6112,7 +6277,7 @@
 			)
 		)
 		(pin "PSET" input
-			(at 85.09 88.9 180)
+			(at 125.73 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6287,7 @@
 			(uuid "2ad06413-db18-4eb8-9684-b5b47522d5e1")
 		)
 		(pin "TELEM_POUT" output
-			(at 114.3 88.9 0)
+			(at 154.94 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +6305,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 76.2)
+		(at 125.73 67.31)
 		(size 29.21 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -6152,7 +6317,7 @@
 		)
 		(uuid "8de52c6a-44a2-4c3d-988b-6d07c6a566b2")
 		(property "Sheetname" "Thrust Channel 3"
-			(at 85.09 75.4884 0)
+			(at 125.73 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +6326,7 @@
 			)
 		)
 		(property "Sheetfile" "thrust-channel.kicad_sch"
-			(at 85.09 81.8646 0)
+			(at 125.73 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,7 +6335,7 @@
 			)
 		)
 		(pin "PSET" input
-			(at 85.09 78.74 180)
+			(at 125.73 69.85 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +6345,7 @@
 			(uuid "3cf4babe-b2f5-46c4-8afd-8e1b9250c9e9")
 		)
 		(pin "TELEM_POUT" output
-			(at 114.3 78.74 0)
+			(at 154.94 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +6363,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 66.04)
+		(at 125.73 57.15)
 		(size 29.21 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -6210,7 +6375,7 @@
 		)
 		(uuid "a6f30b1f-5689-4abf-92ce-ea5546b50948")
 		(property "Sheetname" "Thrust Channel 2"
-			(at 85.09 65.3284 0)
+			(at 125.73 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +6384,7 @@
 			)
 		)
 		(property "Sheetfile" "thrust-channel.kicad_sch"
-			(at 85.09 71.7046 0)
+			(at 125.73 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6393,7 @@
 			)
 		)
 		(pin "PSET" input
-			(at 85.09 68.58 180)
+			(at 125.73 59.69 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +6403,7 @@
 			(uuid "6c4c310d-3e25-4a3b-8ea9-0f5db3e48475")
 		)
 		(pin "TELEM_POUT" output
-			(at 114.3 68.58 0)
+			(at 154.94 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,7 +6421,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 116.84)
+		(at 125.73 107.95)
 		(size 29.21 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -6268,7 +6433,7 @@
 		)
 		(uuid "ace2e429-6c02-47f3-a5a8-ce53fd79b4bb")
 		(property "Sheetname" "Thrust Channel 7"
-			(at 85.09 116.1284 0)
+			(at 125.73 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6442,7 @@
 			)
 		)
 		(property "Sheetfile" "thrust-channel.kicad_sch"
-			(at 85.09 122.5046 0)
+			(at 125.73 113.6146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6451,7 @@
 			)
 		)
 		(pin "PSET" input
-			(at 85.09 119.38 180)
+			(at 125.73 110.49 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6461,7 @@
 			(uuid "51e7410b-d40e-4ebd-9cdc-d557d23d2c15")
 		)
 		(pin "TELEM_POUT" output
-			(at 114.3 119.38 0)
+			(at 154.94 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6479,7 @@
 		)
 	)
 	(sheet
-		(at 85.09 127)
+		(at 125.73 118.11)
 		(size 29.21 5.08)
 		(fields_autoplaced yes)
 		(stroke
@@ -6326,7 +6491,7 @@
 		)
 		(uuid "b15c763d-24bc-4af2-a62c-4319be075b04")
 		(property "Sheetname" "Thrust Channel 8"
-			(at 85.09 126.2884 0)
+			(at 125.73 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +6500,7 @@
 			)
 		)
 		(property "Sheetfile" "thrust-channel.kicad_sch"
-			(at 85.09 132.6646 0)
+			(at 125.73 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6509,7 @@
 			)
 		)
 		(pin "PSET" input
-			(at 85.09 129.54 180)
+			(at 125.73 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6519,7 @@
 			(uuid "0070779d-7261-4304-bab5-351e8d6e8a24")
 		)
 		(pin "TELEM_POUT" output
-			(at 114.3 129.54 0)
+			(at 154.94 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
