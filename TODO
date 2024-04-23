@@ -7,12 +7,14 @@ connect SPI and i2c lines
 x flow sensor connectors
 x femta and thermistor in schematic?
 x set current limit resistors
-update femta thruster control resistors
+x update femta thruster control resistors
 status LEDs
 x max4210 input limit 0-1V?
-rescale thruster control by voltage or current shunt
+x rescale thruster control by voltage or current shunt
+check hysteresis
 
 double check analog decoupling
 double check all line voltage ranges
+re link opamps
 
 0.6 * (rhi + rlo)/rlo

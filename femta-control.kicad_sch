@@ -5,6 +5,108 @@
 	(uuid "838bf11c-36b7-41d7-9462-fe98a188d617")
 	(paper "USLedger")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -786,6 +888,187 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1636,6 +1919,12 @@
 		)
 	)
 	(junction
+		(at 128.27 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d48c1fa-1063-4d57-94d5-8277e2ad0d5d")
+	)
+	(junction
 		(at 168.91 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1652,6 +1941,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "208a6539-80e3-4b3b-8018-14dc45e86cad")
+	)
+	(junction
+		(at 107.95 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38663988-e6c1-41da-b9c8-bddd6715f71d")
 	)
 	(junction
 		(at 134.62 167.64)
@@ -1672,10 +1967,22 @@
 		(uuid "622e0528-17d2-4165-acc9-81ca9fb6f0ef")
 	)
 	(junction
+		(at 138.43 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "696395b8-4366-4f91-9b2e-3e4a6563cdc7")
+	)
+	(junction
 		(at 106.68 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dc11949-a5b6-47c3-a271-465a300bc9d3")
+	)
+	(junction
+		(at 118.11 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80920570-45fb-42a6-a629-f6d0d31c116d")
 	)
 	(junction
 		(at 44.45 114.3)
@@ -1706,6 +2013,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b89ced26-47b9-45fd-a721-3a57e71a657c")
+	)
+	(junction
+		(at 107.95 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd63f585-5591-4e67-a036-8355e2a25a4f")
 	)
 	(junction
 		(at 44.45 116.84)
@@ -1761,6 +2074,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 44.45) (xy 107.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecb6809-9ae0-4c00-bc7c-1430a184399c")
+	)
+	(wire
+		(pts
 			(xy 46.99 137.16) (xy 35.56 137.16)
 		)
 		(stroke
@@ -1768,6 +2091,16 @@
 			(type default)
 		)
 		(uuid "0f9de368-a755-461e-9a0d-978873f50b59")
+	)
+	(wire
+		(pts
+			(xy 118.11 44.45) (xy 118.11 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15530dc2-584f-4889-99c1-556778ba8ae4")
 	)
 	(wire
 		(pts
@@ -1991,6 +2324,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 44.45) (xy 128.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7786e496-ca44-416f-a48f-e12f5568e939")
+	)
+	(wire
+		(pts
 			(xy 118.11 73.66) (xy 124.46 73.66)
 		)
 		(stroke
@@ -2008,6 +2351,16 @@
 			(type default)
 		)
 		(uuid "7a371099-2486-49e9-a4ce-b349e9a777ca")
+	)
+	(wire
+		(pts
+			(xy 116.84 53.34) (xy 118.11 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e5a7b21-4345-4478-9f4d-529f2956c449")
 	)
 	(wire
 		(pts
@@ -2078,6 +2431,16 @@
 			(type default)
 		)
 		(uuid "a503e17e-6c77-4a85-bc9b-9641df417f92")
+	)
+	(wire
+		(pts
+			(xy 104.14 53.34) (xy 107.95 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b132eb-5774-43fa-8147-8babbe9dc8e0")
 	)
 	(wire
 		(pts
@@ -2171,6 +2534,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 53.34) (xy 138.43 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d180e528-3a53-48ff-9e4a-f9be1335e0b1")
+	)
+	(wire
+		(pts
 			(xy 107.95 73.66) (xy 118.11 73.66)
 		)
 		(stroke
@@ -2211,6 +2584,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 44.45) (xy 138.43 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7c5f5c-56dd-459e-93ad-0b63c8b37a32")
+	)
+	(wire
+		(pts
 			(xy 44.45 116.84) (xy 48.26 116.84)
 		)
 		(stroke
@@ -2238,6 +2621,16 @@
 			(type default)
 		)
 		(uuid "f9b63927-3d83-4878-ada0-2ee516ba5772")
+	)
+	(wire
+		(pts
+			(xy 127 53.34) (xy 128.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4148f3-23c9-4198-979c-49ca18b6f3d6")
 	)
 	(wire
 		(pts
@@ -2269,9 +2662,9 @@
 		)
 		(uuid "2e6ce3e1-7be0-4844-a8a7-a5e3a8f55945")
 	)
-	(text "Power indicators"
+	(text "Power indicators & Test Points"
 		(exclude_from_sim no)
-		(at 123.444 45.212 0)
+		(at 122.174 34.544 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2474,6 +2867,28 @@
 			)
 		)
 	)
+	(global_label "5V_UNPROT"
+		(shape input)
+		(at 64.77 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b1e4314-7f59-4eb0-8eb4-5dc1f25ecc8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V_HEATER_UNPROT"
 		(shape input)
 		(at 40.64 109.22 180)
@@ -2492,6 +2907,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_HEATER_UNPROT"
+		(shape input)
+		(at 72.39 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f539985-30d1-41ba-970c-e7599d4da391")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.0623 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2988,7 +3425,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 138.43 53.34 0)
+		(at 138.43 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2997,7 +3434,7 @@
 		(fields_autoplaced yes)
 		(uuid "2533e1ed-4f6c-4e0d-8bde-1e47e1d0e535")
 		(property "Reference" "#PWR011"
-			(at 138.43 57.15 0)
+			(at 138.43 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3443,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 138.43 48.26 0)
+			(at 138.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 53.34 0)
+			(at 138.43 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 53.34 0)
+			(at 138.43 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,7 +3469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 138.43 53.34 0)
+			(at 138.43 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,7 +3491,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 107.95 53.34 0)
+		(at 107.95 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3063,7 +3500,7 @@
 		(fields_autoplaced yes)
 		(uuid "34688078-669b-4c84-af05-2dce401753f1")
 		(property "Reference" "#PWR06"
-			(at 107.95 57.15 0)
+			(at 107.95 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +3509,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 107.95 48.26 0)
+			(at 107.95 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 53.34 0)
+			(at 107.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 53.34 0)
+			(at 107.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3535,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 107.95 53.34 0)
+			(at 107.95 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3622,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 118.11 53.34 0)
+		(at 118.11 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3194,7 +3631,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d323bbf-30d9-4183-bed6-f9b1bcb76cf5")
 		(property "Reference" "#PWR07"
-			(at 118.11 57.15 0)
+			(at 118.11 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3640,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 118.11 48.26 0)
+			(at 118.11 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +3648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 53.34 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3220,7 +3657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 53.34 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3229,7 +3666,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 118.11 53.34 0)
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3309,6 +3746,71 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41176a80-152f-4aba-b493-77b8ce1afa40")
+		(property "Reference" "TP2"
+			(at 113.538 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3TP"
+			(at 113.538 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72d6e285-7ddf-45ec-b018-448ee44b9271")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3952,6 +4454,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 127 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60ab8c12-10b0-42d7-8fe7-0e44708e7b9e")
+		(property "Reference" "TP3"
+			(at 123.698 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5VPTP"
+			(at 123.698 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdcb5c8d-621e-4b58-b423-eb14d4e4b550")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 128.27 57.15 0)
 		(unit 1)
@@ -4359,6 +4926,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 68.58 82.55 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84dfabc8-967c-48bb-b9ac-5af93400de7f")
+		(property "Reference" "JP2"
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HEATER_POWER"
+			(at 68.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 68.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6640c476-0b8c-4c6b-bd96-5e670c9bf45c")
+		)
+		(pin "1"
+			(uuid "e0d32fc7-8857-4600-9f15-387e2bf90fbc")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 106.68 175.26 0)
 		(unit 1)
@@ -4418,6 +5053,71 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "998fbe24-3959-4a68-b737-74a3a3735df1")
+		(property "Reference" "TP5"
+			(at 104.648 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDTP"
+			(at 104.648 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62d519af-e476-47b1-9357-fbe2d3b42c73")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -4700,6 +5400,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 137.16 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbbfeeeb-7642-4bef-a7a0-a55363a2255c")
+		(property "Reference" "TP4"
+			(at 133.858 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATTTP"
+			(at 133.858 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 137.16 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe47f5de-e8a4-4699-9e57-f081b7630aca")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 134.62 163.83 0)
 		(unit 1)
@@ -4839,7 +5604,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VP")
-		(at 128.27 53.34 0)
+		(at 128.27 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4848,7 +5613,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4ca5052-6d52-4405-b0a3-1e667e43bc3a")
 		(property "Reference" "#PWR09"
-			(at 128.27 57.15 0)
+			(at 128.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +5622,7 @@
 			)
 		)
 		(property "Value" "+5VP"
-			(at 128.27 48.26 0)
+			(at 128.27 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +5630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 53.34 0)
+			(at 128.27 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +5639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 53.34 0)
+			(at 128.27 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +5648,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 128.27 53.34 0)
+			(at 128.27 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5096,6 +5861,71 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 104.14 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f89e6b0d-be64-4c49-be1b-9012c76cc182")
+		(property "Reference" "TP1"
+			(at 100.838 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5VTP"
+			(at 100.838 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 104.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cdb51114-09be-4558-a1c3-4e9dd43e91a3")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
