@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "e998d0fd-81f9-4ea6-8596-4a54778d7f2e")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
 		(comment 1 "Latching current limiter for 2.7V < Vin < 5.5V")
 	)

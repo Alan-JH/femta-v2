@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "5bf73a3d-881d-41d5-bbe7-6a37d6a3ad4f")
-	(paper "A4")
+	(paper "USLetter")
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM358"
 			(pin_names
@@ -1011,7 +1011,7 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -1028,7 +1028,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1054,7 +1054,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1072,7 +1072,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1110,7 +1110,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1367,12 +1367,6 @@
 		(uuid "83cec141-acfa-484c-9736-9675d1ef62dc")
 	)
 	(junction
-		(at 69.85 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8797dd5b-ce03-4547-943d-4850ae3e60e0")
-	)
-	(junction
 		(at 87.63 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1395,6 +1389,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce74fdf1-3100-4649-9653-1c3bcdd2e593")
+	)
+	(junction
+		(at 69.85 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eed3254d-b860-47b9-b4ff-a5be64e3b531")
 	)
 	(wire
 		(pts
@@ -2020,6 +2020,116 @@
 				)
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e/f663376f-9b89-41b3-aeca-9c6d61fe2c6e"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 69.85 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e361842-e49b-4b20-b608-156da7991f22")
+		(property "Reference" "#PWR070"
+			(at 69.85 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 69.85 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 69.85 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b6d7443-ae5a-4ef9-94f3-ac9f7221cc1e")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/49dafe5d-519c-49b1-88d9-ec8cb6df7648"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/a6f30b1f-5689-4abf-92ce-ea5546b50948"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/8de52c6a-44a2-4c3d-988b-6d07c6a566b2"
+					(reference "#PWR082")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/826227b2-3a4f-4a87-9419-7605bb4529f5"
+					(reference "#PWR088")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/47cd1a1a-1480-4eae-b9ce-a73cac0b3bdc"
+					(reference "#PWR094")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/37415780-54b9-4ed3-8ab8-f09b8d9e8267"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/ace2e429-6c02-47f3-a5a8-ce53fd79b4bb"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/b15c763d-24bc-4af2-a62c-4319be075b04"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e/193305be-6cda-4233-81aa-0afa66e3e4ce"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e/f663376f-9b89-41b3-aeca-9c6d61fe2c6e"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/c8752098-45e2-4d20-a718-e7a412b889c5/193305be-6cda-4233-81aa-0afa66e3e4ce"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/c8752098-45e2-4d20-a718-e7a412b889c5/f663376f-9b89-41b3-aeca-9c6d61fe2c6e"
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -3399,116 +3509,6 @@
 				)
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e/f663376f-9b89-41b3-aeca-9c6d61fe2c6e"
 					(reference "R90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 69.85 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1fc7c50-79ce-48ff-b189-71b517a4d140")
-		(property "Reference" "#PWR070"
-			(at 69.85 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 69.85 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 69.85 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d9b72529-10be-49c6-bc3f-77b07e0038bb")
-		)
-		(instances
-			(project "femta-control"
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/49dafe5d-519c-49b1-88d9-ec8cb6df7648"
-					(reference "#PWR070")
-					(unit 1)
-				)
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/47cd1a1a-1480-4eae-b9ce-a73cac0b3bdc"
-					(reference "#PWR094")
-					(unit 1)
-				)
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/a6f30b1f-5689-4abf-92ce-ea5546b50948"
-					(reference "#PWR076")
-					(unit 1)
-				)
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/37415780-54b9-4ed3-8ab8-f09b8d9e8267"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/8de52c6a-44a2-4c3d-988b-6d07c6a566b2"
-					(reference "#PWR082")
-					(unit 1)
-				)
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/ace2e429-6c02-47f3-a5a8-ce53fd79b4bb"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/826227b2-3a4f-4a87-9419-7605bb4529f5"
-					(reference "#PWR088")
-					(unit 1)
-				)
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/3bf849ef-bca6-4864-a347-fbff558d0891/b15c763d-24bc-4af2-a62c-4319be075b04"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/c8752098-45e2-4d20-a718-e7a412b889c5/193305be-6cda-4233-81aa-0afa66e3e4ce"
-					(reference "#PWR0154")
-					(unit 1)
-				)
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e/193305be-6cda-4233-81aa-0afa66e3e4ce"
-					(reference "#PWR0130")
-					(unit 1)
-				)
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/c8752098-45e2-4d20-a718-e7a412b889c5/f663376f-9b89-41b3-aeca-9c6d61fe2c6e"
-					(reference "#PWR0160")
-					(unit 1)
-				)
-				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e/f663376f-9b89-41b3-aeca-9c6d61fe2c6e"
-					(reference "#PWR0136")
 					(unit 1)
 				)
 			)

@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "fd08ba58-4c63-4011-a236-ba4263468b61")
-	(paper "A4")
+	(paper "USLetter")
 	(lib_symbols
 		(symbol "Amplifier_Operational:LM358"
 			(pin_names

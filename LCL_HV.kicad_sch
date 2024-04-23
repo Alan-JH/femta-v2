@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "dcef2612-cc29-4125-a0e6-f75ff57753e4")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
 		(comment 1 "LCL for Vin not within 2.7 to 5.5V")
 	)

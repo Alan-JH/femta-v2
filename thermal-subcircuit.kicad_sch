@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "0d9e0616-7b7a-4d94-a3fb-01608f09f2da")
-	(paper "A4")
+	(paper "USLetter")
 	(lib_symbols
 		(symbol "Analog_Switch:TS5A3159ADBVR"
 			(pin_names
