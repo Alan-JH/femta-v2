@@ -592,54 +592,6 @@
       "Root"
     ],
     [
-      "c29214a2-445b-49c4-ba25-1140c8e459b9",
-      "FEMTA Thermal Circuit 1"
-    ],
-    [
-      "b1c59384-d247-4ca3-8131-32a43effa82e",
-      "FEMTA Thermal Circuit 2"
-    ],
-    [
-      "b4cc5372-aa01-49d6-a2cf-514598e33d47",
-      "FEMTA Thermal Circuit 3"
-    ],
-    [
-      "88a1aa13-44ed-4ade-abb2-7a4c1d117491",
-      "FEMTA Thermal Circuit 4"
-    ],
-    [
-      "a216897b-af2d-4140-b7c1-52adc3cfb616",
-      "FEMTA Thermal Circuit 5"
-    ],
-    [
-      "ca534e7a-556e-4ed2-9442-39dd3e4c8cf2",
-      "FEMTA Thermal Circuit 6"
-    ],
-    [
-      "c8752098-45e2-4d20-a718-e7a412b889c5",
-      "Thrust Control Side 2"
-    ],
-    [
-      "193305be-6cda-4233-81aa-0afa66e3e4ce",
-      "Thrust Channel 1"
-    ],
-    [
-      "f663376f-9b89-41b3-aeca-9c6d61fe2c6e",
-      "Thrust Channel 2"
-    ],
-    [
-      "193305be-6cda-4233-81aa-0afa66e3e4ce",
-      "Thrust Channel 1"
-    ],
-    [
-      "32e22e35-b33b-47a1-a6d3-56fb349a24b3",
-      "Tank Thermal Circuit"
-    ],
-    [
-      "f663376f-9b89-41b3-aeca-9c6d61fe2c6e",
-      "Thrust Channel 2"
-    ],
-    [
       "19a6893b-6e4a-4325-88c3-1ed1bee3cf29",
       "Microcontroller"
     ],
@@ -684,10 +636,6 @@
       "Thrust Channel 5"
     ],
     [
-      "25504b25-63a2-43d8-9fee-c553eccedd0e",
-      "Thrust Control Side 1"
-    ],
-    [
       "37415780-54b9-4ed3-8ab8-f09b8d9e8267",
       "Thrust Channel 6"
     ],
@@ -700,6 +648,30 @@
       "Thrust Channel 8"
     ],
     [
+      "25504b25-63a2-43d8-9fee-c553eccedd0e",
+      "Thrust Control Side 1"
+    ],
+    [
+      "193305be-6cda-4233-81aa-0afa66e3e4ce",
+      "Thrust Channel 1"
+    ],
+    [
+      "f663376f-9b89-41b3-aeca-9c6d61fe2c6e",
+      "Thrust Channel 2"
+    ],
+    [
+      "c8752098-45e2-4d20-a718-e7a412b889c5",
+      "Thrust Control Side 2"
+    ],
+    [
+      "193305be-6cda-4233-81aa-0afa66e3e4ce",
+      "Thrust Channel 1"
+    ],
+    [
+      "f663376f-9b89-41b3-aeca-9c6d61fe2c6e",
+      "Thrust Channel 2"
+    ],
+    [
       "1a97e3f3-1996-4f2f-9833-0a2e3ec261dd",
       "Valves"
     ],
@@ -708,8 +680,36 @@
       "Thermal Circuits"
     ],
     [
+      "c29214a2-445b-49c4-ba25-1140c8e459b9",
+      "FEMTA Thermal Circuit 1"
+    ],
+    [
+      "b1c59384-d247-4ca3-8131-32a43effa82e",
+      "FEMTA Thermal Circuit 2"
+    ],
+    [
+      "b4cc5372-aa01-49d6-a2cf-514598e33d47",
+      "FEMTA Thermal Circuit 3"
+    ],
+    [
+      "88a1aa13-44ed-4ade-abb2-7a4c1d117491",
+      "FEMTA Thermal Circuit 4"
+    ],
+    [
+      "a216897b-af2d-4140-b7c1-52adc3cfb616",
+      "FEMTA Thermal Circuit 5"
+    ],
+    [
+      "ca534e7a-556e-4ed2-9442-39dd3e4c8cf2",
+      "FEMTA Thermal Circuit 6"
+    ],
+    [
+      "32e22e35-b33b-47a1-a6d3-56fb349a24b3",
+      "Tank Thermal Circuit"
+    ],
+    [
       "2e86c0c4-e360-4fa1-b2a4-095852b94f1a",
-      "DPT Sensors"
+      "DPT and Flow"
     ]
   ],
   "text_variables": {}

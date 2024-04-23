@@ -2129,7 +2129,7 @@
 		)
 		(uuid "f6e1908a-c3e4-486f-bfb5-96edfafba6a6")
 	)
-	(label "SPI_SCK"
+	(label "SPI_CLK"
 		(at 71.12 39.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2294,7 +2294,7 @@
 		)
 		(uuid "e46bcc1f-8475-4875-86d4-286c99b793e1")
 	)
-	(label "SPI_SCK"
+	(label "SPI_CLK"
 		(at 204.47 54.61 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4110,10 +4110,10 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/c8752098-45e2-4d20-a718-e7a412b889c5"
-					(page "9")
+					(page "20")
 				)
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e"
-					(page "13")
+					(page "17")
 				)
 			)
 		)
@@ -4171,10 +4171,10 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/c8752098-45e2-4d20-a718-e7a412b889c5"
-					(page "10")
+					(page "21")
 				)
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617/25504b25-63a2-43d8-9fee-c553eccedd0e"
-					(page "15")
+					(page "18")
 				)
 			)
 		)

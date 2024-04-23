@@ -1,15 +1,18 @@
 TODO
-12V regulator
-valve control and connectors
-Tank iso valve control
--RC Circuit?
+x 12V regulator
+x valve control and connectors
+x Tank iso valve control
+RC Values for tank iso
 connect SPI and i2c lines
-flow sensor connectors
-----femta and thermistor in schematic?
-set current limit resistors
+x flow sensor connectors
+x femta and thermistor in schematic?
+x set current limit resistors
 update femta thruster control resistors
-double check analog decoupling
 status LEDs
-
-max4210 input limit 0-1V?
+x max4210 input limit 0-1V?
 rescale thruster control by voltage or current shunt
+
+double check analog decoupling
+double check all line voltage ranges
+
+0.6 * (rhi + rlo)/rlo

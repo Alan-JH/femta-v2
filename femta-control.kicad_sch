@@ -376,6 +376,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -657,6 +793,262 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:NCP1117-12_SOT223"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NCP1117-12_SOT223"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low drop-out regulator, Fixed Output 12V, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "REGULATOR LDO 12V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NCP1117-12_SOT223_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NCP1117-12_SOT223_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1292,10 +1684,28 @@
 		(uuid "98ac1c81-eafb-41c6-9b66-1dc54d566892")
 	)
 	(junction
+		(at 72.39 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2110238-f021-4770-b8e9-78ee2c5a2d5a")
+	)
+	(junction
+		(at 54.61 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acc66d27-f469-47fa-8d48-efc3d50639fb")
+	)
+	(junction
 		(at 168.91 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b682043a-1f36-41ce-a8cb-9b3fc6b2fc5d")
+	)
+	(junction
+		(at 35.56 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b89ced26-47b9-45fd-a721-3a57e71a657c")
 	)
 	(junction
 		(at 44.45 116.84)
@@ -1351,6 +1761,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 137.16) (xy 35.56 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9de368-a755-461e-9a0d-978873f50b59")
+	)
+	(wire
+		(pts
 			(xy 62.23 182.88) (xy 76.2 182.88)
 		)
 		(stroke
@@ -1371,6 +1791,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 138.43) (xy 72.39 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20278c2a-cc9f-4db6-b41a-4072fed92a61")
+	)
+	(wire
+		(pts
 			(xy 40.64 109.22) (xy 48.26 109.22)
 		)
 		(stroke
@@ -1381,6 +1811,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 137.16) (xy 62.23 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28031239-0ea0-4549-ba49-dff13f6afe67")
+	)
+	(wire
+		(pts
 			(xy 127 204.47) (xy 140.97 204.47)
 		)
 		(stroke
@@ -1388,6 +1828,16 @@
 			(type default)
 		)
 		(uuid "341c92bd-11ac-4673-ae2e-0a62b5570f58")
+	)
+	(wire
+		(pts
+			(xy 35.56 146.05) (xy 54.61 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a566bb0-b010-4c80-ac34-14cdc3cd9cd6")
 	)
 	(wire
 		(pts
@@ -1581,6 +2031,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 137.16) (xy 35.56 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf8eb57-8666-4f0f-8184-a7ff3db1f4ed")
+	)
+	(wire
+		(pts
 			(xy 104.14 116.84) (xy 95.25 116.84)
 		)
 		(stroke
@@ -1608,6 +2068,16 @@
 			(type default)
 		)
 		(uuid "9f2a40e1-89a9-4575-959b-c46b0c19babd")
+	)
+	(wire
+		(pts
+			(xy 54.61 146.05) (xy 72.39 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a503e17e-6c77-4a85-bc9b-9641df417f92")
 	)
 	(wire
 		(pts
@@ -1771,6 +2241,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 144.78) (xy 54.61 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa92db15-fb9b-4202-acc3-a11de6c98f7c")
+	)
+	(wire
+		(pts
 			(xy 118.11 73.66) (xy 118.11 68.58)
 		)
 		(stroke
@@ -1778,6 +2258,16 @@
 			(type default)
 		)
 		(uuid "fc8aef84-10ec-4990-be0c-42a8d04cc79b")
+	)
+	(text "0.6A Limit on 3.3V Rail\n"
+		(exclude_from_sim no)
+		(at 89.662 211.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e6ce3e1-7be0-4844-a8a7-a5e3a8f55945")
 	)
 	(text "Power indicators"
 		(exclude_from_sim no)
@@ -1788,6 +2278,36 @@
 			)
 		)
 		(uuid "35b52921-03a4-425d-bc0a-45d53c273ce0")
+	)
+	(text "2.04A Limit on Heater Rail"
+		(exclude_from_sim no)
+		(at 152.146 175.006 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "36e3b808-10ec-46f8-85d0-840adf108856")
+	)
+	(text "0.6A Limit on 5V Rail\n"
+		(exclude_from_sim no)
+		(at 90.17 174.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9de61056-be8a-4e36-8f30-16dfbbc081ad")
+	)
+	(text "2.04A Limit on Batt Rail"
+		(exclude_from_sim no)
+		(at 151.638 212.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd0b8ca1-2115-47ba-8c85-3ee12edc5bc5")
 	)
 	(label "I2C_SCL"
 		(at 69.85 116.84 180)
@@ -2327,6 +2847,72 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d0d0058-aabf-4783-bada-aa862e055946")
+		(property "Reference" "#PWR0322"
+			(at 54.61 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d3275a2-ddde-4fc7-97b1-76ef6ba193f3")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "#PWR0322")
 					(unit 1)
 				)
 			)
@@ -2978,7 +3564,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30K"
+		(property "Value" "24K"
 			(at 168.91 200.66 90)
 			(effects
 				(font
@@ -3023,6 +3609,209 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 35.56 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "495256b2-5321-471f-8942-878c9fdc54b3")
+		(property "Reference" "#PWR0324"
+			(at 35.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 35.56 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86dd660a-01d8-4fd0-bf8f-dabeaa87fa2d")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "#PWR0324")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 72.39 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "499c56aa-7a3d-42c0-aa23-fb89d8ddcc61")
+		(property "Reference" "#PWR0323"
+			(at 72.39 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 72.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 72.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6413e0cc-0c0e-4bba-94de-73bdad742c9e")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "#PWR0323")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:NCP1117-12_SOT223")
+		(at 54.61 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a3fe298-a91c-4ca8-8318-65d9cefd5803")
+		(property "Reference" "U92"
+			(at 54.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCV1117-12_SOT223"
+			(at 54.61 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF"
+			(at 57.15 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low drop-out regulator, Fixed Output 12V, SOT-223"
+			(at 54.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ae50225-a67f-476c-aabc-3953e0e5251c")
+		)
+		(pin "1"
+			(uuid "46267af3-b5ce-4001-8325-c2ace312d7b4")
+		)
+		(pin "3"
+			(uuid "ba47cf2e-fc61-49b0-9ddd-ed6d6622e7af")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "U92")
 					(unit 1)
 				)
 			)
@@ -3248,7 +4037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "24K"
 			(at 168.91 163.83 90)
 			(effects
 				(font
@@ -3773,6 +4562,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 35.56 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b414ae33-77e5-4feb-a3bb-203788659c9d")
+		(property "Reference" "C94"
+			(at 39.37 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 39.37 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.5252 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 35.56 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85c84fd9-bd74-4ccc-8818-834904a572d6")
+		)
+		(pin "2"
+			(uuid "66b18491-943a-4df4-80ff-97726c54f13c")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 106.68 163.83 0)
 		(unit 1)
@@ -3903,6 +4762,76 @@
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 72.39 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d231b72c-bb5f-46c0-9fde-26fea70a2d7d")
+		(property "Reference" "C95"
+			(at 68.58 143.5101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 68.58 140.9701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.4248 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e9f4c59-f9e3-48b7-99f7-cac1b3b662cb")
+		)
+		(pin "2"
+			(uuid "c895ee8d-3e1e-446b-8ad5-a8c187aa7c7a")
+		)
+		(instances
+			(project "femta-control"
+				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -4509,7 +5438,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(page "18")
+					(page "2")
 				)
 			)
 		)
@@ -4547,7 +5476,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(page "31")
+					(page "22")
 				)
 			)
 		)
@@ -4635,7 +5564,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(page "19")
+					(page "3")
 				)
 			)
 		)
@@ -4673,7 +5602,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(page "36")
+					(page "23")
 				)
 			)
 		)
@@ -4711,7 +5640,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(page "29")
+					(page "16")
 				)
 			)
 		)
@@ -4728,7 +5657,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2e86c0c4-e360-4fa1-b2a4-095852b94f1a")
-		(property "Sheetname" "DPT Sensors"
+		(property "Sheetname" "DPT and Flow"
 			(at 209.55 122.4784 0)
 			(effects
 				(font
@@ -4737,7 +5666,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "dpt.kicad_sch"
+		(property "Sheetfile" "dpt-flow.kicad_sch"
 			(at 209.55 131.3946 0)
 			(effects
 				(font
@@ -4769,7 +5698,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(page "37")
+					(page "31")
 				)
 			)
 		)
@@ -4807,7 +5736,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(page "23")
+					(page "7")
 				)
 			)
 		)
@@ -4905,7 +5834,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(page "21")
+					(page "5")
 				)
 			)
 		)
@@ -4993,7 +5922,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(page "22")
+					(page "6")
 				)
 			)
 		)
@@ -5031,7 +5960,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(page "8")
+					(page "19")
 				)
 			)
 		)
@@ -5119,7 +6048,7 @@
 		(instances
 			(project "femta-control"
 				(path "/838bf11c-36b7-41d7-9462-fe98a188d617"
-					(page "20")
+					(page "4")
 				)
 			)
 		)

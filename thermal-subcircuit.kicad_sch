@@ -2932,6 +2932,16 @@
 		)
 		(uuid "2c752bb0-d3d4-4aab-95ac-419b66667e64")
 	)
+	(text "V(pout) = 0.832*POUT, 3.966W max power"
+		(exclude_from_sim no)
+		(at 134.366 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64c7f2fc-9660-4840-94ef-b579c493fdd4")
+	)
 	(label "T_SET"
 		(at 105.41 144.78 180)
 		(fields_autoplaced yes)
@@ -3415,7 +3425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20K"
+		(property "Value" "51K"
 			(at 156.21 48.26 90)
 			(effects
 				(font
@@ -4503,7 +4513,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX4210DEUA+"
+		(property "Value" "MAX4210FEUA+"
 			(at 135.89 51.054 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5496,7 +5506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30K"
+		(property "Value" "13K"
 			(at 156.21 55.88 90)
 			(effects
 				(font
