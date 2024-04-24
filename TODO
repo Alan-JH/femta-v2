@@ -2,7 +2,7 @@ TODO
 x 12V regulator
 x valve control and connectors
 x Tank iso valve control
-RC Values for tank iso
+x RC Values for tank iso
 x connect SPI and i2c lines
 x flow sensor connectors
 x femta and thermistor in schematic?
