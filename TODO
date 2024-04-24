@@ -3,18 +3,18 @@ x 12V regulator
 x valve control and connectors
 x Tank iso valve control
 RC Values for tank iso
-connect SPI and i2c lines
+x connect SPI and i2c lines
 x flow sensor connectors
 x femta and thermistor in schematic?
 x set current limit resistors
 x update femta thruster control resistors
-status LEDs
+x status LEDs
 x max4210 input limit 0-1V?
 x rescale thruster control by voltage or current shunt
-check hysteresis
+x check hysteresis
 
-double check analog decoupling
-double check all line voltage ranges
-re link opamps
+x double check analog decoupling
+x double check all line voltage ranges
+x re link opamps
 
 0.6 * (rhi + rlo)/rlo
