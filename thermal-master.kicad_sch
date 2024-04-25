@@ -8553,7 +8553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "femta-control:Bourns PVG3A"
 			(at 31.75 81.28 0)
 			(effects
 				(font
@@ -10400,7 +10400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm"
 			(at 302.26 87.63 0)
 			(effects
 				(font
@@ -11273,7 +11273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "femta-control:Bourns PVG3A"
 			(at 31.75 58.42 0)
 			(effects
 				(font
@@ -11544,7 +11544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.648 124.46 90)
 			(effects
 				(font
@@ -11679,7 +11679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 291.338 88.9 90)
 			(effects
 				(font

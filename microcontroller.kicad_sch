@@ -4938,7 +4938,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 68.58 76.708 90)
 			(effects
 				(font
@@ -5777,7 +5777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 29.972 34.29 90)
 			(effects
 				(font
@@ -5914,7 +5914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 122.428 99.06 90)
 			(effects
 				(font
@@ -6249,7 +6249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 122.682 53.34 90)
 			(effects
 				(font
@@ -6514,7 +6514,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 34.29 76.708 90)
 			(effects
 				(font
@@ -6584,7 +6584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_Omron_B3FS-101xP"
 			(at 129.54 64.77 0)
 			(effects
 				(font
@@ -6788,7 +6788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 123.952 97.79 90)
 			(effects
 				(font
@@ -6926,7 +6926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.758 109.22 90)
 			(effects
 				(font
@@ -6994,7 +6994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.582 86.36 90)
 			(effects
 				(font
@@ -7062,7 +7062,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 97.282 107.95 90)
 			(effects
 				(font
@@ -7462,7 +7462,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 167.132 69.85 90)
 			(effects
 				(font
