@@ -1,20 +1,6 @@
 TODO
-x 12V regulator
-x valve control and connectors
-x Tank iso valve control
-x RC Values for tank iso
-x connect SPI and i2c lines
-x flow sensor connectors
-x femta and thermistor in schematic?
-x set current limit resistors
-x update femta thruster control resistors
-x status LEDs
-x max4210 input limit 0-1V?
-x rescale thruster control by voltage or current shunt
-x check hysteresis
-
-x double check analog decoupling
-x double check all line voltage ranges
-x re link opamps
-
-0.6 * (rhi + rlo)/rlo
+Determine board config from mechanical CAD
+Split schematic up into separate boards accordingly
+Select connectors
+Ensure better silkscreen labelling than v1 prototype (label pinouts, label i2c addresses, etc.)
+Layout PCB
