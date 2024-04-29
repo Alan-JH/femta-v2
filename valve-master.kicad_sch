@@ -10305,7 +10305,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "98"
+		(property "Value" "100"
 			(at 246.38 86.36 90)
 			(effects
 				(font
@@ -10313,7 +10313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 244.602 86.36 90)
 			(effects
 				(font

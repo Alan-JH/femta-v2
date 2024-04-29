@@ -4241,7 +4241,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 171.45 130.81 0)
 			(effects
 				(font
@@ -4523,7 +4523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "femta-control:uMAX-8"
 			(at 130.81 52.07 0)
 			(effects
 				(font
@@ -4818,7 +4818,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 130.81 46.228 90)
 			(effects
 				(font
@@ -5345,7 +5345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 160.02 111.252 90)
 			(effects
 				(font
